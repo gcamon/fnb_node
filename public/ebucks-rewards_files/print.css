@@ -1,0 +1,826 @@
+@charset "utf-8";
+@page {
+    size: A4;
+
+}
+
+@media print{
+	#actionMenuBtt {display:none}
+	.groupedCol1{width:100%;}
+		/* DONOVAN STYLING FOR PRINT */
+
+		#pageWrapper{background:none!important;padding: 0.4cm!important;}
+		*{
+			padding: 0px!important;
+			margin: 0px!important;
+			font-size: 14px!important;
+			color:black!important;
+			min-height: 0%!important;
+			height: auto!important;
+			
+		}
+		footer{
+		display:none;
+		}
+		header{
+		display:none;
+		}
+		.note {
+		padding: 8px 0px 8px 0px!important;
+
+		}
+		.tabelRowButton{display:none;}
+		
+		.printDisplayNone {
+			display: none;
+		}
+		
+		.dlTitle.formElementLabel, .dlData.formElementContainer {
+			padding: 4px 0px 4px 0px!important;
+		}
+		
+		 .printLogo{
+		 	display:block;
+		 	float: right;
+		 	clear: both;
+		 	}
+		#hiddenPrintWrapper, #hiddenPrintDiv {
+			position: relative;
+		}
+		
+		#subTabsContainer {
+			display: none;
+		}
+		.selectAllLink{display:none!important;}
+		.copyRows {
+			display: none;
+		}
+
+		[data-role="headerButtonsInner"] {
+			display: none;
+		}
+	
+		#topNavWrapper {
+			display: none;
+		}
+	
+		.rightBoxInner{width:80%;}
+	
+		form{width:100%;display:block;}
+		.pageWrapper {
+		padding-left: 0px!important;
+		padding-top: 0px!important;
+		}
+		#extendedPageHeader h1 {
+		
+			float:left;
+			clear:both;
+		}
+		#extendedPageHeader.subTabHeadingFix {
+		padding-left:0px!important;
+		padding-bottom:5px!important;
+		}
+	
+		.tableHeaderCellItem a.copyRows {
+			color: white;
+			background: none;
+		}
+		.tableCellItem.goodStatus{padding-left:0px;}
+		.tableCellItem.badStatus{padding-left:0px;}
+		.tableGroupHeader.selectAdjust {
+			height: auto!important;
+		}
+	
+		div.tableGroupHeader {
+			font-size: 16px!important;
+			font-family: Helvetica,FoundationRoman,Sans-serif;
+			background: none;
+			height: auto!important;
+			padding: 0!important;
+			line-height: 20px;
+		}
+		
+		.tableHeaderRow.tableGroupHeader div{padding: 4px 0px 1px 0px!important;}
+	
+		.tableGroupHeader.selectAdjust span.hinner {
+			clear: both;
+			background: none;
+		}
+		.tableGroupHeader span.hinner {
+			clear: both;
+			background: none;
+		}
+	
+	
+		img.folderImg {
+			display: none;
+			background: none;
+		}
+	
+		span.tableHinnerImage {
+			display: none;
+			background: none;
+		}
+	
+		#big3OuterWrapper,.pagingWrapper,.rowMoreButton,.eziLinks,.eziLink,#subTabsContainer
+			{
+			display: none;
+		}
+	
+		.tableRow {
+			min-height: 0;
+			border-bottom:1px solid #dadada;
+			padding-bottom:2px;
+			padding-top:2px;
+		}
+		
+
+	
+		.tableCellItem {
+			line-height: 15px!important;
+			letter-spacing:0.10em;
+		}
+		.checkbox-input {
+			width: 10px!important;
+			height: 10px!important;
+			padding:0!important;
+			display:none;
+		}
+		.checkbox-graphic-wrapper {
+			padding:0!important;
+			width: 10px!important;
+			height: 10px!important;
+			display:none;
+		}
+	
+		.checkbox-graphic {
+			width: 10px!important;
+			height: 10px!important;
+			border: 1px solid #ADDBDB;
+		}
+	
+		.tableCell .input-wrapper {
+			margin-top: 0px!important;
+		}
+	
+		.input-input {
+			padding-top:0px;
+			padding-left:0px;
+			padding-bottom:0px;
+			padding-right:0px;
+			height: 20px!important;
+		}
+	
+		.tableHeaderRow div.sizeFix {
+
+		}
+		.large {
+
+		}
+	
+		.tableRow a {
+
+			text-decoration: none;
+		}
+	
+		.tableRow .large a {
+
+			text-decoration: none;
+		}
+	
+        /*
+		.tableHeaderRow.tableGroupHeader div {
+		border-bottom: 1px solid black;
+		}
+        */
+	
+		.totalCellInner {
+			height: 15px;
+
+			text-align: right;
+		}
+	
+		.tableHeaderRow {
+			border-bottom: 1px solid #000;
+			border-top: 1px solid #000;
+			background: none;
+			padding:5px 0px 5px 0px!important;
+			line-height:9px;
+		}
+		
+		.tableRow{padding:0px 0px 0px 0px;}
+		
+		.tableHeaderRow .hinner {
+
+			color: #000;
+		}
+		.tableHeaderRow .tableCell {
+		 padding-left: 0px!important;
+		}
+		.tableCell {
+		 padding-left: 0px!important;
+		 padding-right:4px!important;
+		}
+		
+		#paymentsTable .col1 .doubleItemBottom {
+float: none!important;
+padding-top: 8px;
+}
+#paymentsTable .col1 .doubleItemTop {
+float: none!important;
+
+}
+
+#paymentsTable .col1 {
+width: 50%!important;
+
+}
+
+#paymentsTable .col3 .tableCellItem {
+line-height: 23px!important;
+}
+#paymentsTable .col4 .tableCellItem {
+line-height: 23px!important;
+}
+
+.subTabsMenuInner {
+background:#fff!important;
+}
+
+	
+		.right .tableHeaderCellItem {
+
+		}
+	
+		.tableHeaderRow div {
+			color: #000;
+			font-weight:bold;
+		}
+	
+		.gridGroup.tableHeaderControls {
+			display: none;
+		}
+	
+		.support-reference {
+			display: none;
+		}
+	
+		.pageWrapper {
+			padding-top: 0;
+			padding-left: 0;
+		}
+	
+		#topMenu {
+			display: none;
+		}
+	
+		#footerWrapper {
+			display: none;
+		}
+	
+		.subTabsMenu li {
+			display: none;
+		}
+	
+		.subTabsMenu {
+			border-bottom: 1px solid #000;
+			padding-top: 10px;
+			clear:both;display:block;
+		}
+	
+		.ghostBlock {
+			display: none;
+		}
+	
+		.tableGroupHeader {
+			height: auto;
+			line-height: 0;
+			position: static;
+		}
+	
+		.dropdown-wrapper {
+			display: none;
+		}
+	
+		#actionMenu {
+			display: none;
+		}
+	
+		#footerContainer {
+			display: none;
+		}
+	
+		.footerBtn {
+			display: none;
+		}
+	
+		.fnb-logo {
+			display: none;
+		}
+	
+		.pageGroup h2{
+			
+			padding: 5px 0 5px 0px;
+			border-bottom: 1px solid #000;
+		}
+	
+		.pageGroup h1 {
+			font-size: 22px!important;
+			padding: 5px 0 5px 0px;
+			border-bottom: 1px solid #000;
+		}
+	
+		.tableGroupHeader {
+			border-bottom: none;
+			border-top: none;
+		}
+	
+		.tableRowInner {
+			padding: 0px 0px 0px 0px;
+		}
+	
+		.tableHeaderInnerRow {
+			padding: 0px 0px 0px 0px;
+		}
+	
+		.formTable {
+
+			border-bottom: 1px solid #000;
+		}
+		
+		
+	
+.tableHinnerContent {
+padding: 0px 0px 0px 0px;
+}		#actionMenuButtonWrapper {
+			display: none;
+		}
+		/* DONOVAN PAGE SPECIFIC STYLES */
+		/* Fix -> show balances for accounts */
+		/* 		
+		
+		#accountsTable .groupedCol3 {
+			display: none;
+		} 
+		
+		*/
+		
+		#accountsTable .groupedCol2 {
+			width: 60%;
+		}
+	
+		/*Payments*/
+		#paymentsTable .groupedCol4 .col7 {
+			display: none;
+		}
+	
+		#paymentsTable img {
+			display: none;
+		}
+	
+		#paymentsTable input {
+			border: none;
+		
+			background: none;
+			/* height: auto!important; */
+}
+#paymentsTable .groupedCol2{width:49%!important}
+		#batchPaymentsTable #paymentsTable .col1{width: 30%;}
+		#batchPaymentsTable #paymentsTable .col2{width: 30%;}
+		#batchPaymentsTable #paymentsTable .col3{width: 15%;}
+		#batchPaymentsTable #paymentsTable .col4{width: 24%;}
+		#batchPaymentsTable #paymentsTable .col5{display: none;}
+		#batchPaymentsTable #paymentsTable .col6{display: none;}
+	
+		/*Settings*/
+		#VisibleAccounts .col4 {
+			display: none;
+		}
+		/* Dev: Don */
+		.tableHinnerImage {
+			display: none;
+		}
+	
+		.tableActionButton {
+			display: none;
+		}
+	
+		.tableActionButtonContainer {
+			display: none;
+		}
+	
+		.tableHeaderControls {
+			display: none;
+		}
+	
+		#actionWrap {
+			display: none;
+		}
+	
+		.progressBarHidden {
+			display: none;
+		}
+	
+		.moreoptionsActionMenuTextSwap {
+			display: none;
+		}
+	
+		.tableSwitcherButton {
+			display: none;
+		}
+	
+		.subTabScrollRight {
+			display: none;
+		}
+	
+		.subTabScrollLeft {
+			display: none;
+		}
+	
+		.left-sidebar-top {
+			display: none;
+		}
+	
+		.footerContent {
+			display: none;
+		}
+		
+		.pageWrapper {padding-top:0px!important;width:100%!important;height: auto!important;min-height: 0%!important;}
+		.confirmPage *{padding:0px!important;margin:0!important;background:none!important;border-top:none;border-bottom:none;min-height: 0%!important;}
+		.confirmPage {font-family: Helvetica,FoundationRoman,Sans-serif;padding-top:60px;}
+		.confirmPage #actionWrap {display:none;}
+		.confirmPage .grid80{width:100%!important}
+		.confirmFinishMultiTable {width:100%!important}
+		.confirmPage #moreoptionsActionMenuTextSwap {display:none;}
+		.confirmPage .tableGroupHeader{padding:0px;margin:0px;}
+		.confirmPage .tableHeaderRow {}
+		.confirmPage .finishMessageArrow{display:none}
+		.confirmPage .whiteMessageContainer{margin-top:0px!important;padding-top:0px!important;float:left;width:100%;height:auto!important;}
+		.confirmPage .formButton {display:none;}
+		.confirmPage .printAndDownloadContainer{display:none;}
+		.confirmPage .rightBox {width:100%;position: relative!important;float:left;height:auto!important;clear:both!important;display:block;top:0px;padding:0px!important;}
+		.confirmPage .rightBoxContent {position:relative!important;padding:0px;border-left:none;}
+					
+		.confirmPage .rightBox h5 {padding-left:0px!important;clear:both;font-family:Helvetica,FoundationRoman,Sans-serif;top: 0px;left: 0px;text-align: left;font-size: 16px!important;}
+		.confirmPage .rightBoxInner {padding-left:0px!important;}
+		.confirmPage .rightBoxInner p {padding-left:0px!important;}
+		.confirmPage .confirmHeader {width:100%;float:left!important;display:block;text-align:left;position:relative!important;padding-top:5px;padding-bottom:5px!important;border-bottom:1px solid #000;}
+		.confirmPage .confirmHeaderTopText{font-family:Helvetica,FoundationRoman,Sans-serif;padding-top:5px!important;position:relative;}
+		.confirmPage .confirmFinishMultiTable{float:left;width:100%;}
+		.confirmPage .footerBtn {display:none;}
+		.confirmPage .tableCell.grid50 {float:left;width:50%;display:block;padding-bottom:0pt;}
+		.confirmPage .tableRow {clear: both;display: block;float: left;width: 100%;padding: 0px 0;margin-bottom: 0px;min-height: 20px;} 
+		.confirmPage .confirmType{display:block;clear:both;}
+		.confirmPage .confirmType:after {content:':';} 
+		.confirmPage .confirmTextOne{display:block;clear:both;font-family:Helvetica,FoundationRoman,Sans-serif}
+		.confirmPage .confirmTextTwo{display:block;clear:both;}
+		.confirmFinishMultiTable .doubleItemTop {font-family:Helvetica,FoundationRoman,Sans-serif}
+		.confirmPage .confirmDate{position:absolute;right:0pt;top:0pt;text-align:right;}
+		
+	
+	
+	
+		#forMore {display: none;}
+		/***********Admin Activation*************/
+		#adminReactivate *{padding: 0;margin: 0;}
+		#adminReactivate {padding: 48px 0 70px 40px;}
+		#adminReactivate .col1{width: 33.3333%;}
+		#adminReactivate .col2{width: 33.3333%;}
+		#adminReactivate .col3{width: 33.3333%;}
+		#adminReactivate h1.adminReactivate {padding: 10px 20px;border-bottom: none;}
+		#adminReactivate .formTable {border-bottom: none;}
+		#adminReactivate .printLogo {position: relative;right: -20px;top: 0;}
+		#adminReactivate .adminReactivate.boldParagraph {font-family: Helvetica,FoundationRoman,Sans-serif;padding: 5px 20px;}
+		#adminReactivate .adminReactivate.boldLargeParagraph {font-family: Helvetica,FoundationRoman,Sans-serif;padding: 20px 20px 5px;}
+		#adminReactivate .adminReactivate.normalParagraph {padding: 5px 20px;}
+		#adminReactivate .adminReactivate.nameParagraph {padding: 10px 20px 5px 20px;}
+		#adminReactivate .adminReactivate.tableRowHeader {padding: 5px 20px;margin: 5px 20px 0 20px;}
+		#adminReactivate .adminReactivate.tableDataRow {padding: 5px 20px 0 20px;margin: 5px 20px 0 20px;}
+		#adminReactivate .adminReactivate.dlGroup {padding: 5px 20px 0 20px;width: 50%;float: left;}
+		#adminReactivate .adminReactivate.grid33 {float: left;}
+		#adminReactivate .adminReactivate.grid50 {float: left;}
+		
+		
+		/* BATCH VIEW PAYMENT */
+		#batchPaymentsRecipientsTable .groupedCol1{width:100%;}
+		#batchPaymentsRecipientsTable .col1{width:10%;}
+	    #batchPaymentsRecipientsTable .col2{width:25%;}
+	    #batchPaymentsRecipientsTable .col3{width:10%;}
+	    #batchPaymentsRecipientsTable .col4{width:10%;}
+	    #batchPaymentsRecipientsTable .col5{width:15%;}
+	    #batchPaymentsRecipientsTable .col6{display:none;}
+	    #batchPaymentsRecipientsTable .col7{width:15%;}
+	    #batchPaymentsRecipientsTable .col8{width:14%;}
+	
+		/*Unnominated BATCH VIEW PAYMENT */
+		#UnNominatedPaymentBatch .col6 {display: none;}
+		#UnNominatedPaymentBatch .col8 {display: none;}
+		#UnNominatedPaymentBatch .col1{width:20%;}
+	    #UnNominatedPaymentBatch .col2{width:15%;}
+	    #UnNominatedPaymentBatch .col3{width:15%;}
+	    #UnNominatedPaymentBatch .col4{width:15%;}
+	    #UnNominatedPaymentBatch .col5{width:15%;}
+	    #UnNominatedPaymentBatch .col7{width:20%;}
+		
+		.forMore{
+			display:none;
+		}
+		.left-sidebar-bottom{
+			display:none;	
+		}
+		
+		.tableNoDataText {
+		    padding-bottom: 10px;
+		    padding-top: 10px;
+		}
+		
+		#main {
+			padding-bottom: 0!important;
+			height: auto!important;
+			padding-top: 60px!important;
+			position: relative;
+}
+
+	/***********ZRA*************/
+	
+	#viewPaymentDetailsPageWrapper .accGroupItemWrapper.SalesAcc .accGroupItemContentWrapper.SalesAcc
+		{
+		display: block !important;
+		float: left !important;
+		max-height: 1000px !important;
+		width: 100%;
+		-moz-transition: none;
+		-webkit-transition: none;
+		-o-transition: color 0 ease-in;
+		transition: none;
+		overflow: auto;
+		padding: 4px 2px 4px 2px;
+	}
+	#viewPaymentDetailsPageWrapper .fnbCell {
+		border-bottom: thin solid black;
+	}
+	#viewPaymentDetailsPageWrapper .fnbHeading {
+		background-color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 2px;
+	}
+	#viewPaymentDetailsPageWrapper #pageHeader,.fnbTitleButtonsWrapper {
+		display: none;
+	}
+	
+	/**** Transaction History ***/
+			
+		#transactionHistoryTables .tableDataRow {
+            padding-top:5px!important;
+            padding-top:2px!important;
+            border-top:none!important;
+            border-bottom:1px solid #000000;
+            page-break-inside:avoid;
+		}
+		
+		#transactionHistoryTables .expandableTableRow{
+            display:none;
+		}              
+				
+		/***********3PFM*************/
+	    
+
+		
+	    /* printLayout1 */
+	    .printLayout1  .tableRow,  .printLayout1 .tableHeaderRow , #tableHeaderRow_0{
+			border-bottom:none!important;
+			border-top:none!important;
+		}	    
+
+		.printLayout1 .tableRowHeader{
+	    background:#FFFFFF;
+	    }
+	    
+	    .printLayout1 .tableHeaderRow{
+	    border-top:3px solid #000000!important;
+	    }
+	    
+	    .printLayout1 .col2,.printLayout1 .col3{
+	    border-left:2px solid #000000!important; 
+	    padding-left:10px!important;
+	    height:25px!important;
+	    }
+
+		.tpfmPage .printLayout1 .col1{
+			    width:37%!important;
+			    }
+			    
+		.tpfmPage .printLayout1 .col2{
+			    width:20%!important;
+			    }
+			    
+		.tpfmPage .printLayout1 .col3{
+			    width:25%!important;
+			    }	    
+
+		.printLayout1 .tableRow ,.printLayout1  .tableHeaderRow {
+		padding-top:0px!important;
+		padding-bottom:0px!important;
+		line-height:25px!important;
+		}
+	    
+	    /* printLayout1 */
+	    
+	    /* printLayout2 */
+	    
+		.printLayout2 .tableRowHeader{
+	    background:#000000;
+	    }
+
+		
+		.printLayout2  .tableHeaderRow div.hinner{
+		color: #FFFFFF !important;
+		}
+		
+		.printLayout2 .tableHeaderRow.tableGroupHeader div, .printLayout1 .tableHeaderRow.tableGroupHeader div{
+		font-family: Helvetica,FoundationRoman,Sans-serif;
+		
+		}	    
+
+	    
+	   	.printLayout2  .groupedCol1{
+		width:100%!important;
+		}
+		
+		
+		.printLayout2 .tableDataRow{
+		padding-top:5px!important;
+		padding-top:2px!important;
+		border-top:none!important;
+		border-bottom:2px solid #000000;
+		page-break-inside:avoid;
+		}		
+
+		
+		.printLayout2 .expandableTableRow{
+		display:none;
+		}		
+	    /* printLayout2 */
+	    
+	    /* printLayout3 */
+		.printLayout3  .tableRow,  .printLayout3 .tableHeaderRow , #tableHeaderRow_0{
+			border-bottom:none!important;
+			border-top:none!important;
+		}
+
+
+		.tpfmPage .printLayout3 .col1{
+	    width:20%!important;
+	    }
+			    
+		.tpfmPage .printLayout3 .col2{
+	    width:20%!important;
+	    }
+			    
+		.tpfmPage .printLayout3 .col3{
+	    width:20%!important;
+	    }
+		
+		.tpfmPage .printLayout3 .col4{
+	    width:20%!important;
+	    }
+			    
+		.tpfmPage .printLayout3 .col5{
+	    width:19%!important;
+	    }	    
+
+		.printLayout3 .tableRowHeader{
+	    background:#FFFFFF;
+	    }
+	    
+	    .printLayout3 .tableHeaderRow{
+	    border-top:3px solid #000000!important;
+	    }
+	    
+	    .printLayout3 .col2,.printLayout3 .col3,.printLayout3 .col4,.printLayout3 .col5{
+	    border-left:2px solid #000000!important; 
+	    padding-left:10px!important;
+	    height:25px!important;
+	    }
+		
+			   
+		.printLayout3 .tableRow ,.printLayout3  .tableHeaderRow {
+		padding-top:0px!important;
+		padding-bottom:0px!important;
+		line-height:25px!important;
+		}	   
+
+		/* printLayout3 */
+		
+		/* printLayout4 */
+	
+		.tpfmPage .confirmHeaderTopText {
+		display:none!important;
+		}
+
+
+		.printLayout4 .tableCell {
+		border-left:1px solid #000000;
+		padding-left:10px!important;
+		}
+		
+		.printLayout4 .tableRow.tableDataRow{
+		margin-bottom:5px!important;
+		}
+		
+		.printLayout4 .tableHeaderRow.tableGroupHeader{
+		margin-bottom:5px!important;
+		}
+		
+		.printLayout4 .tableHeaderRow.tableGroupHeader div{
+		font-size:14px!important;
+		font-family:Helvetica,FoundationRoman,Sans-serif!important;
+		}	
+	    
+	    /* printLayout4 */		
+	
+		.printOnlyHeader{
+		display:inline!important;
+		font-size: 18px!important;
+		}
+		
+	    .tpfmPage .formTable {
+		border-bottom: none!important;
+		border-top: none!important;
+		}
+		
+		.tpfmPage .tableContainer {
+		margin-bottom:10px!important;
+		}
+	   
+	   
+	   	.htmlBackGround{
+	   	background:none!important;
+	   	}
+	    
+		 .tableHeaderRow.tableGroupHeader .tableHinnerContent{
+		font-size: 15px!important;
+		}
+
+		.printHide{
+		display:none!important;
+		}
+
+		.formElementWrapper {
+			padding: 0!important;
+		}
+		
+		/***********CUAC*************/
+		
+		#addUserCaptureForm .tableHeaderRow.tableGroupHeader .tableHinnerContent{
+			font-size: 14px !important;
+			color: red;
+		}
+		
+		#addUserCaptureForm h3{
+			font-size: 15px !important;
+			margin-top: 10px !important;
+		}
+		
+		#addUserCaptureForm .note{ padding: 0 !important}
+		
+		#pageContentWrapper, #pageContent {display: block;}
+
+		/***********NEW FRAME*************/
+		
+		.subTabsWrapper{
+			display:none;
+		}
+		.pageHeaderButtons{
+			display:none;
+		}
+		.fnbTitleButtonsWrapper{
+			display:none;
+		}
+		#formEl_accountNumber{
+			display:none!important;
+		}
+		.noteWrapper {
+			padding-top: 10px;
+			float: left;
+		}
+		.fnbTableEziButtonItem{
+			display:none;
+		}
+		.fnbHeading{
+			border-bottom: 1px solid #000;
+		}
+		.currencyInfo{
+			display:none;
+		
+		}
+		
+		/**** Print fixed post Magic Mountain ****/
+		.td.grid50{
+			display: table-cell !important;
+		}
+		.tableh{
+			border-bottom: none;
+		}
+}

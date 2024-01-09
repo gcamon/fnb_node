@@ -1,0 +1,917 @@
+#actionMenuBtt 
+{
+position: fixed;
+height: 200px;
+width: 50px;
+top: 90px;
+/* overflow-x: hidden; */
+z-index: 800;
+}
+
+
+#actionMenuBttLabelWrapper
+{
+position: absolute; 
+/*
+height: 147px;
+width: 30px;
+background: url("../../images/actionMenu/menuBg_v2.png?v=1234567") #F90 no-repeat 97% 40%
+left: -22px;
+
+-webkit-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+-o-transition-duration: 0.2s;
+transition-duration: 0.2s;
+
+cursor: pointer;
+left: 0;
+margin-top: 24px;
+
+-webkit-box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+
+-webkit-border-bottom-right-radius: 16px;
+-moz-border-bottom-right-radius: 16px;
+border-bottom-right-radius: 16px;
+-webkit-border-top-right-radius: 16px;
+-moz-border-top-right-radius: 16px;
+border-top-right-radius: 16px;
+*/
+}
+
+.actionMenuBttLabelWrapperExpanded #actionMenuBttLabelWrapper {
+	background:
+		url("../../images/actionMenu/menuBgExpanded.png?v=12345678")
+		#ff9900 no-repeat center 6px;
+}
+
+.HoffScreen {
+	left: -150px;
+}
+
+#actionMenuBttLabel {
+    /* display: none; */
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    display: block;
+    height: 29px;
+    width: 275px;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    line-height: 22px;
+    text-indent: 10px;
+    -webkit-box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+    box-shadow: -15px 5px 36px rgba(0, 0, 0, 0.5);
+    -webkit-border-bottom-right-radius: 16px;
+    -moz-border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    -webkit-border-bottom-left-radius: 16px;
+    -moz-border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background: url("../../images/actionMenu/menuBg_v2.png?v=1234567") #F90 no-repeat 97% 40%;
+    color: white;
+    top: 300px;
+    position: absolute;
+    padding: 2px 0 0 0;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+
+}
+#actionMenuBttLabel:HOVER {
+	height: 23px;
+	padding-top: 1px;
+	line-height: 16px;
+}
+
+#actionMenuGrid 
+{
+	/*width: 100%;
+	display: table-cell;
+	min-height: 100%;
+	height: 100%;
+	background: white;*/
+	
+  right: auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  position: relative;
+  top: 104px;
+  height: 80%;
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  
+  -webkit-box-shadow: 0px 0px 200px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px 0px 200px rgba(0,0,0,.8);
+  box-shadow: 0px 0px 200px rgba(0,0,0,.8);
+  
+  display: block;
+  right: 0!important;
+  background: white;	
+}
+
+#actionMenuContent 
+{
+width: 100%;
+/*display: table;*/
+min-height: 95%;
+height: 95%;
+width: 95%;
+margin: 0 auto;
+overflow: auto;
+}
+
+.actionMenuGridCol {
+	display: table-cell;
+	min-height: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.actionMenuInnerGridCol {
+	width: 33.333%;
+	display: block;
+	float: left;
+	border-right: 1px solid black;
+	margin: 16px 0px 0px 0px;
+}
+
+.actionMenuInnerGridColLast {
+	border-right: none;
+}
+
+.actionMenuColHeader {
+	width: 100%;
+	display: block;
+	height: 56px;
+	background: #f2f2f2
+}
+
+.actionColFirst {
+	border-right: 1px solid black;
+	background: #ff9900;
+	width: 20%;
+}
+
+.actionColCenterGroup {
+	width: 60%;
+}
+
+.actionMenuGroupHeading
+.firstChild {
+	padding: 19px 8px 0px 8px;
+}
+
+.actionColLast {
+	border-left: 1px solid black;
+	width: 20%;
+}
+
+.actionMenuColHeading {
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0px 0px 8px;
+}
+
+.actionMenuColSubHeading {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0px 8px 0px 7px;
+	margin: -3px 0px 0px 0px;
+}
+
+.actionMenuGroupHeading {
+	font-size: 13px;
+	line-height: 16px;
+	padding: 16px 8px 0px 8px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+.actionMenuGridCol a {
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 8px 8px 0px 8px;
+	text-decoration: none;
+	color: black;
+}
+
+.actionMenuGridCol.actionColFirst a {
+	color: white;
+}
+
+.actionMenuGridCol.actionColFirst h4 {
+	color: white;
+}
+
+.actionColCenterGroup .actionMenuGroupHeading.firstChild {
+	padding: 3px 8px 0px 8px;
+}
+
+@media only screen and (min-width : 920px) {
+
+	}
+
+.HoffScreen 
+{
+left: -150px!Important;
+}
+
+#actionMenu
+{
+/*
+width: 100%;
+display: table;
+border-spacing: 0;
+min-height: 100%;
+height: 100%;
+background: white;
+*/
+
+width: 100%;
+height: 100%;
+background: url('../../images/overlayBg.png') repeat;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 89;
+}
+
+
+.actionMenuGridCol {
+	display: table-cell;
+	min-height: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.actionMenuInnerGridCol {
+	width: 33.333%;
+	display: block;
+	float: left;
+	border-right: 1px solid black;
+	margin: 16px 0px 0px 0px;
+}
+
+.actionMenuInnerGridColLast {
+	border-right: none;
+}
+
+.actionMenuColHeader {
+	width: 100%;
+	display: block;
+	height: 56px;
+	background: #f2f2f2
+}
+
+.actionColFirst {
+	border-right: 1px solid black;
+	background: #ff9900;
+	width: 20%;
+}
+
+.actionColCenterGroup {
+	width: 60%;
+}
+
+.actionMenuGroupHeading.firstChild {
+	padding: 19px 8px 0px 8px;
+}
+
+.actionColLast {
+	border-left: 1px solid black;
+	width: 20%;
+}
+
+.actionMenuColHeading {
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 10px 0px 0px 8px;
+}
+
+.actionMenuColSubHeading {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0px 8px 0px 7px;
+	margin: -3px 0px 0px 0px;
+}
+
+.actionMenuGroupHeading {
+	font-size: 13px;
+	line-height: 16px;
+	padding: 16px 8px 0px 8px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+.actionMenuGridCol a {
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 8px 8px 0px 8px;
+	text-decoration: none;
+	color: black;
+}
+
+.actionMenuGridCol.actionColFirst  a {
+	color: white;
+}
+
+.actionMenuGridCol.actionColFirst  h4 {
+	color: white;
+}
+
+.actionColCenterGroup .actionMenuGroupHeading.firstChild {
+	padding: 3px 8px 0px 8px;
+}
+
+.actionMenuCol
+{
+width: 25%!important;
+float: left;
+padding: 0 16px 0 16px;
+}
+
+.actionMenuCol:first-child
+{
+padding: 0 16px 0 0;
+}
+
+.actionMenuCol:last-child
+{
+padding: 0 0 0 16px;
+}
+
+
+.col_0_of_4 .actionColHeader 
+{
+border-bottom: 1px solid black;	
+}
+
+
+.actionColHeader 
+{
+border-bottom: 1px solid #dadada;	
+}
+
+.col_0_of_4
+{
+background-color: #dadada!important;
+}
+
+
+/*
+.eziWrapper, .actionMenuHeader .innerPad, .actionMenuCol.col_0_of_4 
+{
+background-color: white!important;
+}
+*/
+
+
+@media only screen and (min-width : 1360px) {
+	#actionMenuBttLabel {
+	    height: 46px;
+   		padding: 6px 0 0 0;
+   		line-height: 32px;
+	}
+	#actionMenuBttLabel:HOVER {
+		height: 42px;
+		padding-top: 2px;
+   		line-height: 32px;
+	}
+	
+}
+.footerContactInfo {
+	background: darkgrey;
+	border: none;
+	color: whitesmoke;
+	width: 25%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 54px;
+	float: left;
+	text-align: left;
+	border-left: 1px solid #f2f2f2;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	padding-left: 8px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.footerButton {
+	background: #ff9900;
+	border: none;
+	color: #fff;
+	width: 25%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 54px;
+	float: left;
+	text-align: left;
+	border-left: 1px solid #f2f2f2;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	padding-left: 8px;
+	font-size: 13px;
+	cursor: pointer;
+	
+	padding: 3px 10px;
+	
+color: #ff9900;
+background: transparent;
+border: 1px solid #ff9900!important;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+display: inline-block;
+margin: 1px 0 0 0;
+
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box;   
+box-sizing: border-box;  
+
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+transition: all .2s;
+
+margin-left: 8px;
+}
+
+.footerButton:hover
+{
+border: 1px solid #ff9900!important;
+background: white!important;
+color: #ff9900!important;
+}
+
+#footerButtonGroup .footerButton 
+{
+display: inline-block;
+    width: 80px;
+    background-color: #ff9900;
+    color: white;
+    height: 44px;
+    text-align: center;
+}
+
+#footerButtonGroup .footerButtonLabel 
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 38px;
+    text-align: center;
+    width: 5rem;
+}
+
+.footerContactInfoLabel {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 54px;
+	text-align: left;
+}
+
+.footerContactInfo:first-child {
+	border: none;
+}
+
+#footerContainer 
+{
+height: 54px;
+border-top: none;
+max-width: 1280px;
+margin: 0 auto;
+width: 95%;	
+}
+
+#eziFooterButtonGroup {
+	float: right;
+	height: 100%;
+	width: 100%;
+}
+#footerButtonGroup {
+	float: right;
+	height: 100%;
+	width: 100%;
+}
+
+
+.footerButtonLabel {
+	display: table-cell;
+	vertical-align: middle;
+	height: 54px;
+	text-align: left;
+}
+
+.footerButton:first-child {
+	border: none;
+}
+
+#footerButtonsContainer
+{
+/*width:100%;*/	
+
+margin-left: 0!important;
+float: right;
+display: inline-block;
+}
+
+/*FOOTER END*/
+
+@media only screen and (min-width : 904px) {
+	.footerContactInfo {
+		width: 10%;
+	}
+	.footerButton {
+		width: 10%;
+	}
+}
+
+/*HEADER + TOP TABS END*/
+#homeLogin {
+	display:none;	
+}
+
+#headerButtons 
+{
+display: table;
+width: 100%;
+table-layout: fixed;
+height: 35px;
+border-bottom: 1px solid white;
+}
+
+#headerButtonsInner 
+{
+/*display: table-row;*/
+width: 95%;
+height: 100%;
+height: 36px;
+background: url("../../images/0new/logo_full.png?v=12345678") left center no-repeat;
+background-size: 95px;
+margin: 0 auto;
+}
+
+#headerButtons input {
+	float: left;
+	/* width: 33.3%; */
+	/* border-right: 2px solid #F2F2F2; */
+}
+#searchButton {
+	display: table-cell;
+	background: url("../../images/settings/search.png?v=12345678") no-repeat scroll center left transparent;
+	padding-left: 0;
+	width: 14px;
+	overflow: hidden;
+	text-indent: 100%;
+	vertical-align: middle;
+	text-decoration: none;
+}
+#SecurityButtons {
+	display: table-cell;
+	background: url("../../images/settings/security.png?v=12345678") no-repeat scroll center left transparent;
+	padding-left: 0;
+	width: 14px;
+	vertical-align: middle;
+	text-decoration: none;
+	overflow: hidden;
+	text-indent: 100%;
+}
+
+.loginPopupLinks{
+	float: left;
+	text-decoration: underline;
+	width: 100%;
+	padding: 8px 8px 8px 8px;
+}
+
+#WebrootButton {
+	float: left;
+	text-decoration: none;
+	display:none;
+}
+#ResetButton {
+	float: left;
+	text-decoration: none;
+	display:none;
+}
+#VerifyButton {
+	float: left;
+	text-decoration: none;
+	display:none;
+}
+#RegisterButton {
+	display: table-cell;
+	background: url("../../images/settings/register.png?v=12345678") no-repeat scroll center left transparent;
+	padding-left: 0;
+	width: 14px;
+	overflow: hidden;
+	text-indent: 100%;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+#mobileLogin .formInlineError{
+	display:block;
+}
+
+#login {
+	display: table-cell;
+	width: 47%;
+	text-align: right;
+	position: relative;
+}
+
+#login [data-role="formElementWrapper"] {
+	width: 33.3%;
+	float:left;
+}
+
+#loginButton {
+	background-color: #FF9900;
+	color: white;
+	width: 33.3%;
+	vertical-align: middle;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	cursor: pointer;
+	height: 24px;
+}
+
+#popupLoginButton{
+	background-color: #FF9900;
+	color: white;
+	width: 32%;
+	vertical-align: middle;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	cursor: pointer;
+	height: 24px;
+}
+
+#LOGIN_FORM .loginMessages {
+	display: none;
+	background-color: #FF9900;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	z-index: 9999;
+	padding: 8px;
+	text-align: left;
+}
+
+#LOGIN_FORM .loginMessages:before {
+	display: none;
+	content: "";
+	width: 8px;
+	height: 4px;
+	position: absolute;
+	left: 8px;
+	top: -4px;
+	background: url('../../images/errorArrow.png');
+}
+
+#LOGIN_FORM.submitError .loginMessages,
+#LOGIN_FORM.submitError .loginMessages:before,
+#LOGIN_FORM.inputError .loginMessages,
+#LOGIN_FORM.inputError .loginMessages:before {
+	display: block;
+}
+
+#login .formElWrapper {
+float: left;
+width: 33.3%;
+border-bottom: none;
+padding-bottom:0px;
+position: static;
+}
+
+#login .formElLabel {
+display:none;
+}
+#login .formElContainer {
+width: 100%;
+padding: 0;
+position: static;
+}
+
+#login .formInlineError{
+position: absolute;
+top: 24px;
+z-index: 200;
+text-align: left;
+}
+
+#inlineError_Password {
+left: 0;
+}
+#inlineError_Password.formInlineError:before {
+left: 35%;
+}
+#login {
+
+}
+/* Mobile Login form */
+#mobileLogin #loginButton{
+	background-color: #FF9900;
+	color: white;
+
+	width: 25%;
+	vertical-align: middle;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	cursor: pointer;
+	float: right;
+	margin: 8px 8px 8px 8px;
+	height: 24px;
+}
+#mobileLogin{
+	position: absolute;
+	height: 100%;
+	z-index: 200;
+	background-color: #fff;
+	top: 0;
+	/* display: none; */
+}
+
+.blackCloseButton {
+	background: url("../../images/login/closeBlack.png?v=12345678") no-repeat center center;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	border: none;
+}
+
+.greyHeaderWrpaper{
+	background-color: #f7f7f7;
+	padding: 5px 0 5px 0;
+	float: left;
+	width: 100%;
+}
+
+.greyHeaderWrpaper h3{
+	line-height: 21px;
+	/* width: 50%; */
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	padding: 0px 8px 0px 8px;
+}
+
+#mobileLogin a{
+	padding: 8px 8px 8px 8px;
+	/* margin: 8px; */
+	float: left;
+	width: 100%;
+}
+
+@media only screen and (min-width : 920px) {
+	
+	#login {
+		width: 30%;
+	}
+	#popupLoginButton{
+		width: 33%;
+	}
+	#searchButton {
+		padding-left: 26px;
+		width: 10%;
+		overflow: hidden;
+		text-indent: 0;
+	}
+	#SecurityButtons {
+		padding-left: 26px;
+		width:auto;
+		overflow: hidden;
+		text-indent: 0;
+	}
+	#WebrootButton {
+		display:block;
+	}
+	#ResetButton {
+		display:block;
+		cursor:pointer;
+	}
+	#VerifyButton {
+		display:block;
+		cursor:pointer;
+	}
+	#RegisterButton {
+		padding-left: 26px;
+		width: 10%;
+		overflow: hidden;
+		text-indent: 0;
+		cursor:pointer;
+	}
+	
+}
+@media only screen and (min-width : 1300px) {
+	
+}
+
+/* Developer: Richard */
+.notificationsWrapper {
+/*	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	min-width:100%;
+	min-height:100%;
+	height:100%;*/
+}
+
+.notificationsInner {
+	/*display: block;
+	width: 100%;
+	/*background-color: #009999;*/
+	color: black;
+	min-height:160px;
+	position:relative;
+	max-width: 1280px;
+	margin: 20% auto;*/
+	padding: 16px 0 0 0;
+	height: 100%;
+}
+
+
+.popUpContentInner{
+	min-height: 150px;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.notificationsClose 
+{
+background: url("../../images/notificationsContainer/close_black.png?v=12345678")no-repeat center center;
+width: 25px;
+height: 25px;
+display: block;
+float: right;
+position: relative;
+top: 25px;
+z-index: 1;
+border: none;
+}
+
+.popupContentWrapper{
+	position:relative;
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #009999;
+	padding: 8px;
+}
+
+.popupConfirmButtonWrapper{
+		display: block;
+		float: left;
+		width: 100%;
+}
+
+.popUpBtns[data-type="button"]{
+	width: 115px;
+    background-color: #009999;
+	color:#fff;
+    line-height: 24px;
+    border-radius: 0;
+    height: 24px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-size: 13px;
+    float: right;
+	margin-left:10px;
+}
+
+.notificationsTitle {
+	text-align: left;
+	padding: 0 0 0 8px;
+	font-size: 24px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight:600;
+	line-height: 32px;
+}

@@ -1,0 +1,685 @@
+                
+[data-role="ratesTable"] { font-size: 12px; background-color: #f2f2f2; border-top: 1px solid black; margin: 8px 0;}
+[data-role="ratesTable"], [data-role="ratesTableRow"], [data-role="ratesTableCell"] { width: 100%; height: auto;}
+[data-role="ratesTableRow"] { clear:both; border-bottom: 0; padding: 0 8px 8px 8px;}
+[data-role="ratesTableHeaderCell"] { display: none; padding: 0 8px; }
+[data-role="ratesTableCell"] { border-right: 0; line-height: 30px; padding: 0 8px; }
+[data-role="ratesTableCell"] span { display: inline-block; width: 40%; font-weight: bold;}
+            
+[data-role="ratesTable"] .expander { cursor: pointer; background-color: white; background-position: center right; background-repeat: no-repeat;
+    background-image: url("../../images/table/expandable.png?v=12345678"); }
+[data-role="ratesTable"] .expanded .expander {
+    background-image: url("../../images/table/expanded.png?v=12345678"); }
+[data-role="ratesTable"] .expandable { display: none; background-color: #E7E7E7; }
+[data-role="ratesTable"] .expanded .expandable { display: block; }
+[data-role="ratesTable"] .expanded .expandable [data-role="ratesTableCell"] { border-bottom-color: white;}
+[data-role="ratesTable"] .expanded .expandable:after { 
+    content: "";
+    position: absolute;
+    display: block;
+    border-width: 7px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: white;
+    border-left-color: white;
+    top: -13px;
+    left: 70px;
+}
+[data-role="ratesInnerTable"] { display: table; width:100%; border: none; }
+[data-role="ratesInnerTable"] [data-role="ratesTableRow"] { padding: 0;}
+
+[data-role="ratesTableCell"].noPadding, [data-role="ratesTableHeaderCell"].noPadding { padding: 0;}
+[data-role="ratesTableCell"].noBorder, [data-role="ratesTableHeaderCell"].noBorder { border: 0;}
+
+@media only screen and (min-width: 904px){
+    [data-role="ratesTable"]     { display: table; table-layout: fixed;}
+    [data-role="ratesTableRow"]        { display: table-row; }
+    [data-role="ratesTableHeaderCell"]     { display: table-header-group; }
+    [data-role="ratesTableBody"]     { display: table-row-group; }
+    [data-role="ratesTableFooter"]     { display: table-footer-group ;}
+    [data-role="ratesTableCol"]       { display: table-column; }
+    [data-role="ratesTableColGroup"]  { display: table-column-group; }
+    [data-role="ratesTableCell"], 
+    [data-role="ratesTableHeaderCell"]   { display: table-cell;}
+    [data-role="ratesTableCaption"]   { display: table-caption; }
+
+    [data-role="ratesTable"] { background-color: white; border: none;}
+    [data-role="ratesTableRow"] { border-bottom: 1px solid #93d1d1;}
+    [data-role="ratesTableCell"], 
+    [data-role="ratesTableHeaderCell"] { border-right: none; }
+
+    [data-role="ratesTable"] { width: 100%; height: 100%; font-size: 14px; }
+    [data-role="ratesTable"] [data-role="ratesTable"] { width: 100%; height: 100%; font-size: 14px; background-color: transparent; }
+    [data-role="ratesTableHeaderCell"] { font-weight: bolder; background-color: #93d1d1;  font-size: 13px; line-height: 16px;} /* BFE6E5 */
+    [data-role="ratesTableCell"] { font-size: 13px; line-height: normal; }
+    [data-role="ratesTableCell"]:first, 
+    [data-role="ratesTableHeaderCell"]:first { border-left: 0;}
+    [data-role="ratesTableCell"] span { display: none; }
+
+    [data-role="ratesTable"] .td100 { width: 100%; }
+    [data-role="ratesTable"] .td90  { width: 90%; }
+    [data-role="ratesTable"] .td80  { width: 80%; }
+    [data-role="ratesTable"] .td75  { width: 75%; }
+    [data-role="ratesTable"] .td70  { width: 70%; }
+    [data-role="ratesTable"] .td67  { width: 66.6666%; }
+    [data-role="ratesTable"] .td66  { width: 66.6666%; }
+    [data-role="ratesTable"] .td60  { width: 60%; }
+    [data-role="ratesTable"] .td50  { width: 50%; }
+    [data-role="ratesTable"] .td40  { width: 40%; }
+    [data-role="ratesTable"] .td33  { width: 33.3333%; }
+    [data-role="ratesTable"] .td30  { width: 30%; }
+    [data-role="ratesTable"] .td25  { width: 25%; }
+    [data-role="ratesTable"] .td20  { width: 20%; }
+    [data-role="ratesTable"] .td15  { width: 15%; }
+    [data-role="ratesTable"] .td10  { width: 10%; }
+    
+    
+    .mobileBrowser [data-role="ratesTable"] { font-size: 12px; background-color: #f2f2f2; border-top: 1px solid black; margin: 8px 0;}
+    .mobileBrowser [data-role="ratesTable"], .mobileBrowser [data-role="ratesTableRow"], .mobileBrowser [data-role="ratesTableCell"] { width: 100%; height: auto;}
+    .mobileBrowser [data-role="ratesTableRow"] { clear:both; border-bottom: 0; padding: 0 8px 8px 8px;display:block;}
+    .mobileBrowser [data-role="ratesTableHeaderCell"] { display: none; padding: 0 8px; }
+    .mobileBrowser [data-role="ratesTableCell"] { border-right: 0; line-height: 30px; padding: 0 8px;display:block; }
+    .mobileBrowser [data-role="ratesTableCell"] span { display: inline-block; width: 40%; font-weight: bold;}
+        
+    .mobileBrowser [data-role="ratesTable"] .expander { cursor: pointer; background-color: white; background-position: center right; background-repeat: no-repeat;
+            background-image: url("../../images/table/expandable.png?v=12345678"); }
+    .mobileBrowser [data-role="ratesTable"] .expanded .expander {
+            background-image: url("../../images/table/expanded.png?v=12345678"); }
+    .mobileBrowser [data-role="ratesTable"] .expandable { display: none; background-color: #E7E7E7; }
+    .mobileBrowser [data-role="ratesTable"] .expanded .expandable { display: block; }
+    .mobileBrowser [data-role="ratesTable"] .expanded .expandable [data-role="ratesTableCell"] { border-bottom-color: white;}
+    .mobileBrowser [data-role="ratesTable"] .expanded .expandable:after { 
+            content: "";
+            position: absolute;
+            display: block;
+            border-width: 7px;
+            border-style: solid;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: white;
+            border-left-color: white;
+            top: -13px;
+            left: 70px;
+        }
+    .mobileBrowser [data-role="ratesInnerTable"] { display: table; width:100%; border: none; }
+    .mobileBrowser [data-role="ratesInnerTable"] [data-role="ratesTableRow"] { padding: 0;}
+    .mobileBrowser [data-role="ratesTableCell"].noPadding, .mobileBrowser [data-role="ratesTableHeaderCell"].noPadding { padding: 0;}
+    .mobileBrowser [data-role="ratesTableCell"].noBorder, .mobileBrowser [data-role="ratesTableHeaderCell"].noBorder { border: 0;}
+}
+
+/* Developer: Donovan
+Banking table */
+.fnbTable
+{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    float: left;
+    position:relative;
+    margin-top:0px;
+}
+
+.fnbTitle {
+	display: table-row;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+    background: #fff;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 36px;
+    line-height: 19px;
+    width:100%;
+    top:-8px;
+    position: relative;  
+    border-bottom: none;
+    margin: 32px 0 8px 0;
+    padding: 0 0 8px 0;
+}
+.fnbSimpleTitle {
+    background: #fff;
+}
+.fnbTitle .fnbTitleButtonsP {
+	font-size: 13px;
+	padding: 4px 0px 4px 4px;
+}
+
+.fnbFooter
+{
+    background: #fff;
+    float: left;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+
+.fnbFooterDropdownWrapper{
+    float: left;
+    width:10%;
+}
+.fnbFooterDropdownLabelLeft{
+    font-size: 12px;
+    float: left;
+    width: 10%;
+    font-weight: bold;
+    text-align: right;
+    line-height: 24px;
+    padding-right: 15px;
+}
+
+.fnbFooterDropdownLabelRight{
+    font-size: 12px;
+    float: left;
+    width: 10%;
+    font-weight: bold;
+    text-align: left;
+    line-height: 24px;
+    padding-left: 5px;
+}
+/* Setup Action Button widths */
+.fnbTitle .fnbButtonWidth1{
+    width:10%;
+}
+
+.fnbTitle .fnbButtonWidth1 [data-type="button"]{
+    width:100%;
+}
+
+
+.fnbTitle .fnbButtonWidth2{
+    width:20%;
+}
+
+.fnbTitle .fnbButtonWidth2 [data-type="button"]{
+    width:50%;
+}
+
+.fnbTitle .fnbButtonWidth3{
+    width:30%;
+}
+
+.fnbTitle .fnbButtonWidth3 [data-type="button"]{
+    width:33.3%;
+}
+
+.fnbTitle .fnbButtonWidth4{
+    width:40%;
+}
+
+.fnbTitle .fnbButtonWidth4 [data-type="button"]{
+    width:25%;
+}
+
+.fnbTitle .fnbButtonWidth5{
+    width:50%;
+}
+
+.fnbTitle .fnbButtonWidth5 [data-type="button"]{
+    width:20%;
+}
+
+.fnbTitle .fnbButtonWidth6{
+    width:60%;
+}
+
+.fnbTitle .fnbButtonWidth6 [data-type="button"]{
+    width:16.6%;
+}
+
+.fnbTitle .fnbButtonWidth7{
+    width:70%;
+}
+
+.fnbTitle .fnbButtonWidth7 [data-type="button"]{
+    width:14.28%;
+}
+
+.fnbTitle .fnbButtonWidth8{
+    width:80%;
+}
+
+.fnbTitle .fnbButtonWidth8 [data-type="button"]{
+    width:12.5%;
+}
+
+.fnbTitle .fnbButtonWidth9{
+    width:90%;
+}
+
+.fnbTitle .fnbButtonWidth9 [data-type="button"]{
+    width:11%;
+}
+
+.fnbTitleButtonsWrapper{
+    right: 0;
+    position: absolute;
+}
+
+.fnbTitleButtonsWrapper [data-type="button"]{
+    text-align: left;
+}
+
+.fnbTitle p
+{
+    float:left;
+    color: #000;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0px 0 -6px -2px;
+    line-height: 24px;
+    padding: 6px 0 0px 0px;
+}
+
+.fnbSimpleTitle {
+    display: table-row;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    height: 36px;
+    line-height: 19px;
+    border-bottom: none;
+    margin: 32px 0 8px 0;
+    padding: 0 0 8px 0;
+}
+.fnbSimpleTitle p
+{
+    position:absolute;
+    color: #000;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0px 0 -6px -2px;
+    line-height: 24px;
+    padding: 6px 0 0px 0px;
+}
+
+.fnbHeading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    background: none repeat scroll 0 0 #95d1d0;
+    height: 24px;
+}
+
+.fnbActionHeading{
+    display: table-row;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    background: #f2f2f2;
+    border-top: 1px solid #000;
+	height: 18px;
+	width: 100%;
+}
+.fnbRow
+{
+    display: table-row;
+    background: #fff;
+    border-bottom: 1px solid #009999;
+    height:32px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.fnbTotalRow{
+    font-weight: bold;
+}
+
+.fnbTableBlankRow{
+	/* width: 100%; */
+	height: 40px;
+	padding: 5px;
+	font-size: 13px;
+	/* position: absolute; */
+	text-align: center;
+	line-height: 30px;
+	/* float: left; */
+	border-bottom: 1px solid #95d1d0;
+	display: table-row;
+}
+.fnbTableBlankRowTextWrapper{
+	position: absolute;
+	/* width: 100%; */
+	margin: 0 auto;
+	/* float: right; */
+	right: 0;
+	/* border-bottom: 1px solid #95d1d0; */
+	left: 0;
+	line-height: 40px;
+}
+.fnbTableEmpty {
+    clear: both;
+    height: 40px;
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #95d1d0;
+}
+
+.fnbTableEmpty:hover {
+    background: #f9f9f9;
+}
+
+.fnbRow:hover {
+    background: #f9f9f9;
+}
+
+.ColGroup{
+  display: block;
+  float: left;
+  text-align: left;
+  height: 29px;
+  line-height: 29px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.columnGroups{
+  display: table-caption;
+  background-color: #bfe6e5;
+  width: 100%;
+}
+
+.fnbCell
+{
+    display: table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.fnbCell .labelText
+{
+    float:left;
+    line-height:24px;
+}
+
+.fnbCell .fnbWarningLabel1, .fnbCell .fnbWarningLabel2, .fnbCell .fnbWarningLabel3, .fnbCell .fnbWarningLabel4, .fnbCell .fnbWarningLabel5, .fnbCell .fnbWarningLabel7, .fnbCell .fnbWarningLabel8, .fnbCell .fnbWarningLabel9, .fnbCell .fnbWarningLabel10 {
+    color: #FF9900;
+}
+
+.fnbCellAlignright{
+    text-align: right;
+}
+
+.fnbCellAlignleft{
+    text-align: left;
+}
+
+.fnbCellAligncenter{
+    text-align: center;
+}
+
+[data-type="button"].fnbCell[data-role="fnbTableActionHeaderButton"]{
+    background-color: #e0e6e6;
+    font-weight:normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+[data-type="button"].fnbCell.fnbTableSelectAllButton[data-role="fnbTableActionHeaderButton"]{
+    width: 80px;
+}
+
+[data-type="button"].fnbCell{
+    float: none;
+    width:auto;
+    text-align: left;
+    font-size: 12px;
+    height: 18px;
+    line-height: 1;
+}
+
+[data-type="button"].linkButton{
+    background: transparent;
+    vertical-align: middle;
+    text-decoration: underline;
+    height: auto;
+}
+
+[data-type="button"].fnbCellAlignright {
+    text-align: right;
+}
+[data-type="button"].fnbCellAlignleft{
+    text-align: left;
+}
+[data-type="button"].fnbCellAligncenter{
+    text-align: center;
+}
+
+.fnbDoubleItem{
+    line-height: 16px;  
+    width: 100%;
+    font-size: 12px;
+}
+
+[data-type="button"].fnbDoubleItem{
+    text-align: left;
+    font-size: 12px;
+    padding: 0;
+}
+
+[data-type="button"].fnbTableMoreOptionsButton{
+    background: #ff9900 url('../../images/table/moreOptionsArrow.png') no-repeat 10px center;
+    width: 100%;
+    height: 24px;
+}
+
+[data-type="button"].fnbTableRowButton{
+    background: url('../../images/table/addIcon.png') no-repeat left center;
+    height: 27px;
+    padding: 0 0 0 30px;
+}
+
+#rmbSkin [data-type="button"].fnbTableRowButton, #rmbCorpSkin [data-type="button"].fnbTableRowButton, #rasSkin [data-type="button"].fnbTableRowButton{
+    background: url('../../../01/images/table/addIcon.png') no-repeat left center;
+    height: 27px;
+    padding: 0 0 0 30px;
+}
+
+[data-type="button"].fnbTableRowButton [data-role="buttonLabel"]{
+    line-height: 27px;
+}
+
+.fnbTableHyperLinkItem .linkButton{
+    font-size: 12px;
+}
+
+
+.fnbTableHyperLinkItem .linkButton.fnbCellAlignright{
+    float:none;
+}
+
+.fnbTableMoreOptionsItem{
+    width: 24px;
+    padding: 0;
+}
+
+[data-type="button"].fnbTableButton, [data-type="buttonDisabled"].fnbTableButton {
+    border-right: 1px solid #fff;
+    line-height: 24px;
+}
+
+[data-type="button"].fnbTableButtonWidth100, [data-type="buttonDisabled"].fnbTableButtonWidth100{
+    width:100%;
+}
+
+[data-type="button"].fnbTableButtonWidth50, [data-type="buttonDisabled"].fnbTableButtonWidth50{
+    width:50%;
+}
+
+[data-type="button"].fnbTableButtonWidth33, [data-type="buttonDisabled"].fnbTableButtonWidth33{
+    width:33%;
+}
+
+[data-type="button"].fnbTableButtonWidth25, [data-type="buttonDisabled"].fnbTableButtonWidth25{
+    width:25%;
+}
+
+[data-type="button"].fnbTableButtonWidth20, [data-type="buttonDisabled"].fnbTableButtonWidth20{
+    width:20%;
+}
+
+.fnbFooterPagingWrapper{
+    float: right;
+    width: 30%;
+}
+.fnbFooterPagingWrapper .formElLabel{
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 30%;
+}
+
+.fnbFooterPagingWrapper .formElLabelInner {
+font-size: 13px;
+line-height: 16px;
+padding: 4px 5px 0px 0px;
+float: right;
+}
+
+.fnbFooterPagingWrapper .formElContainer{
+    width: 70%;
+    float: left;
+    padding: 0;
+    line-height: 24px;
+}
+
+.fnbFooterPagingWrapper .formElContainerInner{
+    float: left;
+}
+
+.fnbFooterPagingWrapper .fnbFooterPagingInputTextInput{
+    width: 70%;
+    float: left;
+}
+
+.fnbFooterPagingWrapper [data-role="formElRightLabel"]{
+    width: 30%;
+    float: left;
+    padding-left: 5px;
+}
+
+.fnbFooterPagingWrapper .formElWrapper.fnbFooterPagingInput{
+    width: 60%;
+    float: left;
+}
+
+.fnbFooterPagingWrapper [data-type="button"].fnbFooterPreviousButton{
+    width: 20%;
+    background: transparent;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.fnbFooterPagingWrapper .fnbFooterPreviousButton{
+    width: 20%;
+    background: transparent;
+    font-weight: bold;
+    line-height: 24px;
+    float:left;
+    height: 24px;
+}
+
+.fnbFooterPagingWrapper [data-type="button"].fnbFooterNextButton{
+    width: 20%;
+    background: transparent;
+    font-weight: bold;
+    line-height: 24px;
+}
+.fnbTableWrapper {
+    display: table;
+    float: left;
+    width: 100%;
+	border-bottom: 1px solid #95d1d0;
+	position: relative;
+  	margin-top: 32px;
+}
+.fnbTableColumnHighlight{
+    background-color: #e0e6e6;
+    text-align: center;
+}
+.fnbTableColumnHighlight .checkBox{
+    margin: 0 auto;
+}
+.fnbTableTextItem.pending.checked{
+	background: url("/banking/03images/fnb/uncheckedToChecked.jpg?v=12345678") no-repeat left center;
+}
+
+.fnbTableTextItem.pending.unchecked{
+	background: url("/banking/03images/fnb/checkedToUnchecked.jpg?v=12345678") no-repeat left center;
+}
+
+.fnbTableTextItem.active.checked{
+	background: url("/banking/03images/fnb/finish/tickColorIcon.png?v=12345678") no-repeat left center;
+}
+
+.fnbTableTextItem.active.unchecked{
+	background: url("/banking/03images/fnb/finish/crossColorIcon.png?v=12345678") no-repeat left center;
+}
+
+
+.colW10{
+    width: 10%;
+}
+.colW15{
+    width: 15%;
+}
+.colW20{
+    width: 20%;
+}
+.colW25{
+    width: 25%;
+}
+.colW30{
+    width:30%
+}
+.colW35{
+    width:35%
+}
+.colW40{
+    width:40%
+}
+.colW45{
+    width:45%
+}
+.colW50{
+    width:50%
+}
+.colW55{
+    width:55%
+}
+.colW60{
+    width:60%
+}
+.colW65{
+    width:65%
+}
+.colW70{
+    width:70%
+}
+.colW75{
+    width:75%
+}
+.colW80{
+    width:80%
+}
+.colW85{
+    width:85%
+}
+.colW90{
+    width:90%
+}
+.colW95{
+    width:95%
+}
+.colW100{
+    width:100%
+}

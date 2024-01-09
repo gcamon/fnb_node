@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'FNBSansRegular';
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot');
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.woff') format('woff'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.svg#FoundationRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FNBSansBold';
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot');
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.woff') format('woff'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.svg#FoundationRoman') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FNBSansLight';
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot');
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.woff') format('woff'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.svg#FoundationRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FNBSansThin';
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot');
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.woff') format('woff'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.svg#FoundationRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Foundation fonts */
+
+@font-face {
+    font-family: 'FoundationLight';
+    src: url('foundation/foundationsans_light_macroman/FoundationSans-Light-webfont.eot');
+    src: url('foundation/foundationsans_light_macroman/FoundationSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_light_macroman/FoundationSans-Light-webfont.woff') format('woff'),
+         url('foundation/foundationsans_light_macroman/FoundationSans-Light-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_light_macroman/FoundationSans-Light-webfont.svg#FoundationLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FoundationRoman';
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot');
+    src: url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.woff') format('woff'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.ttf') format('truetype'),
+         url('foundation/foundationsans_roman_macroman/FoundationSans-Roman-webfont.svg#FoundationRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

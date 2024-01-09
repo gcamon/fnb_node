@@ -1,0 +1,2061 @@
+.iconButton { cursor: pointer; }
+
+.ui-icon { width: 56px; height: 56px; background-image: none; background-size: 56px; background-position: center center; background-repeat: no-repeat; vertical-align: middle; padding: 4px; display: block; cursor: pointer; }
+
+.ui-icon.reserverd { background-size: 72px; border-radius: 15px; }
+
+.iconButtonHolderVert li { display: block; text-align: left; }
+
+.iconButtonGroup.big .ui-icon { width: 88px; height: 88px; background-size: 88px; }
+
+.iconButtonHolderVert .ui-icon { display: inline-block; width: 55px; height: 55px; background-size: 55px; }
+
+.iconButtonGroup.big .iconText { padding: 0; }
+
+.ui-icon:HOVER { position: relative; top: 4px; }
+
+.ui-iconLabel { position: relative; vertical-align: middle; padding-left: 4px; display: inline-block; }
+
+.ui-iconLabel.below { position: relative; vertical-align: middle; padding-left: 4px; display: block; }
+
+.ui-icon_Pink { background-image: url("../images/icons/primary/Pink.png"); }
+
+.ui-icon_1_Hold { background-image: url("../images/icons/secondary/1_Hold.png"); }
+
+.ui-icon_1_Sub { background-image: url("../images/icons/secondary/1_Sub.png"); }
+
+.ui-icon_add { background-image: url("../images/icons/secondary/add.png"); }
+
+.ui-icon_download { background-image: url("../images/icons/secondary/download.png"); }
+
+.ui-icon_2CashTransaction { background-image: url("../images/icons/secondary/2CashTransaction.png"); }
+
+.ui-icon_2HoldingsTransactionHistory { background-image: url("../images/icons/secondary/2HoldingsTransactionHistory.png"); }
+
+.ui-icon_2MyPriceAlert { background-image: url("../images/icons/secondary/2MyPriceAlert.png"); }
+
+.ui-icon_2x { background-image: url("../images/icons/secondary/2x.png"); }
+
+.ui-icon_3HoldingsTransaction { background-image: url("../images/icons/secondary/3HoldingsTransaction.png"); }
+
+.ui-icon_32Day { background-image: url("../images/icons/secondary/32Day.png"); }
+
+.ui-icon_ThreeSixty { background-image: url("../images/icons/secondary/ThreeSixty.png"); }
+
+.ui-icon_A_Z { background-image: url("../images/icons/secondary/A-z.png"); }
+
+.ui-icon_abacus { background-image: url("../images/icons/secondary/Abacus.png"); }
+
+.ui-icon_Accessimmediately { background-image: url("../images/icons/secondary/Accessimmediately.png"); }
+
+.ui-icon_Accountinginsights { background-image: url("../images/icons/secondary/Accountinginsights.png"); }
+
+.ui-icon_Accounts_teal { background-image: url("../images/icons/secondary/Accounts_teal.png"); }
+
+.ui-icon_accounts { background-image: url("../images/icons/secondary/Accounts.png"); }
+
+.ui-icon_AccountSettings32DayInterestPlus { background-image: url("../images/icons/secondary/Accountsettings32dayinterestplus.png"); }
+
+.ui-icon_AccountSettingsAllNicknames { background-image: url("../images/icons/secondary/Accountsettingsallnicknames.png"); }
+
+.ui-icon_Accountsettings { background-image: url("../images/icons/secondary/Accountsettings.png"); }
+
+.ui-icon_AccountSettingsGoldChequeAccount { background-image: url("../images/icons/secondary/Accountsettingsgoldchequeaccount.png"); }
+
+.ui-icon_AccountSettingsGoldCreditCard { background-image: url("../images/icons/secondary/Accountsettingsgoldcreditcard.png"); }
+
+.ui-icon_AccountsettingshomeLoan { background-image: url("../images/icons/secondary/Accountsettingshomeloan.png"); }
+
+.ui-icon_AccountSettingsSmartDevice { background-image: url("../images/icons/secondary/Accountsettingssmartdevice.png"); }
+
+.ui-icon_AccountSettingsVehicleFinance { background-image: url("../images/icons/secondary/Accountsettingsvehiclefinance.png"); }
+
+.ui-icon_ActivateSIM { background-image: url("../images/icons/secondary/Activatesim.png"); }
+
+.ui-icon_Add { background-image: url("../images/icons/secondary/Add.png"); }
+
+.ui-icon_AddAndMaintainBoxoffice { background-image: url("../images/icons/secondary/Addandmaintainboxoffice.png"); }
+
+.ui-icon_AddAndMaintainElectricity { background-image: url("../images/icons/secondary/Addandmaintainelectricity.png"); }
+
+.ui-icon_AddAndMaintainGlobalBeneficiary { background-image: url("../images/icons/secondary/Addandmaintainglobalbeneficiary.png"); }
+
+.ui-icon_AddAndMaintainPhonebook { background-image: url("../images/icons/secondary/Addandmaintainphonebook.png"); }
+
+.ui-icon_AddAndMaintainStarSAT { background-image: url("../images/icons/secondary/Addandmaintainstarsat.png"); }
+
+.ui-icon_Addcard { background-image: url("../images/icons/secondary/Addcard.png"); }
+
+.ui-icon_AddCardHolder { background-image: url("../images/icons/secondary/Addcardholder.png"); }
+
+.ui-icon_Addcontract { background-image: url("../images/icons/secondary/Addcontract.png"); }
+
+.ui-icon_AddToExistingPolicy { background-image: url("../images/icons/secondary/Addtoexistingpolicy.png"); }
+
+.ui-icon_Advance { background-image: url("../images/icons/secondary/Advance.png"); }
+
+.ui-icon_AdvancePaymentsImports { background-image: url("../images/icons/secondary/Advancepaymentsimports.png"); }
+
+.ui-icon_Advice { background-image: url("../images/icons/secondary/Advice.png"); }
+
+.ui-icon_Africa { background-image: url("../images/icons/secondary/Africa.png"); }
+
+.ui-icon_Africaarrow { background-image: url("../images/icons/secondary/Africaarrow.png"); }
+
+.ui-icon_Agriculture { background-image: url("../images/icons/secondary/Agriculture.png"); }
+
+.ui-icon_Airplane { background-image: url("../images/icons/secondary/Airplane.png"); }
+
+.ui-icon_App { background-image: url("../images/icons/secondary/App.png"); }
+
+.ui-icon_Applegraph { background-image: url("../images/icons/secondary/Applegraph.png"); }
+
+.ui-icon_Applelogo { background-image: url("../images/icons/secondary/Applelogo.png"); }
+
+.ui-icon_Approved_supliers { background-image: url("../images/icons/secondary/Approved_supliers.png"); }
+
+.ui-icon_Arrow { background-image: url("../images/icons/secondary/Arrow.png"); }
+
+.ui-icon_ArrowDown { background-image: url("../images/icons/secondary/Arrowdown.png"); }
+
+.ui-icon_ArrowPaper { background-image: url("../images/icons/secondary/Arrowpaper.png"); }
+
+.ui-icon_ArrowsIn { background-image: url("../images/icons/secondary/Arrowsin.png"); }
+
+.ui-icon_Arrowsircleleft { background-image: url("../images/icons/secondary/Arrowsircleleft.png"); }
+
+.ui-icon_Arrowsircleright { background-image: url("../images/icons/secondary/Arrowsircleright.png"); }
+
+.ui-icon_Arrows_leftright { background-image: url("../images/icons/secondary/Arrows_leftright.png"); }
+
+.ui-icon_ArrowsLeftRight, .ui-icon_Arrowsleftright { background-image: url("../images/icons/secondary/Arrowsleftright.png"); }
+
+.ui-icon_ArrowsOut { background-image: url("../images/icons/secondary/Arrowsout.png"); }
+
+.ui-icon_Arrows_skew { background-image: url("../images/icons/secondary/Arrows_skew.png"); }
+
+.ui-icon_Arrows_updown { background-image: url("../images/icons/secondary/Arrows_updown.png"); }
+
+.ui-icon_Arrowsupdown { background-image: url("../images/icons/secondary/Arrowsupdown.png"); }
+
+.ui-icon_Arrowup { background-image: url("../images/icons/secondary/Arrowup.png"); }
+
+.ui-icon_Ashburton { background-image: url("../images/icons/secondary/Ashburton.png"); }
+
+.ui-icon_ATM2 { background-image: url("../images/icons/secondary/Atm2.png"); }
+
+.ui-icon_ATM { background-image: url("../images/icons/secondary/Atm.png"); }
+
+.ui-icon_ATMPin { background-image: url("../images/icons/secondary/Atmpin.png"); }
+
+.ui-icon_Authneeded { background-image: url("../images/icons/secondary/Authneeded.png"); }
+
+.ui-icon_BalanceView { background-image: url("../images/icons/secondary/BalanceView.png"); }
+
+.ui-icon_Bank { background-image: url("../images/icons/secondary/Bank.png"); }
+
+.ui-icon_Basket { background-image: url("../images/icons/secondary/Basket.png"); }
+
+.ui-icon_BetweenAccounts { background-image: url("../images/icons/secondary/Betweenaccounts.png"); }
+
+.ui-icon_Bills { background-image: url("../images/icons/secondary/Bills.png"); }
+
+.ui-icon_BillsMultichoice { background-image: url("../images/icons/secondary/Billsmultichoice.png"); }
+
+.ui-icon_Blank { background-image: url("../images/icons/secondary/Blank.png"); }
+
+.ui-icon_BlockSim { background-image: url("../images/icons/secondary/Blocksim.png"); }
+
+.ui-icon_Blog { background-image: url("../images/icons/secondary/Blog.png"); }
+
+.ui-icon_Book { background-image: url("../images/icons/secondary/Book.png"); }
+
+.ui-icon_BookABC { background-image: url("../images/icons/secondary/Bookabc.png"); }
+
+.ui-icon_Boutique { background-image: url("../images/icons/secondary/Boutique.png"); }
+
+.ui-icon_Boxoffice { background-image: url("../images/icons/secondary/Boxoffice.png"); }
+
+.ui-icon_BoxOfficeSavedSmartCardNumbers { background-image: url("../images/icons/secondary/Boxofficesavedsmartcardnumbers.png"); }
+
+.ui-icon_Branch { background-image: url("../images/icons/secondary/Branch.png"); }
+
+.ui-icon_Briefcase { background-image: url("../images/icons/secondary/Briefcase.png"); }
+
+.ui-icon_Briefcase_loans { background-image: url("../images/icons/secondary/Briefcase_loans.png"); }
+
+.ui-icon_BriefcasePin { background-image: url("../images/icons/secondary/Briefcasepin.png"); }
+
+.ui-icon_BriefcaseRand { background-image: url("../images/icons/secondary/Briefcaserand.png"); }
+
+.ui-icon_BriefcaseRandStars { background-image: url("../images/icons/secondary/Briefcaserandstars.png"); }
+
+.ui-icon_Broken_heart { background-image: url("../images/icons/secondary/Broken_heart.png"); }
+
+.ui-icon_BudgetToStraight { background-image: url("../images/icons/secondary/Budgettostraight.png"); }
+
+.ui-icon_Build { background-image: url("../images/icons/secondary/Build.png"); }
+
+.ui-icon_Building2 { background-image: url("../images/icons/secondary/Building2.png"); }
+
+.ui-icon_Building { background-image: url("../images/icons/secondary/Building.png"); }
+
+.ui-icon_Building_for_Business { background-image: url("../images/icons/secondary/Building_for_business.png"); }
+
+.ui-icon_Building_house { background-image: url("../images/icons/secondary/Building_house.png"); }
+
+.ui-icon_Buildings { background-image: url("../images/icons/secondary/Buildings.png"); }
+
+.ui-icon_BunnyHat { background-image: url("../images/icons/secondary/Bunnyhat.png"); }
+
+.ui-icon_Bursary { background-image: url("../images/icons/secondary/Bursary.png"); }
+
+.ui-icon_BusDirectory { background-image: url("../images/icons/secondary/Busdirectory.png"); }
+
+.ui-icon_Business { background-image: url("../images/icons/secondary/Business.png"); }
+
+.ui-icon_BusinessDirectory { background-image: url("../images/icons/secondary/Businessdirectory.png"); }
+
+.ui-icon_BusinessEnterprise_tick { background-image: url("../images/icons/secondary/Businessenterprise_tick.png"); }
+
+.ui-icon_BuyBoxOfficeOnceOff { background-image: url("../images/icons/secondary/Buyboxofficeonceoff.png"); }
+
+.ui-icon_BuyOnceOff { background-image: url("../images/icons/secondary/Buyonceoff.png"); }
+
+.ui-icon_BuyPhoneBookRecipients { background-image: url("../images/icons/secondary/Buyphonebookrecipients.png"); }
+
+.ui-icon_BuyStarsatOnceOff { background-image: url("../images/icons/secondary/Buystarsatonceoff.png"); }
+
+.ui-icon_Calc { background-image: url("../images/icons/secondary/Calc.png"); }
+
+.ui-icon_Calculator_budget { background-image: url("../images/icons/secondary/Calculator_budget.png"); }
+
+.ui-icon_Calculator_car { background-image: url("../images/icons/secondary/Calculator_car.png"); }
+
+.ui-icon_Calculator_teal { background-image: url("../images/icons/secondary/Calculator_teal.png"); }
+
+.ui-icon_Calculator { background-image: url("../images/icons/secondary/Calculator.png"); }
+
+.ui-icon_Calculator_costs { background-image: url("../images/icons/secondary/Calculator_costs.png"); }
+
+.ui-icon_Calculator_creditcard { background-image: url("../images/icons/secondary/Calculator_creditcard.png"); }
+
+.ui-icon_Calculator_forex { background-image: url("../images/icons/secondary/Calculator_forex.png"); }
+
+.ui-icon_Calculator_home { background-image: url("../images/icons/secondary/Calculator_home.png"); }
+
+.ui-icon_Calculator_invest { background-image: url("../images/icons/secondary/Calculator_invest.png"); }
+
+.ui-icon_Calculator_trading { background-image: url("../images/icons/secondary/Calculator_trading.png"); }
+
+.ui-icon_Calendar_32 { background-image: url("../images/icons/secondary/Calendar_32.png"); }
+
+.ui-icon_Calendar { background-image: url("../images/icons/secondary/Calendar.png"); }
+
+.ui-icon_Calendar_loans { background-image: url("../images/icons/secondary/Calendar_loans.png"); }
+
+.ui-icon_Calendar32day { background-image: url("../images/icons/secondary/Calendar32day.png"); }
+
+.ui-icon_Calendar7day { background-image: url("../images/icons/secondary/Calendar7day.png"); }
+
+.ui-icon_Calendararrowleftright { background-image: url("../images/icons/secondary/Calendararrowleftright.png"); }
+
+.ui-icon_CalendarArrows { background-image: url("../images/icons/secondary/Calendararrows.png"); }
+
+.ui-icon_CalendarCard, .ui-icon_Calendarcard { background-image: url("../images/icons/secondary/Calendarcard.png"); }
+
+.ui-icon_CalendarCoins { background-image: url("../images/icons/secondary/Calendarcoins.png"); }
+
+.ui-icon_Calendargraph { background-image: url("../images/icons/secondary/Calendargraph.png"); }
+
+.ui-icon_CalendarLines { background-image: url("../images/icons/secondary/Calendarlines.png"); }
+
+.ui-icon_Calendarpercentage { background-image: url("../images/icons/secondary/Calendarpercentage.png"); }
+
+.ui-icon_Calendarswitcharrow { background-image: url("../images/icons/secondary/Calendarswitcharrow.png"); }
+
+.ui-icon_Calendarwithcoins { background-image: url("../images/icons/secondary/Calendarwithcoins.png"); }
+
+.ui-icon_CallCentre { background-image: url("../images/icons/secondary/Callcentre.png"); }
+
+.ui-icon_CancelCard { background-image: url("../images/icons/secondary/Cancelcard.png"); }
+
+.ui-icon_Cancelcheque { background-image: url("../images/icons/secondary/Cancelcheque.png"); }
+
+.ui-icon_Cancel { background-image: url("../images/icons/secondary/Cancel.png"); }
+
+.ui-icon_CancelOrder { background-image: url("../images/icons/secondary/Cancelorder.png"); }
+
+.ui-icon_Car_loans { background-image: url("../images/icons/secondary/Car_loans.png"); }
+
+.ui-icon_Car { background-image: url("../images/icons/secondary/Car.png"); }
+
+.ui-icon_Car2 { background-image: url("../images/icons/secondary/Car2.png"); }
+
+.ui-icon_Card { background-image: url("../images/icons/secondary/Card.png"); }
+
+.ui-icon_Card_disputes { background-image: url("../images/icons/secondary/Card_disputes.png"); }
+
+.ui-icon_Card1 { background-image: url("../images/icons/secondary/Card1.png"); }
+
+.ui-icon_Card2 { background-image: url("../images/icons/secondary/Card2.png"); }
+
+.ui-icon_Card3 { background-image: url("../images/icons/secondary/Card3.png"); }
+
+.ui-icon_CardAdd, .ui-icon_Cardadd { background-image: url("../images/icons/secondary/Cardadd.png"); }
+
+.ui-icon_Cardarrows { background-image: url("../images/icons/secondary/Cardarrows.png"); }
+
+.ui-icon_CardCalendar { background-image: url("../images/icons/secondary/Cardcalendar.png"); }
+
+.ui-icon_CardCalendarWhite { background-image: url("../images/icons/secondary/Cardcalendarwhite.png"); }
+
+.ui-icon_CardCalendarOrange { background-image: url("../images/icons/secondary/Cardcalendarorange.png"); }
+
+.ui-icon_CardCancel { background-image: url("../images/icons/secondary/Cardcancel.png"); }
+
+.ui-icon_CardAndCoins { background-image: url("../images/icons/secondary/CardAndCoins.png"); }
+
+.ui-icon_CardCoins { background-image: url("../images/icons/secondary/Cardcoins.png"); }
+
+.ui-icon_CardHalf { background-image: url("../images/icons/secondary/Cardhalf.png"); }
+
+.ui-icon_CardNew { background-image: url("../images/icons/secondary/Cardnew.png"); }
+
+.ui-icon_CardPetro { background-image: url("../images/icons/secondary/Cardpetro.png"); }
+
+.ui-icon_Cardplat { background-image: url("../images/icons/secondary/Cardplat.png"); }
+
+.ui-icon_Cards { background-image: url("../images/icons/secondary/Cards.png"); }
+
+.ui-icon_CardsPinsAndLimits { background-image: url("../images/icons/secondary/Cardspinsandlimits.png"); }
+
+.ui-icon_Cardsx2 { background-image: url("../images/icons/secondary/Cardsx2.png"); }
+
+.ui-icon_Cardupdownarrows { background-image: url("../images/icons/secondary/Cardupdownarrows.png"); }
+
+.ui-icon_CardWhite { background-image: url("../images/icons/secondary/Cardwhite.png"); }
+
+.ui-icon_Cardwithcoins { background-image: url("../images/icons/secondary/Cardwithcoins.png"); }
+
+.ui-icon_Careers_teal { background-image: url("../images/icons/secondary/Careers_teal.png"); }
+
+.ui-icon_applyBtn { background-image: url("../images/icons/worlds/svg/applyNow.svg"); }
+
+.ui-icon_Cart { background-image: url("../images/icons/secondary/Cart.png"); }
+
+.ui-icon_CashBox { background-image: url("../images/icons/secondary/Cashbox.png"); }
+
+.ui-icon_Cash { background-image: url("../images/icons/secondary/Cash.png"); }
+
+.ui-icon_Cash_rand { background-image: url("../images/icons/secondary/Cash_rand.png"); }
+
+.ui-icon_CashRegister { background-image: url("../images/icons/secondary/Cashregister.png"); }
+
+.ui-icon_Cash_stack { background-image: url("../images/icons/secondary/Cash_stack.png"); }
+
+.ui-icon_CashTransactionHistory { background-image: url("../images/icons/secondary/Cashtransactionhistory.png"); }
+
+.ui-icon_Home, .ui-icon_home { background-image: url("../images/icons/worlds/svg/home.svg"); }
+
+.ui-icon_Categories { background-image: url("../images/icons/secondary/Categories.png"); }
+
+.ui-icon_CategoriesList { background-image: url("../images/icons/secondary/Categorieslist.png"); }
+
+.ui-icon_CellPay { background-image: url("../images/icons/secondary/Cellpay.png"); }
+
+.ui-icon_Cellphone2 { background-image: url("../images/icons/secondary/Cellphone2.png"); }
+
+.ui-icon_Cellphone2Cog { background-image: url("../images/icons/secondary/Cellphone2cog.png"); }
+
+.ui-icon_Cellphone { background-image: url("../images/icons/secondary/Cellphone.png"); }
+
+.ui-icon_CellphoneCog { background-image: url("../images/icons/secondary/Cellphonecog.png"); }
+
+.ui-icon_Certificate { background-image: url("../images/icons/secondary/Certificate.png"); }
+
+.ui-icon_Certificate2 { background-image: url("../images/icons/secondary/Certificate2.png"); }
+
+.ui-icon_Chain { background-image: url("../images/icons/secondary/Chain.png"); }
+
+.ui-icon_Chequecard2 { background-image: url("../images/icons/secondary/Chequecard2.png"); }
+
+.ui-icon_Cheque { background-image: url("../images/icons/secondary/Cheque.png"); }
+
+.ui-icon_Cheque2 { background-image: url("../images/icons/secondary/Cheque2.png"); }
+
+.ui-icon_Choose { background-image: url("../images/icons/secondary/Choose.png"); }
+
+.ui-icon_Claims { background-image: url("../images/icons/secondary/Claims.png"); }
+
+.ui-icon_Claims-41 { background-image: url("../images/icons/secondary/Claims-41.png"); }
+
+.ui-icon_Claims-64 { background-image: url("../images/icons/secondary/Claims-64.png"); }
+
+.ui-icon_Clock { background-image: url("../images/icons/secondary/Clock.png"); }
+
+.ui-icon_ClockArrows { background-image: url("../images/icons/secondary/Clockarrows.png"); }
+
+.ui-icon_ClockCellphone { background-image: url("../images/icons/secondary/Clockcellphone.png"); }
+
+.ui-icon_ClockLock { background-image: url("../images/icons/secondary/Clocklock.png"); }
+
+.ui-icon_ClockMessage { background-image: url("../images/icons/secondary/Clockmessage.png"); }
+
+.ui-icon_ClockSIM { background-image: url("../images/icons/secondary/Clocksim.png"); }
+
+.ui-icon_ClockWifi { background-image: url("../images/icons/secondary/Clockwifi.png"); }
+
+.ui-icon_Cloudarrows { background-image: url("../images/icons/secondary/Cloudarrows.png"); }
+
+.ui-icon_Cloudcard { background-image: url("../images/icons/secondary/Cloudcard.png"); }
+
+.ui-icon_Clouddownarrow { background-image: url("../images/icons/secondary/Clouddownarrow.png"); }
+
+.ui-icon_Cloudphone { background-image: url("../images/icons/secondary/Cloudphone.png"); }
+
+.ui-icon_Cog { background-image: url("../images/icons/secondary/Cog.png"); }
+
+.ui-icon_Coinpile { background-image: url("../images/icons/secondary/Coinpile.png"); }
+
+.ui-icon_Coins_round { background-image: url("../images/icons/secondary/Coins_round.png"); }
+
+.ui-icon_Coin { background-image: url("../images/icons/secondary/Coin.png"); }
+
+.ui-icon_CoinAndCard { background-image: url("../images/icons/secondary/CoinAndCard.png"); }
+
+.ui-icon_CoinsExclamation { background-image: url("../images/icons/secondary/Coinsexclamation.png"); }
+
+.ui-icon_CoinsHand { background-image: url("../images/icons/secondary/Coinshand.png"); }
+
+.ui-icon_CoinStack2 { background-image: url("../images/icons/secondary/Coinstack2.png"); }
+
+.ui-icon_Colour { background-image: url("../images/icons/secondary/Colour.png"); }
+
+.ui-icon_Commercial { background-image: url("../images/icons/secondary/Commercial.png"); }
+
+.ui-icon_Compare { background-image: url("../images/icons/secondary/Compare.png"); }
+
+.ui-icon_Complaints { background-image: url("../images/icons/secondary/Complaints.png"); }
+
+.ui-icon_Compliments { background-image: url("../images/icons/secondary/Compliments.png"); }
+
+.ui-icon_Connect_teal { background-image: url("../images/icons/secondary/Connect_teal.png"); }
+
+.ui-icon_Connect { background-image: url("../images/icons/secondary/Connect.png"); }
+
+.ui-icon_Contact { background-image: url("../images/icons/secondary/Contact.png"); }
+
+.ui-icon_ContactCall_WB { background-image: url("../images/icons/secondary/Contactcall_wb.png"); }
+
+.ui-icon_corporateContactBtn, .ui-icon_privateContactBtn, .ui-icon_premier1ContactBtn, .ui-icon_premier2ContactBtn, .ui-icon_noBankerContactBtn { background-image: url("../images/icons/worlds/svg/contact.svg"); }
+
+.ui-icon_ContactCall { background-image: url("../images/icons/secondary/Contactcall.png"); }
+
+.ui-icon_ContactNumbers { background-image: url("../images/icons/secondary/Contactnumbers.png"); }
+
+.ui-icon_ContributionsDonations { background-image: url("../images/icons/secondary/Contributionsdonations.png"); }
+
+.ui-icon_Copy { background-image: url("../images/icons/secondary/Copy.png"); }
+
+.ui-icon_CorporateEvents { background-image: url("../images/icons/secondary/Corporateevents.png"); }
+
+.ui-icon_Cost { background-image: url("../images/icons/secondary/Cost.png"); }
+
+.ui-icon_Crads { background-image: url("../images/icons/secondary/Crads.png"); }
+
+.ui-icon_Creditcard2_loans { background-image: url("../images/icons/secondary/Creditcard2_loans.png"); }
+
+.ui-icon_Creditcard_loans { background-image: url("../images/icons/secondary/Creditcard_loans.png"); }
+
+.ui-icon_Cross { background-image: url("../images/icons/secondary/Cross.png"); }
+
+.ui-icon_Currencycard { background-image: url("../images/icons/secondary/Currencycard.png"); }
+
+.ui-icon_Currency { background-image: url("../images/icons/secondary/Currency.png"); }
+
+.ui-icon_Currencynotes { background-image: url("../images/icons/secondary/Currencynotes.png"); }
+
+.ui-icon_Customised { background-image: url("../images/icons/secondary/Customised.png"); }
+
+.ui-icon_DailyIndicator { background-image: url("../images/icons/secondary/Dailyindicator.png"); }
+
+.ui-icon_DayToDay { background-image: url("../images/icons/secondary/Daytoday.png"); }
+
+.ui-icon_Debitorderswitching { background-image: url("../images/icons/secondary/Debitorderswitching.png"); }
+
+.ui-icon_Debt { background-image: url("../images/icons/secondary/Debt.png"); }
+
+.ui-icon_DemoApp { background-image: url("../images/icons/secondary/Demoapp.png"); }
+
+.ui-icon_DemoApp2 { background-image: url("../images/icons/secondary/Demoapp2.png"); }
+
+.ui-icon_DemoMobi { background-image: url("../images/icons/secondary/Demomobi.png"); }
+
+.ui-icon_DemoMobi2 { background-image: url("../images/icons/secondary/Demomobi2.png"); }
+
+.ui-icon_DemoOnline { background-image: url("../images/icons/secondary/Demoonline.png"); }
+
+.ui-icon_DemoPC { background-image: url("../images/icons/secondary/Demopc.png"); }
+
+.ui-icon_Demos { background-image: url("../images/icons/secondary/Demos.png"); }
+
+.ui-icon_Deposit { background-image: url("../images/icons/secondary/Deposit.png"); }
+
+.ui-icon_Destination { background-image: url("../images/icons/secondary/Destination.png"); }
+
+.ui-icon_DetailedBalance { background-image: url("../images/icons/secondary/Detailedbalance.png"); }
+
+.ui-icon_Device_laptop { background-image: url("../images/icons/secondary/Device_laptop.png"); }
+
+.ui-icon_Device_phone2 { background-image: url("../images/icons/secondary/Device_phone2.png"); }
+
+.ui-icon_Device_phone3 { background-image: url("../images/icons/secondary/Device_phone3.png"); }
+
+.ui-icon_Device_phone { background-image: url("../images/icons/secondary/Device_phone.png"); }
+
+.ui-icon_devices { background-image: url("../images/icons/secondary/Devices.png"); }
+
+.ui-icon_Device_tablet { background-image: url("../images/icons/secondary/Device_tablet.png"); }
+
+.ui-icon_Discount { background-image: url("../images/icons/secondary/Discount.png"); }
+
+.ui-icon_Disinvest { background-image: url("../images/icons/secondary/Disinvest.png"); }
+
+.ui-icon_DisinvestFunds { background-image: url("../images/icons/secondary/Disinvestfunds.png"); }
+
+.ui-icon_Dispute { background-image: url("../images/icons/secondary/Dispute.png"); }
+
+.ui-icon_Disputes { background-image: url("../images/icons/secondary/Disputes.png"); }
+
+.ui-icon_Doc { background-image: url("../images/icons/secondary/Doc.png"); }
+
+.ui-icon_Doc_tick { background-image: url("../images/icons/secondary/Doc_tick.png"); }
+
+.ui-icon_Document4 { background-image: url("../images/icons/secondary/Document4.png"); }
+
+.ui-icon_DocumentArrow { background-image: url("../images/icons/secondary/Documentarrow.png"); }
+
+.ui-icon_DocumentMagnifine { background-image: url("../images/icons/secondary/Documentmagnifine.png"); }
+
+.ui-icon_Documentpen { background-image: url("../images/icons/secondary/Documentpen.png"); }
+
+.ui-icon_Document_stamp { background-image: url("../images/icons/secondary/Document_stamp.png"); }
+
+.ui-icon_Document { background-image: url("../images/icons/secondary/Document.png"); }
+
+.ui-icon_DocumentBlock { background-image: url("../images/icons/secondary/Documentblock.png"); }
+
+.ui-icon_DocumentCard { background-image: url("../images/icons/secondary/Documentcard.png"); }
+
+.ui-icon_DocumentCoins { background-image: url("../images/icons/secondary/Documentcoins.png"); }
+
+.ui-icon_DocumentCoinsGraph { background-image: url("../images/icons/secondary/Documentcoinsgraph.png"); }
+
+.ui-icon_DocumentCoinsPen { background-image: url("../images/icons/secondary/Documentcoinspen.png"); }
+
+.ui-icon_DocumentFICA { background-image: url("../images/icons/secondary/Documentfica.png"); }
+
+.ui-icon_DocumentLifebuoy { background-image: url("../images/icons/secondary/Documentlifebuoy.png"); }
+
+.ui-icon_DocumentLock { background-image: url("../images/icons/secondary/Documentlock.png"); }
+
+.ui-icon_DocumentMagnifyWhite { background-image: url("../images/icons/secondary/Documentmagnifywhite.png"); }
+
+.ui-icon_DocumentPhone { background-image: url("../images/icons/secondary/Documentphone.png"); }
+
+.ui-icon_DocumentRand { background-image: url("../images/icons/secondary/Documentrand.png"); }
+
+.ui-icon_DocumentSIM { background-image: url("../images/icons/secondary/Documentsim.png"); }
+
+.ui-icon_DocumentStack { background-image: url("../images/icons/secondary/Documentstack.png"); }
+
+.ui-icon_DocumentText { background-image: url("../images/icons/secondary/Documenttext.png"); }
+
+.ui-icon_DocumentTick { background-image: url("../images/icons/secondary/Documenttick.png"); }
+
+.ui-icon_Double { background-image: url("../images/icons/secondary/Double.png"); }
+
+.ui-icon_Down { background-image: url("../images/icons/secondary/Down.png"); }
+
+.ui-icon_Download_colour { background-image: url("../images/icons/secondary/Download_colour.png"); }
+
+.ui-icon_Download { background-image: url("../images/icons/secondary/Download.png"); }
+
+.ui-icon_DownloadDebitOrderSwitching { background-image: url("../images/icons/secondary/Downloaddebitorderswitching.png"); }
+
+.ui-icon_DownloadIT3B { background-image: url("../images/icons/secondary/Downloadit3b.png"); }
+
+.ui-icon_Downloaditb { background-image: url("../images/icons/secondary/Downloaditb.png"); }
+
+.ui-icon_DownloadPDF { background-image: url("../images/icons/secondary/Downloadpdf.png"); }
+
+.ui-icon_DownloadPricingLetters { background-image: url("../images/icons/secondary/Downloadpricingletters.png"); }
+
+.ui-icon_DownloadSalarySwitching { background-image: url("../images/icons/secondary/Downloadsalaryswitching.png"); }
+
+.ui-icon_DStv { background-image: url("../images/icons/secondary/Dstv.png"); }
+
+.ui-icon_Earn { background-image: url("../images/icons/secondary/Earn.png"); }
+
+.ui-icon_EasyAccount { background-image: url("../images/icons/secondary/Easyaccount.png"); }
+
+.ui-icon_Ebucks { background-image: url("../images/icons/secondary/Ebucks.png"); }
+
+.ui-icon_Ecconomic_comment { background-image: url("../images/icons/secondary/Ecconomic_comment.jpg"); }
+
+.ui-icon_Ecommerce { background-image: url("../images/icons/secondary/Ecommerce.png"); }
+
+.ui-icon_Education { background-image: url("../images/icons/secondary/Education.png"); }
+
+.ui-icon_Efile { background-image: url("../images/icons/secondary/Efile.png"); }
+
+.ui-icon_Efiling { background-image: url("../images/icons/secondary/Efiling.png"); }
+
+.ui-icon_EggsBasket { background-image: url("../images/icons/secondary/Eggsbasket.png"); }
+
+.ui-icon_Electricity { background-image: url("../images/icons/secondary/Electricity.png"); }
+
+.ui-icon_Electricitymeter { background-image: url("../images/icons/secondary/Electricitymeter.png"); }
+
+.ui-icon_Email { background-image: url("../images/icons/secondary/Email.png"); }
+
+.ui-icon_Endowment { background-image: url("../images/icons/secondary/Endowment.png"); }
+
+.ui-icon_Enjoyyourwealthcopy2 { background-image: url("../images/icons/secondary/Enjoyyourwealthcopy2.png"); }
+
+.ui-icon_Entertainment { background-image: url("../images/icons/secondary/Entertainment.png"); }
+
+.ui-icon_Envelopeclosed { background-image: url("../images/icons/secondary/Envelopeclosed.png"); }
+
+.ui-icon_Envelopeclock { background-image: url("../images/icons/secondary/Envelopeclock.png"); }
+
+.ui-icon_Envelope { background-image: url("../images/icons/secondary/Envelope.png"); }
+
+.ui-icon_EnvelopeForex { background-image: url("../images/icons/secondary/Envelopeforex.png"); }
+
+.ui-icon_Envelopenotification { background-image: url("../images/icons/secondary/Envelopenotification.png"); }
+
+.ui-icon_Error { background-image: url("../images/icons/secondary/Error.png"); }
+
+.ui-icon_EstatePlanning { background-image: url("../images/icons/secondary/Estateplanning.png"); }
+
+.ui-icon_eWallet, .ui-icon_Ewallet { background-image: url("../images/icons/secondary/Ewallet.png"); }
+
+.ui-icon_EwalletPhonebook { background-image: url("../images/icons/secondary/Ewalletphonebook.png"); }
+
+.ui-icon_Ewallet_money { background-image: url("../images/icons/secondary/Ewallet_money.png"); }
+
+.ui-icon_Ewallet_pro { background-image: url("../images/icons/secondary/Ewallet_pro.png"); }
+
+.ui-icon_ExportBeneficiaries { background-image: url("../images/icons/secondary/Exportbeneficiaries.png"); }
+
+.ui-icon_Eye { background-image: url("../images/icons/secondary/Eye.png"); }
+
+.ui-icon_EziCoins { background-image: url("../images/icons/secondary/Ezicoins.png"); }
+
+.ui-icon_FAQ { background-image: url("../images/icons/secondary/Faq.png"); }
+
+.ui-icon_Fees { background-image: url("../images/icons/secondary/Fees.png"); }
+
+.ui-icon_Ficadocs { background-image: url("../images/icons/secondary/Ficadocs.png"); }
+
+.ui-icon_FICADocuments { background-image: url("../images/icons/secondary/Ficadocuments.png"); }
+
+.ui-icon_FilmTvServices { background-image: url("../images/icons/secondary/Filmtvservices.png"); }
+
+.ui-icon_Finance { background-image: url("../images/icons/secondary/Finance.png"); }
+
+.ui-icon_Financialplanning { background-image: url("../images/icons/secondary/Financialplanning.png"); }
+
+.ui-icon_FindABranch_Orange { background-image: url("../images/icons/secondary/FindABranch_Orange.png"); }
+
+.ui-icon_FindAnATM_Orange { background-image: url("../images/icons/secondary/Findanatm_orange.png"); }
+
+.ui-icon_Findatm2 { background-image: url("../images/icons/secondary/Findatm2.png"); }
+
+.ui-icon_FindATMADT { background-image: url("../images/icons/secondary/Findatmadt.png"); }
+
+.ui-icon_FindATM { background-image: url("../images/icons/secondary/Findatm.png"); }
+
+.ui-icon_FindBranch_teal { background-image: url("../images/icons/secondary/Findbranch_teal.png"); }
+
+.ui-icon_Findbranch { background-image: url("../images/icons/secondary/Findbranch.png"); }
+
+.ui-icon_FindBusiness { background-image: url("../images/icons/secondary/Findbusiness.png"); }
+
+.ui-icon_Firstaid { background-image: url("../images/icons/secondary/Firstaid.png"); }
+
+.ui-icon_FixedPeriod { background-image: url("../images/icons/secondary/Fixedperiod.png"); }
+
+.ui-icon_Flatcoins { background-image: url("../images/icons/secondary/Flatcoins.png"); }
+
+.ui-icon_FlexiNotice { background-image: url("../images/icons/secondary/Flexinotice.png"); }
+
+.ui-icon_FNB_App { background-image: url("../images/icons/secondary/Fnb_app.png"); }
+
+.ui-icon_Fnb_news { background-image: url("../images/icons/secondary/Fnb_news.png"); }
+
+.ui-icon_FnbconnectInvoice { background-image: url("../images/icons/secondary/Fnbconnectinvoice.png"); }
+
+.ui-icon_Fnbconnect_SIMTransactionHistorySMS { background-image: url("../images/icons/secondary/Fnbconnect_simtransactionhistorysms.png"); }
+
+.ui-icon_Fnbconnect_SIMTransactionHistoryVoice { background-image: url("../images/icons/secondary/Fnbconnect_simtransactionhistoryvoice.png"); }
+
+.ui-icon_FnbconnectTransactionHistoryAll { background-image: url("../images/icons/secondary/Fnbconnecttransactionhistoryall.png"); }
+
+.ui-icon_Folder { background-image: url("../images/icons/secondary/Folder.png"); }
+
+.ui-icon_FolderDownArrow { background-image: url("../images/icons/secondary/Folderdownarrow.png"); }
+
+.ui-icon_ForAccountants { background-image: url("../images/icons/secondary/Foraccountants.png"); }
+
+.ui-icon_Foreign_banking { background-image: url("../images/icons/secondary/Foreign_banking.png"); }
+
+.ui-icon_Foreign_notes { background-image: url("../images/icons/secondary/Foreign_notes.png"); }
+
+.ui-icon_ForeignTransfers { background-image: url("../images/icons/secondary/Foreigntransfers.png"); }
+
+.ui-icon_ForeignTransfers_olour { background-image: url("../images/icons/secondary/Foreigntransfers_olour.png"); }
+
+.ui-icon_Forex_teal { background-image: url("../images/icons/secondary/Forex_teal.png"); }
+
+.ui-icon_Forex { background-image: url("../images/icons/secondary/Forex.png"); }
+
+.ui-icon_ForexCoins { background-image: url("../images/icons/secondary/Forexcoins.png"); }
+
+.ui-icon_ForexGlobalPaymentsOnceOff { background-image: url("../images/icons/secondary/Forexglobalpaymentsonceoff.png"); }
+
+.ui-icon_ForexHistoryAndBalancesGlobalPayments { background-image: url("../images/icons/secondary/Forexhistoryandbalancesglobalpayments.png"); }
+
+.ui-icon_Forexnotes { background-image: url("../images/icons/secondary/Forexnotes.png"); }
+
+.ui-icon_ForexUploadsGlobalPayments { background-image: url("../images/icons/secondary/Forexuploadsglobalpayments.png"); }
+
+.ui-icon_ForexUploadsGlobalReceipts { background-image: url("../images/icons/secondary/Forexuploadsglobalreceipts.png"); }
+
+.ui-icon_Forme { background-image: url("../images/icons/secondary/Forme.png"); }
+
+.ui-icon_Formybusiness { background-image: url("../images/icons/secondary/Formybusiness.png"); }
+
+.ui-icon_Formyenterprise { background-image: url("../images/icons/secondary/Formyenterprise.png"); }
+
+.ui-icon_ForSale { background-image: url("../images/icons/secondary/Forsale.png"); }
+
+.ui-icon_Franchise { background-image: url("../images/icons/secondary/Franchise.png"); }
+
+.ui-icon_Fraud_teal { background-image: url("../images/icons/secondary/Fraud_teal.png"); }
+
+.ui-icon_Fuel { background-image: url("../images/icons/secondary/Fuel.png"); }
+
+.ui-icon_FundsToBudget { background-image: url("../images/icons/secondary/Fundstobudget.png"); }
+
+.ui-icon_GetAnAdditionalCard { background-image: url("../images/icons/secondary/Getanadditionalcard.png"); }
+
+.ui-icon_GetRewarded { background-image: url("../images/icons/secondary/Getrewarded.png"); }
+
+.ui-icon_Glasses { background-image: url("../images/icons/secondary/Glasses.png"); }
+
+.ui-icon_GlobalAccount { background-image: url("../images/icons/secondary/Globalaccount.png"); }
+
+.ui-icon_Globalpayments { background-image: url("../images/icons/secondary/Globalpayments.png"); }
+
+.ui-icon_GlobalPaymentsGlobalBeneficiary { background-image: url("../images/icons/secondary/Globalpaymentsglobalbeneficiary.png"); }
+
+.ui-icon_Globalreceipts { background-image: url("../images/icons/secondary/Globalreceipts.png"); }
+
+.ui-icon_GlobalReceiptsReceipts { background-image: url("../images/icons/secondary/Globalreceiptsreceipts.png"); }
+
+.ui-icon_Globe1 { background-image: url("../images/icons/secondary/Globe1.png"); }
+
+.ui-icon_Globe2 { background-image: url("../images/icons/secondary/Globe2.png"); }
+
+.ui-icon_Globe { background-image: url("../images/icons/secondary/Globe.png"); }
+
+.ui-icon_GlobeArrowRight { background-image: url("../images/icons/secondary/Globearrowright.png"); }
+
+.ui-icon_GlobeArrows { background-image: url("../images/icons/secondary/Globearrows.png"); }
+
+.ui-icon_GlobeReceive { background-image: url("../images/icons/secondary/Globereceive.png"); }
+
+.ui-icon_GlobeSend { background-image: url("../images/icons/secondary/Globesend.png"); }
+
+.ui-icon_Globe_move { background-image: url("../images/icons/secondary/Globe_move.png"); }
+
+.ui-icon_Glossary { background-image: url("../images/icons/secondary/Glossary.png"); }
+
+.ui-icon_Gold { background-image: url("../images/icons/secondary/Gold.png"); }
+
+.ui-icon_Golf { background-image: url("../images/icons/secondary/Golf.png"); }
+
+.ui-icon_GoToInstantAccountning { background-image: url("../images/icons/secondary/Gotoinstantaccountning.png"); }
+
+.ui-icon_GoToInstantPayroll { background-image: url("../images/icons/secondary/Gotoinstantpayroll.png"); }
+
+.ui-icon_GoToMerchantInsights { background-image: url("../images/icons/secondary/Gotomerchantinsights.png"); }
+
+.ui-icon_GovernmentServices { background-image: url("../images/icons/secondary/Governmentservices.png"); }
+
+.ui-icon_Grads { background-image: url("../images/icons/secondary/Grads.png"); }
+
+.ui-icon_Graduate_teal { background-image: url("../images/icons/secondary/Graduate_teal.png"); }
+
+.ui-icon_Graduate { background-image: url("../images/icons/secondary/Graduate.png"); }
+
+.ui-icon_GraphPie { background-image: url("../images/icons/secondary/graphPie.jpg"); }
+
+.ui-icon_Graph2 { background-image: url("../images/icons/secondary/Graph2.png"); }
+
+.ui-icon_Graph3 { background-image: url("../images/icons/secondary/Graph3.png"); }
+
+.ui-icon_Grapharrow { background-image: url("../images/icons/secondary/Grapharrow.png"); }
+
+.ui-icon_Graphbubble { background-image: url("../images/icons/secondary/Graphbubble.png"); }
+
+.ui-icon_GraphCircles { background-image: url("../images/icons/secondary/Graphcircles.png"); }
+
+.ui-icon_Graph { background-image: url("../images/icons/secondary/Graph.png"); }
+
+.ui-icon_GraphDots { background-image: url("../images/icons/secondary/Graphdots.png"); }
+
+.ui-icon_GraphGrowth { background-image: url("../images/icons/secondary/Graphgrowth.png"); }
+
+.ui-icon_Growyourwealth { background-image: url("../images/icons/secondary/Growyourwealth.png"); }
+
+.ui-icon_Hammer { background-image: url("../images/icons/secondary/Hammer.png"); }
+
+.ui-icon_Hand { background-image: url("../images/icons/secondary/Hand.png"); }
+
+.ui-icon_HandCollect { background-image: url("../images/icons/secondary/Handcollect.png"); }
+
+.ui-icon_HandPoint { background-image: url("../images/icons/secondary/Handpoint.png"); }
+
+.ui-icon_HandStop { background-image: url("../images/icons/secondary/Handstop.png"); }
+
+.ui-icon_HealthCare { background-image: url("../images/icons/secondary/Healthcare.png"); }
+
+.ui-icon_HelpForexHelp { background-image: url("../images/icons/secondary/Helpforexhelp.png"); }
+
+.ui-icon_HelpMeChoose { background-image: url("../images/icons/secondary/Helpmechoose.png"); }
+
+.ui-icon_HelpPayPalGuide { background-image: url("../images/icons/secondary/Helppaypalguide.png"); }
+
+.ui-icon_HelpTermsAndConditions { background-image: url("../images/icons/secondary/Helptermsandconditions.png"); }
+
+.ui-icon_HistoryAndAalancesAirtimeAndBundles { background-image: url("../images/icons/secondary/Historyandaalancesairtimeandbundles.png"); }
+
+.ui-icon_HistoryAndBalanceBoxoffice { background-image: url("../images/icons/secondary/Historyandbalanceboxoffice.png"); }
+
+.ui-icon_HistoryAndBalancesElectricity { background-image: url("../images/icons/secondary/Historyandbalanceselectricity.png"); }
+
+.ui-icon_HistoryAndBalancesGlobalReceipts { background-image: url("../images/icons/secondary/Historyandbalancesglobalreceipts.png"); }
+
+.ui-icon_HistoryAndBalancesOrder { background-image: url("../images/icons/secondary/Historyandbalancesorder.png"); }
+
+.ui-icon_HistoryAndBalancesOrderForex_Color { background-image: url("../images/icons/secondary/Historyandbalancesorderforex_color.png"); }
+
+.ui-icon_HistoryAndBalancesPayPal { background-image: url("../images/icons/secondary/Historyandbalancespaypal.png"); }
+
+.ui-icon_HistoryAndBalanceStarSAT { background-image: url("../images/icons/secondary/Historyandbalancestarsat.png"); }
+
+.ui-icon_HoldingsTransactionHistory { background-image: url("../images/icons/secondary/Holdingstransactionhistory.png"); }
+
+.ui-icon_Homebuy { background-image: url("../images/icons/secondary/Homebuy.png"); }
+
+.ui-icon_Home_Loan { background-image: url("../images/icons/secondary/Home_loan.png"); }
+
+.ui-icon_HomeLoan { background-image: url("../images/icons/secondary/Homeloan.png"); }
+
+.ui-icon_Home_non { background-image: url("../images/icons/secondary/Home_non.png"); }
+
+.ui-icon_Hospitality { background-image: url("../images/icons/secondary/Hospitality.png"); }
+
+.ui-icon_House_white { background-image: url("../images/icons/secondary/House_white.png"); }
+
+.ui-icon_House { background-image: url("../images/icons/secondary/House.png"); }
+
+.ui-icon_House1 { background-image: url("../images/icons/secondary/House1.png"); }
+
+.ui-icon_House2 { background-image: url("../images/icons/secondary/House2.png"); }
+
+.ui-icon_Hurst { background-image: url("../images/icons/secondary/Hurst.png"); }
+
+.ui-icon_Icon_eWallet_colour_turq { background-image: url("../images/icons/secondary/Icon_ewallet_colour_turq.jpg"); }
+
+.ui-icon_Icon_limits { background-image: url("../images/icons/secondary/Icon_limits.png"); }
+
+.ui-icon_Icons_ReceiveMoney { background-image: url("../images/icons/secondary/Icons_receivemoney.png"); }
+
+.ui-icon_ImportBeneficiaries { background-image: url("../images/icons/secondary/Importbeneficiaries.png"); }
+
+.ui-icon_Import { background-image: url("../images/icons/secondary/Import.png"); }
+
+.ui-icon_ImportPaymentFromFile { background-image: url("../images/icons/secondary/Importpaymentfromfile.png"); }
+
+.ui-icon_ImportPayments { background-image: url("../images/icons/secondary/Importpayments.png"); }
+
+.ui-icon_Inbox { background-image: url("../images/icons/secondary/Inbox.png"); }
+
+.ui-icon_IncidentReportingColour { background-image: url("../images/icons/secondary/Incidentreportingcolour.png"); }
+
+.ui-icon_IncidentReportingColour2 { background-image: url("../images/icons/secondary/Incidentreportingcolour2.png"); }
+
+.ui-icon_IncomeAndExpenses { background-image: url("../images/icons/secondary/Incomeandexpenses.png"); }
+
+.ui-icon_Incontact { background-image: url("../images/icons/secondary/Incontact.png"); }
+
+.ui-icon_IndtructionsScheduledPrepaid { background-image: url("../images/icons/secondary/Indtructionsscheduledprepaid.png"); }
+
+.ui-icon_Info { background-image: url("../images/icons/secondary/Info.png"); }
+
+.ui-icon_InfoKrugerRand { background-image: url("../images/icons/secondary/Infokrugerrand.png"); }
+
+.ui-icon_Information { background-image: url("../images/icons/secondary/Information.png"); }
+
+.ui-icon_InfoSircle { background-image: url("../images/icons/secondary/Infosircle.png"); }
+
+.ui-icon_Instantaccounting { background-image: url("../images/icons/secondary/Instantaccounting.png"); }
+
+.ui-icon_Instantpayroll { background-image: url("../images/icons/secondary/Instantpayroll.png"); }
+
+.ui-icon_InstructionMaintenance { background-image: url("../images/icons/secondary/Instructionmaintenance.png"); }
+
+.ui-icon_Insurance { background-image: url("../images/icons/secondary/Insurance.png"); }
+
+.ui-icon_InterestLoans { background-image: url("../images/icons/secondary/Interestloans.png"); }
+
+.ui-icon_International_invest { background-image: url("../images/icons/secondary/International_invest.png"); }
+
+.ui-icon_myinvestments, .ui-icon_Invest { background-image: url("../images/icons/secondary/Invest.png"); }
+
+.ui-icon_InvestmentAccounts { background-image: url("../images/icons/secondary/Investmentaccounts.png"); }
+
+.ui-icon_InvestmentNotRelated { background-image: url("../images/icons/secondary/Investmentnotrelated.png"); }
+
+.ui-icon_InvestmentSecurities { background-image: url("../images/icons/secondary/Investmentsecurities.png"); }
+
+.ui-icon_InvestmentsInterestInstructions { background-image: url("../images/icons/secondary/Investmentsinterestinstructions.png"); }
+
+.ui-icon_InvestmentsMaturityInstructions { background-image: url("../images/icons/secondary/Investmentsmaturityinstructions.png"); }
+
+.ui-icon_InvestmentsNoticeToClose { background-image: url("../images/icons/secondary/Investmentsnoticetoclose.png"); }
+
+.ui-icon_InvestmentsNoticeToWithdraw { background-image: url("../images/icons/secondary/Investmentsnoticetowithdraw.png"); }
+
+.ui-icon_Invoice { background-image: url("../images/icons/secondary/Invoice.png"); }
+
+.ui-icon_Islamic { background-image: url("../images/icons/secondary/Islamic.png"); }
+
+.ui-icon_IWantToJoin { background-image: url("../images/icons/secondary/Iwanttojoin.png"); }
+
+.ui-icon_Key1 { background-image: url("../images/icons/secondary/Key1.png"); }
+
+.ui-icon_Key { background-image: url("../images/icons/secondary/Key.png"); }
+
+.ui-icon_Kids { background-image: url("../images/icons/secondary/Kids.png"); }
+
+.ui-icon_Kruger { background-image: url("../images/icons/secondary/Kruger.png"); }
+
+.ui-icon_KrugerRand { background-image: url("../images/icons/secondary/Krugerrand.png"); }
+
+.ui-icon_KrugerRands { background-image: url("../images/icons/secondary/Krugerrands.png"); }
+
+.ui-icon_KrugerRandsFAQs { background-image: url("../images/icons/secondary/Krugerrandsfaqs.png"); }
+
+.ui-icon_KrugerRandsInfo { background-image: url("../images/icons/secondary/Krugerrandsinfo.png"); }
+
+.ui-icon_LaptopCalculator { background-image: url("../images/icons/secondary/Laptopcalculator.png"); }
+
+.ui-icon_LaptopCheque { background-image: url("../images/icons/secondary/Laptopcheque.png"); }
+
+.ui-icon_LaptopCog { background-image: url("../images/icons/secondary/Laptopcog.png"); }
+
+.ui-icon_LaptopDocuments { background-image: url("../images/icons/secondary/Laptopdocuments.png"); }
+
+.ui-icon_LaptopFolder { background-image: url("../images/icons/secondary/Laptopfolder.png"); }
+
+.ui-icon_Leadform_tracking { background-image: url("../images/icons/secondary/Leadform_tracking.png"); }
+
+.ui-icon_Learn { background-image: url("../images/icons/secondary/Learn.png"); }
+
+.ui-icon_Legal_teal { background-image: url("../images/icons/secondary/Legal_teal.png"); }
+
+.ui-icon_LetterClosed { background-image: url("../images/icons/secondary/Letterclosed.png"); }
+
+.ui-icon_LetterOneNotification { background-image: url("../images/icons/secondary/Letteronenotification.png"); }
+
+.ui-icon_Levels { background-image: url("../images/icons/secondary/Levels.png"); }
+
+.ui-icon_Lifebouy1 { background-image: url("../images/icons/secondary/Lifebouy1.png"); }
+
+.ui-icon_Lifebuoy { background-image: url("../images/icons/secondary/Lifebuoy.png"); }
+
+.ui-icon_Lightning, .ui-icon_Lighning { background-image: url("../images/icons/secondary/Lightning.png"); }
+
+.ui-icon_Light_bulb { background-image: url("../images/icons/secondary/Light_bulb.png"); }
+
+.ui-icon_headerHelpBtn, .ui-icon_LightBulb { background-image: url("../images/icons/secondary/Lightbulb.png"); }
+
+.ui-icon_Limit { background-image: url("../images/icons/secondary/Limit.png"); }
+
+.ui-icon_Limits { background-image: url("../images/icons/secondary/Limits.png"); }
+
+.ui-icon_Link { background-image: url("../images/icons/secondary/Link.png"); }
+
+.ui-icon_Link2 { background-image: url("../images/icons/secondary/Link2.png"); }
+
+.ui-icon_LinkSIMToMyProfile { background-image: url("../images/icons/secondary/Linksimtomyprofile.png"); }
+
+.ui-icon_ListBullets { background-image: url("../images/icons/secondary/Listbullets.png"); }
+
+.ui-icon_Loans_teal { background-image: url("../images/icons/secondary/Loans_teal.png"); }
+
+.ui-icon_Loans { background-image: url("../images/icons/secondary/Loans.png"); }
+
+.ui-icon_Lock { background-image: url("../images/icons/secondary/Lock.png"); }
+
+.ui-icon_Lock2 { background-image: url("../images/icons/secondary/Lock2.png"); }
+
+.ui-icon_Login1 { background-image: url("../images/icons/secondary/Login1.png"); }
+
+.ui-icon_Login2 { background-image: url("../images/icons/secondary/Login2.png"); }
+
+.ui-icon_Login3 { background-image: url("../images/icons/secondary/Login3.png"); }
+
+.ui-icon_Login4 { background-image: url("../images/icons/secondary/Login4.png"); }
+
+.ui-icon_LoginHistory { background-image: url("../images/icons/secondary/Loginhistory.png"); }
+
+.ui-icon_LottoAndPowerball { background-image: url("../images/icons/secondary/Lottoandpowerball.png"); }
+
+.ui-icon_Lotto { background-image: url("../images/icons/secondary/Lotto.png"); }
+
+.ui-icon_LottoBalls { background-image: url("../images/icons/secondary/Lottoballs.png"); }
+
+.ui-icon_LumpSum { background-image: url("../images/icons/secondary/Lumpsum.png"); }
+
+.ui-icon_Magnify2 { background-image: url("../images/icons/secondary/Magnify2.png"); }
+
+.ui-icon_MagnifyingGlass { background-image: url("../images/icons/secondary/Magnifyingglass.png"); }
+
+.ui-icon_magnifyingglass2 { background-image: url("../images/icons/secondary/Magnifyingglass2.png"); }
+
+.ui-icon_Mallet { background-image: url("../images/icons/secondary/Mallet.png"); }
+
+.ui-icon_Manage1 { background-image: url("../images/icons/secondary/Manage1.png"); }
+
+.ui-icon_Manage { background-image: url("../images/icons/secondary/Manage.png"); }
+
+.ui-icon_Manageyourwealth { background-image: url("../images/icons/secondary/Manageyourwealth.png"); }
+
+.ui-icon_Man_cane { background-image: url("../images/icons/secondary/Man_cane.png"); }
+
+.ui-icon_Mancard { background-image: url("../images/icons/secondary/Mancard.png"); }
+
+.ui-icon_ManWoman { background-image: url("../images/icons/secondary/Manwoman.png"); }
+
+.ui-icon_Markerpaper { background-image: url("../images/icons/secondary/Markerpaper.png"); }
+
+.ui-icon_Maturity { background-image: url("../images/icons/secondary/Maturity.png"); }
+
+.ui-icon_MeAndTravellerTravel { background-image: url("../images/icons/secondary/Meandtravellertravel.png"); }
+
+.ui-icon_Me { background-image: url("../images/icons/secondary/Me.png"); }
+
+.ui-icon_Medical { background-image: url("../images/icons/secondary/Medical.png"); }
+
+.ui-icon_Megaphone { background-image: url("../images/icons/secondary/Megaphone.png"); }
+
+.ui-icon_Merchant { background-image: url("../images/icons/secondary/Merchant.png"); }
+
+.ui-icon_Merchantdevice { background-image: url("../images/icons/secondary/Merchantdevice.png"); }
+
+.ui-icon_Merchantdevice1 { background-image: url("../images/icons/secondary/Merchantdevice1.png"); }
+
+.ui-icon_Merchantdevice2 { background-image: url("../images/icons/secondary/Merchantdevice2.png"); }
+
+.ui-icon_MerchantServices { background-image: url("../images/icons/secondary/Merchantservices.png"); }
+
+.ui-icon_MerchantSPeeDee { background-image: url("../images/icons/secondary/Merchantspeedee.png"); }
+
+.ui-icon_MerchantVerifoneVX520 { background-image: url("../images/icons/secondary/Merchantverifonevx520.png"); }
+
+.ui-icon_MerchantVerifoneVX680 { background-image: url("../images/icons/secondary/Merchantverifonevx680.png"); }
+
+.ui-icon_MerchantVerifoneVX820 { background-image: url("../images/icons/secondary/Merchantverifonevx820.png"); }
+
+.ui-icon_Mergecollections { background-image: url("../images/icons/secondary/Mergecollections.png"); }
+
+.ui-icon_MessageCoins { background-image: url("../images/icons/secondary/Messagecoins.png"); }
+
+.ui-icon_Messaging { background-image: url("../images/icons/secondary/Messaging.png"); }
+
+.ui-icon_Meter { background-image: url("../images/icons/secondary/Meter.png"); }
+
+.ui-icon_Moneybag { background-image: url("../images/icons/secondary/Moneybag.png"); }
+
+.ui-icon_Moneybag2 { background-image: url("../images/icons/secondary/Moneybag2.png"); }
+
+.ui-icon_MoneyBagSwitchArrow { background-image: url("../images/icons/secondary/Moneybagswitcharrow.png"); }
+
+.ui-icon_Money { background-image: url("../images/icons/secondary/Money.png"); }
+
+.ui-icon_Moneygram { background-image: url("../images/icons/secondary/Moneygram.png"); }
+
+.ui-icon_MoneyNotes { background-image: url("../images/icons/secondary/Moneynotes.png"); }
+
+.ui-icon_Money_note { background-image: url("../images/icons/secondary/Money_note.png"); }
+
+.ui-icon_MoneyStack { background-image: url("../images/icons/secondary/Moneystack.png"); }
+
+.ui-icon_MoneyStackArrowRight { background-image: url("../images/icons/secondary/Moneystackarrowright.png"); }
+
+.ui-icon_MoneyStackTick { background-image: url("../images/icons/secondary/Moneystacktick.png"); }
+
+.ui-icon_MoneyTick { background-image: url("../images/icons/secondary/Moneytick.png"); }
+
+.ui-icon_Monocledocument { background-image: url("../images/icons/secondary/Monocledocument.png"); }
+
+.ui-icon_MonthlyViewpoint { background-image: url("../images/icons/secondary/Monthlyviewpoint.png"); }
+
+.ui-icon_Moto { background-image: url("../images/icons/secondary/Moto.png"); }
+
+.ui-icon_Move { background-image: url("../images/icons/secondary/Move.png"); }
+
+.ui-icon_MOZ, .ui-icon_Moz { background-image: url("../images/icons/secondary/Moz.png"); }
+
+.ui-icon_MozFlag { background-image: url("../images/icons/secondary/Mozflag.png"); }
+
+.ui-icon_Multiple_property { background-image: url("../images/icons/secondary/Multiple_property.png"); }
+
+.ui-icon_Muslim { background-image: url("../images/icons/secondary/Muslim.png"); }
+
+.ui-icon_MyBankAccounts { background-image: url("../images/icons/secondary/Mybankaccounts.png"); }
+
+.ui-icon_MyBudget { background-image: url("../images/icons/secondary/Mybudget.png"); }
+
+.ui-icon_Myfirstsavings { background-image: url("../images/icons/secondary/Myfirstsavings.png"); }
+
+.ui-icon_MyInvestmentAccounts { background-image: url("../images/icons/secondary/Myinvestmentaccounts.png"); }
+
+.ui-icon_MyNettWorth { background-image: url("../images/icons/secondary/Mynettworth.png"); }
+
+.ui-icon_MySafetyBox { background-image: url("../images/icons/secondary/Mysafetybox.png"); }
+
+.ui-icon_MySIMCards { background-image: url("../images/icons/secondary/Mysimcards.png"); }
+
+.ui-icon_MyVault { background-image: url("../images/icons/secondary/Myvault.png"); }
+
+.ui-icon_MyWatchlist { background-image: url("../images/icons/secondary/Mywatchlist.png"); }
+
+.ui-icon_NettWorth { background-image: url("../images/icons/secondary/Nettworth.png"); }
+
+.ui-icon_NewPolicy { background-image: url("../images/icons/secondary/Newpolicy.png"); }
+
+.ui-icon_News_teal { background-image: url("../images/icons/secondary/News_teal.png"); }
+
+.ui-icon_News { background-image: url("../images/icons/secondary/News.png"); }
+
+.ui-icon_Notes2 { background-image: url("../images/icons/secondary/Notes2.png"); }
+
+.ui-icon_Notes3 { background-image: url("../images/icons/secondary/Notes3.png"); }
+
+.ui-icon_Notes4 { background-image: url("../images/icons/secondary/Notes4.png"); }
+
+.ui-icon_Noticetoclose { background-image: url("../images/icons/secondary/Noticetoclose.png"); }
+
+.ui-icon_Off { background-image: url("../images/icons/secondary/Off.png"); }
+
+.ui-icon_Offshore { background-image: url("../images/icons/secondary/Offshore.png"); }
+
+.ui-icon_OK { background-image: url("../images/icons/secondary/Ok.png"); }
+
+.ui-icon_Onceoff { background-image: url("../images/icons/secondary/Onceoff.png"); }
+
+.ui-icon_One { background-image: url("../images/icons/secondary/One.png"); }
+
+.ui-icon_Online_Colour { background-image: url("../images/icons/secondary/Online_colour.png"); }
+
+.ui-icon_Online { background-image: url("../images/icons/secondary/Online.png"); }
+
+.ui-icon_OpenLetter { background-image: url("../images/icons/secondary/Openletter.png"); }
+
+.ui-icon_OrderANewCard { background-image: url("../images/icons/secondary/Orderanewcard.png"); }
+
+.ui-icon_OrderForeignNoteAndCashPassports { background-image: url("../images/icons/secondary/Orderforeignnoteandcashpassports.png"); }
+
+.ui-icon_Orderforex { background-image: url("../images/icons/secondary/Orderforex.png"); }
+
+.ui-icon_OrderForexMaintainCashPassports { background-image: url("../images/icons/secondary/Orderforexmaintaincashpassports.png"); }
+
+.ui-icon_OrderSIM { background-image: url("../images/icons/secondary/Ordersim.png"); }
+
+.ui-icon_OTPIncontactCellNumberColour { background-image: url("../images/icons/secondary/Otpincontactcellnumbercolour.png"); }
+
+.ui-icon_OTPIncontactEmailAddress { background-image: url("../images/icons/secondary/Otpincontactemailaddress.png"); }
+
+.ui-icon_Over55 { background-image: url("../images/icons/secondary/Over55.png"); }
+
+.ui-icon_OverdraftApply { background-image: url("../images/icons/secondary/Overdraftapply.png"); }
+
+.ui-icon_OverdraftCancel { background-image: url("../images/icons/secondary/Overdraftcancel.png"); }
+
+.ui-icon_OverdraftDecrease { background-image: url("../images/icons/secondary/Overdraftdecrease.png"); }
+
+.ui-icon_Overdraftincrease { background-image: url("../images/icons/secondary/Overdraftincrease.png"); }
+
+.ui-icon_PagePlus { background-image: url("../images/icons/secondary/Pageplus.png"); }
+
+.ui-icon_PageR { background-image: url("../images/icons/secondary/Pager.png"); }
+
+.ui-icon_PaperMagnify { background-image: url("../images/icons/secondary/Papermagnify.png"); }
+
+.ui-icon_PaperPen { background-image: url("../images/icons/secondary/Paperpen.png"); }
+
+.ui-icon_Paperplane { background-image: url("../images/icons/secondary/Paperplane.png"); }
+
+.ui-icon_Password { background-image: url("../images/icons/secondary/Password.png"); }
+
+.ui-icon_PayeWallet { background-image: url("../images/icons/secondary/Payewallet.png"); }
+
+.ui-icon_Payment { background-image: url("../images/icons/secondary/Payment.png"); }
+
+.ui-icon_PaymentCash { background-image: url("../images/icons/secondary/Paymentcash.png"); }
+
+.ui-icon_Paymentglobal { background-image: url("../images/icons/secondary/Paymentglobal.png"); }
+
+.ui-icon_PaymentPay { background-image: url("../images/icons/secondary/Paymentpay.png"); }
+
+.ui-icon_Paymentsheduled { background-image: url("../images/icons/secondary/Paymentsheduled.png"); }
+
+.ui-icon_Paypal { background-image: url("../images/icons/secondary/Paypal.png"); }
+
+.ui-icon_Paypal2 { background-image: url("../images/icons/secondary/Paypal2.png"); }
+
+.ui-icon_PaypalDownArrow { background-image: url("../images/icons/secondary/Paypaldownarrow.png"); }
+
+.ui-icon_PayPalMaintainPayPalProfile { background-image: url("../images/icons/secondary/Paypalmaintainpaypalprofile.png"); }
+
+.ui-icon_PayPalRevokeSettings { background-image: url("../images/icons/secondary/Paypalrevokesettings.png"); }
+
+.ui-icon_PayPalTopup { background-image: url("../images/icons/secondary/Paypaltopup.png"); }
+
+.ui-icon_PayPalTopup2 { background-image: url("../images/icons/secondary/Paypaltopup2.png"); }
+
+.ui-icon_PayPalWithdrawal { background-image: url("../images/icons/secondary/Paypalwithdrawal.png"); }
+
+.ui-icon_Paypalwithdraw { background-image: url("../images/icons/secondary/Paypalwithdraw.png"); }
+
+.ui-icon_PayRecipient { background-image: url("../images/icons/secondary/Payrecipient.png"); }
+
+.ui-icon_PayScheduledPayment { background-image: url("../images/icons/secondary/Payscheduledpayment.png"); }
+
+.ui-icon_PayTrafficFines { background-image: url("../images/icons/secondary/Paytrafficfines.png"); }
+
+.ui-icon_PDF { background-image: url("../images/icons/secondary/Pdf.png"); }
+
+.ui-icon_People { background-image: url("../images/icons/secondary/People.png"); }
+
+.ui-icon_Pen { background-image: url("../images/icons/secondary/Pen.png"); }
+
+.ui-icon_Pen2 { background-image: url("../images/icons/secondary/Pen2.png"); }
+
+.ui-icon_Pending { background-image: url("../images/icons/secondary/Pending.png"); }
+
+.ui-icon_Penonpaper { background-image: url("../images/icons/secondary/Penonpaper.png"); }
+
+.ui-icon_PenLine { background-image: url("../images/icons/secondary/Penline.png"); }
+
+.ui-icon_PenPaper { background-image: url("../images/icons/secondary/Penpaper.png"); }
+
+.ui-icon_Percent { background-image: url("../images/icons/secondary/Percent.png"); }
+
+.ui-icon_Percentage { background-image: url("../images/icons/secondary/Percentage.png"); }
+
+.ui-icon_Person1 { background-image: url("../images/icons/secondary/Person1.png"); }
+
+.ui-icon_Person { background-image: url("../images/icons/secondary/Person.png"); }
+
+.ui-icon_Petrolpump { background-image: url("../images/icons/secondary/Petrolpump.png"); }
+
+.ui-icon_Phonebook { background-image: url("../images/icons/secondary/Phonebook.png"); }
+
+.ui-icon_Phone { background-image: url("../images/icons/secondary/Phone.png"); }
+
+.ui-icon_PhoneCall { background-image: url("../images/icons/secondary/Phonecall.png"); }
+
+.ui-icon_PhoneMessage { background-image: url("../images/icons/secondary/Phonemessage.png"); }
+
+.ui-icon_PhoneSIM { background-image: url("../images/icons/secondary/Phonesim.png"); }
+
+.ui-icon_Piechart { background-image: url("../images/icons/secondary/Piechart.png"); }
+
+.ui-icon_PiechartMoney { background-image: url("../images/icons/secondary/Piechartmoney.png"); }
+
+.ui-icon_PillBox { background-image: url("../images/icons/secondary/Pillbox.png"); }
+
+.ui-icon_PillboxWhite { background-image: url("../images/icons/secondary/Pillboxwhite.png"); }
+
+.ui-icon_Play { background-image: url("../images/icons/secondary/Play.png"); }
+
+.ui-icon_Plus { background-image: url("../images/icons/secondary/Plus.png"); }
+
+.ui-icon_Policy { background-image: url("../images/icons/secondary/Policy.png"); }
+
+.ui-icon_PortfolioManagement { background-image: url("../images/icons/secondary/Portfoliomanagement.png"); }
+
+.ui-icon_Prepaid { background-image: url("../images/icons/secondary/Prepaid.png"); }
+
+.ui-icon_Prepaidsheculed { background-image: url("../images/icons/secondary/Prepaidsheculed.png"); }
+
+.ui-icon_Presentation { background-image: url("../images/icons/secondary/Presentation.png"); }
+
+.ui-icon_PriceAlert { background-image: url("../images/icons/secondary/Pricealert.png"); }
+
+.ui-icon_PriceAlert-28 { background-image: url("../images/icons/secondary/Pricealert-28.png"); }
+
+.ui-icon_Pricetag { background-image: url("../images/icons/secondary/Pricetag.png"); }
+
+.ui-icon_Pricing_teal { background-image: url("../images/icons/secondary/Pricing_teal.png"); }
+
+.ui-icon_Pricing_document { background-image: url("../images/icons/secondary/Pricing_document.png"); }
+
+.ui-icon_Print { background-image: url("../images/icons/secondary/Print.png"); }
+
+.ui-icon_PrivateBanking { background-image: url("../images/icons/secondary/Privatebanking.png"); }
+
+.ui-icon_Private_teal { background-image: url("../images/icons/secondary/Private_teal.png"); }
+
+.ui-icon_Processpayment { background-image: url("../images/icons/secondary/Processpayment.png"); }
+
+.ui-icon_Processtransfer { background-image: url("../images/icons/secondary/Processtransfer.png"); }
+
+.ui-icon_ProductFinder { background-image: url("../images/icons/secondary/Productfinder.png"); }
+
+.ui-icon_Profile { background-image: url("../images/icons/secondary/Profile.png"); }
+
+.ui-icon_ProfileAdd { background-image: url("../images/icons/secondary/Profileadd.png"); }
+
+.ui-icon_ProfileCard { background-image: url("../images/icons/secondary/Profilecard.png"); }
+
+.ui-icon_ProfilePlus { background-image: url("../images/icons/secondary/Profileplus.png"); }
+
+.ui-icon_ProfileQuestion { background-image: url("../images/icons/secondary/Profilequestion.png"); }
+
+.ui-icon_Profiles { background-image: url("../images/icons/secondary/Profiles.png"); }
+
+.ui-icon_ProfileTick { background-image: url("../images/icons/secondary/Profiletick.png"); }
+
+.ui-icon_Protect_teal { background-image: url("../images/icons/secondary/Protect_teal.png"); }
+
+.ui-icon_Protectyourwealth { background-image: url("../images/icons/secondary/Protectyourwealth.png"); }
+
+.ui-icon_Question_business { background-image: url("../images/icons/secondary/Question_business.png"); }
+
+.ui-icon_Question { background-image: url("../images/icons/secondary/Question.png"); }
+
+.ui-icon_Rates { background-image: url("../images/icons/secondary/Rates.png"); }
+
+.ui-icon_Receipt { background-image: url("../images/icons/secondary/Receipt.png"); }
+
+.ui-icon_Receive_ { background-image: url("../images/icons/secondary/Receive_.png"); }
+
+.ui-icon_Recipientadd { background-image: url("../images/icons/secondary/Recipientadd.png"); }
+
+.ui-icon_Recipient { background-image: url("../images/icons/secondary/Recipient.png"); }
+
+.ui-icon_Recipientglobal { background-image: url("../images/icons/secondary/Recipientglobal.png"); }
+
+.ui-icon_Recipientvalidate { background-image: url("../images/icons/secondary/Recipientvalidate.png"); }
+
+.ui-icon_Recurring { background-image: url("../images/icons/secondary/Recurring.png"); }
+
+.ui-icon_Register-36 { background-image: url("../images/icons/secondary/Register-36.png"); }
+
+.ui-icon_Regulatory_service { background-image: url("../images/icons/secondary/Regulatory_service.png"); }
+
+.ui-icon_Renovate-06 { background-image: url("../images/icons/secondary/Renovate-06.png"); }
+
+.ui-icon_Renovate-15 { background-image: url("../images/icons/secondary/Renovate-15.png"); }
+
+.ui-icon_ReplaceMyChecqueCard { background-image: url("../images/icons/secondary/Replacemychecquecard.png"); }
+
+.ui-icon_Reports { background-image: url("../images/icons/secondary/Reports.png"); }
+
+.ui-icon_Reserved_Accounts { background-image: url("../images/icons/secondary/Reserved_accounts.png"); }
+
+.ui-icon_Reserved_calculator { background-image: url("../images/icons/secondary/Reserved_calculator.png"); }
+
+.ui-icon_Reserved_careers { background-image: url("../images/icons/secondary/Reserved_careers.png"); }
+
+.ui-icon_Reserved_connect { background-image: url("../images/icons/secondary/Reserved_connect.png"); }
+
+.ui-icon_commercialContactBtn { background-image: url("../images/icons/worlds/svg/contact.svg"); }
+
+.ui-icon_Reserved_contact { background-image: url("../images/icons/secondary/Reserved_contact.png"); }
+
+.ui-icon_Reserved_FindBranch { background-image: url("../images/icons/secondary/Reserved_findbranch.png"); }
+
+.ui-icon_Reserved_ForCommercial { background-image: url("../images/icons/secondary/Reserved_forcommercial.png"); }
+
+.ui-icon_Reserved_forex { background-image: url("../images/icons/secondary/Reserved_forex.png"); }
+
+.ui-icon_Reserved_ForYou { background-image: url("../images/icons/secondary/Reserved_foryou.png"); }
+
+.ui-icon_Reserved_ForYourBusiness { background-image: url("../images/icons/secondary/Reserved_foryourbusiness.png"); }
+
+.ui-icon_Reserved_fraud { background-image: url("../images/icons/secondary/Reserved_fraud.png"); }
+
+.ui-icon_Reserved_graduate { background-image: url("../images/icons/secondary/Reserved_graduate.png"); }
+
+.ui-icon_Reserved_legal { background-image: url("../images/icons/secondary/Reserved_legal.png"); }
+
+.ui-icon_Reserved_loans { background-image: url("../images/icons/secondary/Reserved_loans.png"); }
+
+.ui-icon_Reserved_news { background-image: url("../images/icons/secondary/Reserved_news.png"); }
+
+.ui-icon_Reserved_pricing { background-image: url("../images/icons/secondary/Reserved_pricing.png"); }
+
+.ui-icon_Reserved_private { background-image: url("../images/icons/secondary/Reserved_private.jpg"); }
+
+.ui-icon_Reserved_protect { background-image: url("../images/icons/secondary/Reserved_protect.png"); }
+
+.ui-icon_Reserved_rewards { background-image: url("../images/icons/secondary/Reserved_rewards.png"); }
+
+.ui-icon_Reserved_savings { background-image: url("../images/icons/secondary/Reserved_savings.png"); }
+
+.ui-icon_Reserved_tools { background-image: url("../images/icons/secondary/Reserved_tools.png"); }
+
+.ui-icon_Reserved_WaysToBank { background-image: url("../images/icons/secondary/Reserved_waystobank.png"); }
+
+.ui-icon_Reset { background-image: url("../images/icons/secondary/Reset.png"); }
+
+.ui-icon_Retail { background-image: url("../images/icons/secondary/Retail.png"); }
+
+.ui-icon_Retirement1 { background-image: url("../images/icons/secondary/Retirement1.png"); }
+
+.ui-icon_Retirement2 { background-image: url("../images/icons/secondary/Retirement2.png"); }
+
+.ui-icon_Revolving_loans { background-image: url("../images/icons/secondary/Revolving_loans.png"); }
+
+.ui-icon_Rewards_teal { background-image: url("../images/icons/secondary/Rewards_teal.png"); }
+
+.ui-icon_Rewards { background-image: url("../images/icons/secondary/Rewards.png"); }
+
+.ui-icon_Rewards2 { background-image: url("../images/icons/secondary/Rewards2.png"); }
+
+.ui-icon_Reward_wire_black { background-image: url("../images/icons/secondary/Reward_wire_black.png"); }
+
+.ui-icon_Ribbon2 { background-image: url("../images/icons/secondary/Ribbon2.png"); }
+
+.ui-icon_RMB { background-image: url("../images/icons/secondary/Rmb.png"); }
+
+.ui-icon_RMBLife { background-image: url("../images/icons/secondary/Rmblife.png"); }
+
+.ui-icon_SA { background-image: url("../images/icons/secondary/Sa.png"); }
+
+.ui-icon_Safe { background-image: url("../images/icons/secondary/Safe.png"); }
+
+.ui-icon_SafeCoins { background-image: url("../images/icons/secondary/Safecoins.png"); }
+
+.ui-icon_Salaryswitching { background-image: url("../images/icons/secondary/Salaryswitching.png"); }
+
+.ui-icon_SavedMeterNumbers { background-image: url("../images/icons/secondary/Savedmeternumbers.png"); }
+
+.ui-icon_Savings_teal { background-image: url("../images/icons/secondary/Savings_teal.png"); }
+
+.ui-icon_Savings { background-image: url("../images/icons/secondary/Savings.png"); }
+
+.ui-icon_SavingsAndInvestments { background-image: url("../images/icons/secondary/Savingsandinvestments.png"); }
+
+.ui-icon_Scale { background-image: url("../images/icons/secondary/Scale.png"); }
+
+.ui-icon_ScheduledPrePaid { background-image: url("../images/icons/secondary/Scheduledprepaid.png"); }
+
+.ui-icon_ScheduledTopUps { background-image: url("../images/icons/secondary/Scheduledtopups.png"); }
+
+.ui-icon_ScheduledTransfers { background-image: url("../images/icons/secondary/Scheduledtransfers.png"); }
+
+.ui-icon_Search1 { background-image: url("../images/icons/secondary/Search1.png"); }
+
+.ui-icon_Search2 { background-image: url("../images/icons/secondary/Search2.png"); }
+
+.ui-icon_Searchturq { background-image: url("../images/icons/secondary/Searchturq.png"); }
+
+.ui-icon_Search { background-image: url("../images/icons/secondary/Search.png"); }
+
+.ui-icon_SecurityCardPins { background-image: url("../images/icons/secondary/Securitycardpins.png"); }
+
+.ui-icon_Security { background-image: url("../images/icons/secondary/Security.png"); }
+
+.ui-icon_Security2 { background-image: url("../images/icons/secondary/Security2.png"); }
+
+.ui-icon_SecurityDigitalBankingLimits { background-image: url("../images/icons/secondary/Securitydigitalbankinglimits.png"); }
+
+.ui-icon_SecuritySoftware { background-image: url("../images/icons/secondary/Securitysoftware.png"); }
+
+.ui-icon_SecurityUsernameAndPassword { background-image: url("../images/icons/secondary/Securityusernameandpassword.png"); }
+
+.ui-icon_SendAMessage { background-image: url("../images/icons/secondary/Sendamessage.png"); }
+
+.ui-icon_Send { background-image: url("../images/icons/secondary/Send.png"); }
+
+.ui-icon_Send-receivecolour { background-image: url("../images/icons/secondary/Send-receivecolour.png"); }
+
+.ui-icon_Send-receive { background-image: url("../images/icons/secondary/Send-receive.png"); }
+
+.ui-icon_SendAMessage { background-image: url("../images/icons/secondary/Sendamessage.png"); }
+
+.ui-icon_settingsBtn { background-image: url("../images/icons/worlds/svg/settings.svg"); }
+
+.ui-icon_Settings { background-image: url("../images/icons/secondary/Settings.png"); }
+
+.ui-icon_Settings2 { background-image: url("../images/icons/secondary/Settings2.png"); }
+
+.ui-icon_ShareInfo { background-image: url("../images/icons/secondary/Shareinfo.png"); }
+
+.ui-icon_SharesAndGold { background-image: url("../images/icons/secondary/Sharesandgold.png"); }
+
+.ui-icon_SharesAndGoldInstructionMaintenance { background-image: url("../images/icons/secondary/Sharesandgoldinstructionmaintenance.png"); }
+
+.ui-icon_Shares { background-image: url("../images/icons/secondary/Shares.png"); }
+
+.ui-icon_SharesFAQs { background-image: url("../images/icons/secondary/Sharesfaqs.png"); }
+
+.ui-icon_Shield { background-image: url("../images/icons/secondary/Shield.png"); }
+
+.ui-icon_Shop { background-image: url("../images/icons/secondary/Shop.png"); }
+
+.ui-icon_SIMCardSettings { background-image: url("../images/icons/secondary/Simcardsettings.png"); }
+
+.ui-icon_Sim { background-image: url("../images/icons/secondary/Sim.png"); }
+
+.ui-icon_SIMblock { background-image: url("../images/icons/secondary/Simblock.png"); }
+
+.ui-icon_SimCard { background-image: url("../images/icons/secondary/Simcard.png"); }
+
+.ui-icon_SimCog { background-image: url("../images/icons/secondary/Simcog.png"); }
+
+.ui-icon_Simhistory { background-image: url("../images/icons/secondary/Simhistory.png"); }
+
+.ui-icon_Simnew { background-image: url("../images/icons/secondary/Simnew.png"); }
+
+.ui-icon_SIMSettingsHybridSIM { background-image: url("../images/icons/secondary/Simsettingshybridsim.png"); }
+
+.ui-icon_SIMSettingsPrepaidSIM { background-image: url("../images/icons/secondary/Simsettingsprepaidsim.png"); }
+
+.ui-icon_SIMTransactionalHistoryAll { background-image: url("../images/icons/secondary/Simtransactionalhistoryall.png"); }
+
+.ui-icon_SIMTransactionalHistoryCategory { background-image: url("../images/icons/secondary/Simtransactionalhistorycategory.png"); }
+
+.ui-icon_SIMTransactionalHistoryData { background-image: url("../images/icons/secondary/Simtransactionalhistorydata.png"); }
+
+.ui-icon_SIMTransactionalHistorySMS { background-image: url("../images/icons/secondary/Simtransactionalhistorysms.png"); }
+
+.ui-icon_SIMTransactionalHistoryVoice { background-image: url("../images/icons/secondary/Simtransactionalhistoryvoice.png"); }
+
+.ui-icon_SIMTransactionHistoryCategory { background-image: url("../images/icons/secondary/Simtransactionhistorycategory.png"); }
+
+.ui-icon_SIMTransactionHistoryDATA { background-image: url("../images/icons/secondary/Simtransactionhistorydata.png"); }
+
+.ui-icon_Smart_Device { background-image: url("../images/icons/secondary/Smart_device.png"); }
+
+.ui-icon_SmartAccount { background-image: url("../images/icons/secondary/Smartaccount.png"); }
+
+.ui-icon_Smartcard { background-image: url("../images/icons/secondary/Smartcard.png"); }
+
+.ui-icon_Smartphone { background-image: url("../images/icons/secondary/Smartphone.png"); }
+
+.ui-icon_SmartSave { background-image: url("../images/icons/secondary/Smartsave.png"); }
+
+.ui-icon_SocialResponsibility { background-image: url("../images/icons/secondary/Socialresponsibility.png"); }
+
+.ui-icon_SpeachBubbles2 { background-image: url("../images/icons/secondary/Speachbubbles2.png"); }
+
+.ui-icon_Specialisedlanding { background-image: url("../images/icons/secondary/Specialisedlanding.png"); }
+
+.ui-icon_Speedeeappuserguide { background-image: url("../images/icons/secondary/Speedeeappuserguide.png"); }
+
+.ui-icon_Speedpoint { background-image: url("../images/icons/secondary/Speedpoint.png"); }
+
+.ui-icon_Spend_Cats { background-image: url("../images/icons/secondary/Spend_cats.png"); }
+
+.ui-icon_Spendold { background-image: url("../images/icons/secondary/Spendold.png"); }
+
+.ui-icon_Star { background-image: url("../images/icons/secondary/Star.png"); }
+
+.ui-icon_StarSAT { background-image: url("../images/icons/secondary/Starsat.png"); }
+
+.ui-icon_StarSATTV { background-image: url("../images/icons/secondary/Starsattv.png"); }
+
+.ui-icon_Star_tick { background-image: url("../images/icons/secondary/Star_tick.png"); }
+
+.ui-icon_Startingout { background-image: url("../images/icons/secondary/Startingout.png"); }
+
+.ui-icon_Statement { background-image: url("../images/icons/secondary/Statement.png"); }
+
+.ui-icon_Statement2 { background-image: url("../images/icons/secondary/Statement2.png"); }
+
+.ui-icon_Stocks { background-image: url("../images/icons/secondary/Stocks.png"); }
+
+.ui-icon_Stokvel { background-image: url("../images/icons/secondary/Stokvel.png"); }
+
+.ui-icon_StopCheque { background-image: url("../images/icons/secondary/Stopcheque.png"); }
+
+.ui-icon_Stop { background-image: url("../images/icons/secondary/Stop.png"); }
+
+.ui-icon_StopDebitOrders { background-image: url("../images/icons/secondary/Stopdebitorders.png"); }
+
+.ui-icon_StraightToBudget { background-image: url("../images/icons/secondary/Straighttobudget.png"); }
+
+.ui-icon_StudentAccount { background-image: url("../images/icons/secondary/Studentaccount.png"); }
+
+.ui-icon_Student { background-image: url("../images/icons/secondary/Student.png"); }
+
+.ui-icon_Studentloan { background-image: url("../images/icons/secondary/Studentloan.png"); }
+
+.ui-icon_Student_loans { background-image: url("../images/icons/secondary/Student_loans.png"); }
+
+.ui-icon_SubmitBalanceSheet { background-image: url("../images/icons/secondary/Submitbalancesheet.png"); }
+
+.ui-icon_SubmitMyBalanceSheet { background-image: url("../images/icons/secondary/Submitmybalancesheet.png"); }
+
+.ui-icon_Suitcase2 { background-image: url("../images/icons/secondary/Suitcase2.png"); }
+
+.ui-icon_Suitcase { background-image: url("../images/icons/secondary/Suitcase.png"); }
+
+.ui-icon_Suitcase_stars { background-image: url("../images/icons/secondary/Suitcase_stars.png"); }
+
+.ui-icon_Suit { background-image: url("../images/icons/secondary/Suit.png"); }
+
+.ui-icon_SwitchUpgradeAccount { background-image: url("../images/icons/secondary/Switchupgradeaccount.png"); }
+
+.ui-icon_Tablet { background-image: url("../images/icons/secondary/Tablet.png"); }
+
+.ui-icon_TakeRisks { background-image: url("../images/icons/secondary/Takerisks.png"); }
+
+.ui-icon_TargetBalancing { background-image: url("../images/icons/secondary/TargetBalancing.png"); }
+
+.ui-icon_TaxFree { background-image: url("../images/icons/secondary/Taxfree.png"); }
+
+.ui-icon_TeachMyChild { background-image: url("../images/icons/secondary/Teachmychild.png"); }
+
+.ui-icon_Teen { background-image: url("../images/icons/secondary/Teen.png"); }
+
+.ui-icon_Telephone { background-image: url("../images/icons/secondary/Telephone.png"); }
+
+.ui-icon_Television { background-image: url("../images/icons/secondary/Television.png"); }
+
+.ui-icon_Telkom { background-image: url("../images/icons/secondary/Telkom.png"); }
+
+.ui-icon_Term_conditions { background-image: url("../images/icons/secondary/Term_conditions.png"); }
+
+.ui-icon_ThirdPartyFund_7DayNotice { background-image: url("../images/icons/secondary/Thirdpartyfund_7daynotice.png"); }
+
+.ui-icon_ThirdPartyFund_32DayNotice { background-image: url("../images/icons/secondary/Thirdpartyfund_32daynotice.png"); }
+
+.ui-icon_ThirdPartyFund_accountList { background-image: url("../images/icons/secondary/Thirdpartyfund_accountlist.png"); }
+
+.ui-icon_ThirdPartyFund_accountStatements { background-image: url("../images/icons/secondary/Thirdpartyfund_accountstatements.png"); }
+
+.ui-icon_ThirdPartyFund_active { background-image: url("../images/icons/secondary/Thirdpartyfund_active.png"); }
+
+.ui-icon_ThirdPartyFund_activeInvestmentAccounts { background-image: url("../images/icons/secondary/Thirdpartyfund_activeinvestmentaccounts.png"); }
+
+.ui-icon_ThirdPartyFund_callAccount { background-image: url("../images/icons/secondary/Thirdpartyfund_callaccount.png"); }
+
+.ui-icon_ThirdPartyFund_certificateOfBalance { background-image: url("../images/icons/secondary/Thirdpartyfund_certificateofbalance.png"); }
+
+.ui-icon_ThirdPartyFund_clients { background-image: url("../images/icons/secondary/Thirdpartyfund_clients.png"); }
+
+.ui-icon_ThirdPartyFund_closedAccounts { background-image: url("../images/icons/secondary/Thirdpartyfund_closedaccounts.png"); }
+
+.ui-icon_ThirdPartyFund_closedInvestmentAccounts { background-image: url("../images/icons/secondary/Thirdpartyfund_closedinvestmentaccounts.png"); }
+
+.ui-icon_ThirdPartyFund_deytailedBalance { background-image: url("../images/icons/secondary/Thirdpartyfund_deytailedbalance.png"); }
+
+.ui-icon_ThirdPartyFund_drafts { background-image: url("../images/icons/secondary/Thirdpartyfund_drafts.png"); }
+
+.ui-icon_ThirdPartyFund_emptyInvestmentAccounts { background-image: url("../images/icons/secondary/Thirdpartyfund_emptyinvestmentaccounts.png"); }
+
+.ui-icon_ThirdPartyFund_fixedDepositAccout { background-image: url("../images/icons/secondary/Thirdpartyfund_fixeddepositaccout.png"); }
+
+.ui-icon_ThirdPartyFund_inactive { background-image: url("../images/icons/secondary/Thirdpartyfund_inactive.png"); }
+
+.ui-icon_ThirdPartyFund_investmentMaintenance { background-image: url("../images/icons/secondary/Thirdpartyfund_investmentmaintenance.png"); }
+
+.ui-icon_ThirdPartyFund_lettersOfUndertaking { background-image: url("../images/icons/secondary/Thirdpartyfund_lettersofundertaking.png"); }
+
+.ui-icon_ThirdPartyFund_maturityInstruction { background-image: url("../images/icons/secondary/Thirdpartyfund_maturityinstruction.png"); }
+
+.ui-icon_ThirdPartyFund_newAccount { background-image: url("../images/icons/secondary/Thirdpartyfund_newaccount.png"); }
+
+.ui-icon_ThirdPartyFund_transHistory { background-image: url("../images/icons/secondary/Thirdpartyfund_transhistory.png"); }
+
+.ui-icon_ThirdPartyFund_trustAccounts { background-image: url("../images/icons/secondary/Thirdpartyfund_trustaccounts.png"); }
+
+.ui-icon_ThirdPartyFund_withdrawal { background-image: url("../images/icons/secondary/Thirdpartyfund_withdrawal.png"); }
+
+.ui-icon_Thumbsdown { background-image: url("../images/icons/secondary/Thumbsdown.png"); }
+
+.ui-icon_Thumbsup { background-image: url("../images/icons/secondary/Thumbsup.png"); }
+
+.ui-icon_Thumbsup2 { background-image: url("../images/icons/secondary/Thumbsup2.png"); }
+
+.ui-icon_Tick { background-image: url("../images/icons/secondary/Tick.png"); }
+
+.ui-icon_TickBox { background-image: url("../images/icons/secondary/Tickbox.png"); }
+
+.ui-icon_Ticket { background-image: url("../images/icons/secondary/Ticket.png"); }
+
+.ui-icon_TickUnderline { background-image: url("../images/icons/secondary/Tickunderline.png"); }
+
+.ui-icon_Tie2 { background-image: url("../images/icons/secondary/Tie2.png"); }
+
+.ui-icon_Tie { background-image: url("../images/icons/secondary/Tie.png"); }
+
+.ui-icon_Tie_question { background-image: url("../images/icons/secondary/Tie_question.png"); }
+
+.ui-icon_TillPoint { background-image: url("../images/icons/secondary/Tillpoint.png"); }
+
+.ui-icon_Tool { background-image: url("../images/icons/secondary/Tool.png"); }
+
+.ui-icon_Tools_teal { background-image: url("../images/icons/secondary/Tools_teal.png"); }
+
+.ui-icon_Tools { background-image: url("../images/icons/secondary/Tools.png"); }
+
+.ui-icon_TopUpsOnceOff { background-image: url("../images/icons/secondary/Topupsonceoff.png"); }
+
+.ui-icon_Trackter { background-image: url("../images/icons/secondary/Trackter.png"); }
+
+.ui-icon_Trade { background-image: url("../images/icons/secondary/Trade.png"); }
+
+.ui-icon_Tradecompare { background-image: url("../images/icons/secondary/Tradecompare.png"); }
+
+.ui-icon_TradeLinkOut { background-image: url("../images/icons/secondary/TradeLinkOut.png"); }
+
+.ui-icon_TradeOnceOff { background-image: url("../images/icons/secondary/Tradeonceoff.png"); }
+
+.ui-icon_TradeOtherTradeProducts { background-image: url("../images/icons/secondary/Tradeothertradeproducts.png"); }
+
+.ui-icon_Trafficfine { background-image: url("../images/icons/secondary/Trafficfine.png"); }
+
+.ui-icon_TrafficFines-52 { background-image: url("../images/icons/secondary/Trafficfines-52.png"); }
+
+.ui-icon_TrafficFines-65 { background-image: url("../images/icons/secondary/Trafficfines-65.png"); }
+
+.ui-icon_TrafficFines { background-image: url("../images/icons/secondary/Trafficfines.png"); }
+
+.ui-icon_TrafficOfficer { background-image: url("../images/icons/secondary/Trafficofficer.png"); }
+
+.ui-icon_Transact { background-image: url("../images/icons/secondary/Transact.png"); }
+
+.ui-icon_TransactionalBanking { background-image: url("../images/icons/secondary/Transactionalbanking.png"); }
+
+.ui-icon_TransactionHistory { background-image: url("../images/icons/secondary/Transactionhistory.png"); }
+
+.ui-icon_Transactions { background-image: url("../images/icons/secondary/Transactions.png"); }
+
+.ui-icon_TransferBetweenAccounts { background-image: url("../images/icons/secondary/Transferbetweenaccounts.png"); }
+
+.ui-icon_TransferBetweenAccountsTransfer { background-image: url("../images/icons/secondary/Transferbetweenaccountstransfer.png"); }
+
+.ui-icon_Transfer { background-image: url("../images/icons/secondary/Transfer.png"); }
+
+.ui-icon_Transferfundstobudget { background-image: url("../images/icons/secondary/Transferfundstobudget.png"); }
+
+.ui-icon_Transferhistory { background-image: url("../images/icons/secondary/Transferhistory.png"); }
+
+.ui-icon_Transferhistoryforeign { background-image: url("../images/icons/secondary/Transferhistoryforeign.png"); }
+
+.ui-icon_Transferscheduled { background-image: url("../images/icons/secondary/Transferscheduled.png"); }
+
+.ui-icon_TransportServices { background-image: url("../images/icons/secondary/Transportservices.png"); }
+
+.ui-icon_Travel { background-image: url("../images/icons/secondary/Travel.png"); }
+
+.ui-icon_Traveller { background-image: url("../images/icons/secondary/Traveller.png"); }
+
+.ui-icon_Tree { background-image: url("../images/icons/secondary/Tree.png"); }
+
+.ui-icon_TriangleExclamation { background-image: url("../images/icons/secondary/Triangleexclamation.png"); }
+
+.ui-icon_Truck { background-image: url("../images/icons/secondary/Truck.png"); }
+
+.ui-icon_TwoUsers { background-image: url("../images/icons/secondary/Twousers.png"); }
+
+.ui-icon_Types { background-image: url("../images/icons/secondary/Types.png"); }
+
+.ui-icon_Umbrella { background-image: url("../images/icons/secondary/Umbrella.png"); }
+
+.ui-icon_Umbrella_commercial { background-image: url("../images/icons/secondary/Umbrella_commercial.png"); }
+
+.ui-icon_UnitTrusts { background-image: url("../images/icons/secondary/Unittrusts.png"); }
+
+.ui-icon_Upanddown { background-image: url("../images/icons/secondary/Upanddown.png"); }
+
+.ui-icon_Up { background-image: url("../images/icons/secondary/Up.png"); }
+
+.ui-icon_Update { background-image: url("../images/icons/secondary/Update.png"); }
+
+.ui-icon_Upload_documents { background-image: url("../images/icons/secondary/Upload_documents.png"); }
+
+.ui-icon_UploadsOrderForex { background-image: url("../images/icons/secondary/Uploadsorderforex.png"); }
+
+.ui-icon_UploadsTrade { background-image: url("../images/icons/secondary/Uploadstrade.png"); }
+
+.ui-icon_Vacant { background-image: url("../images/icons/secondary/Vacant.png"); }
+
+.ui-icon_ValidateRecipient { background-image: url("../images/icons/secondary/Validaterecipient.png"); }
+
+.ui-icon_VerifyAccountOwner { background-image: url("../images/icons/secondary/Verifyaccountowner.png"); }
+
+.ui-icon_Verify { background-image: url("../images/icons/secondary/Verify.png"); }
+
+.ui-icon_ViewAll { background-image: url("../images/icons/secondary/Viewall.png"); }
+
+.ui-icon_View { background-image: url("../images/icons/secondary/View.png"); }
+
+.ui-icon_ViewPublicRecipient { background-image: url("../images/icons/secondary/Viewpublicrecipient.png"); }
+
+.ui-icon_ViewPUK { background-image: url("../images/icons/secondary/Viewpuk.png"); }
+
+.ui-icon_Voice { background-image: url("../images/icons/secondary/Voice.png"); }
+
+.ui-icon_Vumela { background-image: url("../images/icons/secondary/Vumela.png"); }
+
+.ui-icon_Wallet2 { background-image: url("../images/icons/secondary/Wallet2.png"); }
+
+.ui-icon_Watchlist { background-image: url("../images/icons/secondary/Watchlist.png"); }
+
+.ui-icon_WaysToBank_teal { background-image: url("../images/icons/secondary/Waystobank_teal.png"); }
+
+.ui-icon_WaysToBank { background-image: url("../images/icons/secondary/Waystobank.png"); }
+
+.ui-icon_Webroot { background-image: url("../images/icons/secondary/Webroot.png"); }
+
+.ui-icon_WhatYouCanDo { background-image: url("../images/icons/secondary/Whatyoucando.png"); }
+
+.ui-icon_Wheelbarrow { background-image: url("../images/icons/secondary/Wheelbarrow.png"); }
+
+.ui-icon_Why { background-image: url("../images/icons/secondary/Why.png"); }
+
+.ui-icon_Wills { background-image: url("../images/icons/secondary/Wills.png"); }
+
+.ui-icon_Withdraw { background-image: url("../images/icons/secondary/Withdraw.png"); }
+
+.ui-icon_WithNotice { background-image: url("../images/icons/secondary/Withnotice.png"); }
+
+.ui-icon_Xbutton { background-image: url("../images/icons/secondary/Xbutton.png"); }
+
+.ui-icon_Young { background-image: url("../images/icons/secondary/Young.png"); }
+
+.ui-icon_YoungProfesional { background-image: url("../images/icons/secondary/Youngprofesional.png"); }
+
+.ui-icon_YourPrivateBanker { background-image: url("../images/icons/secondary/Yourprivatebanker.png"); }
+
+.ui-icon_Youth { background-image: url("../images/icons/secondary/Youth.png"); }
+
+.ui-icon_Zero { background-image: url("../images/icons/secondary/Zero.png"); }
+
+.ui-icon_Zim { background-image: url("../images/icons/secondary/Zim.png"); }
+
+.ui-icon_ZimFlag { background-image: url("../images/icons/secondary/Zimflag.png"); }
+
+.ui-icon_UseExisting { background-image: url("../images/icons/secondary/UseExisting.png"); }
+
+.ui-icon_CreateNew { background-image: url("../images/icons/secondary/CreateNew.png"); }
+
+.ui-icon_DownloadSoftware { background-image: url("../images/icons/secondary/DownloadSoftware.png"); }
+
+.ui-icon_DownloadCsv { background-image: url("../images/icons/secondary/Downloadcsv.png"); }
+
+.ui-icon_DocumentPerson { background-image: url("../images/icons/secondary/DocumentPerson.png"); }
+
+.ui-icon_DocumentHouse { background-image: url("../images/icons/secondary/DocumentHouse.png"); }
+
+.ui-icon_Person3 { background-image: url("../images/icons/secondary/Person3.png"); }
+
+.ui-icon_Person4 { background-image: url("../images/icons/secondary/Person4.png"); }
+
+.ui-icon_personArrows { background-image: url("../images/icons/secondary/PersonArrows.png"); }
+
+.ui-icon_people2 { background-image: url("../images/icons/secondary/People2.png"); }
+
+.ui-icon_applyNow { background-image: url("../images/icons/worlds/svg/applyNow.svg"); }
+
+.ui-icon_reserved3PIM { background-image: url("../images/icons/worlds/svg/3PIM.svg"); }
+
+.ui-icon_reservedMyBankAccounts, .ui-icon_reservedAccounts { background-image: url("../images/icons/worlds/svg/accounts.svg"); }
+
+.ui-icon_reservedAccountverification { background-image: url("../images/icons/worlds/AccountVerification.png"); }
+
+.ui-icon_reservedAirtimeAndBundles { background-image: url("../images/icons/worlds/AitimeAndBundles.png"); }
+
+.ui-icon_reservedAuthorise { background-image: url("../images/icons/worlds/svg/authorise.svg"); }
+
+.ui-icon_reservedBalanceview { background-image: url("../images/icons/worlds/BalanceView.png"); }
+
+.ui-icon_reservedBusinessDirectory { background-image: url("../images/icons/worlds/BusinessDirectory.png"); }
+
+.ui-icon_Businesssolutions, .ui-icon_reservedBusinessSolutions { background-image: url("../images/icons/worlds/svg/businessSolutions.svg"); }
+
+.ui-icon_reservedBuy { background-image: url("../images/icons/worlds/svg/buy.svg"); }
+
+.ui-icon_reservedCashman { background-image: url("../images/icons/worlds/Cashman.png"); }
+
+.ui-icon_reservedClients { background-image: url("../images/icons/worlds/Clients.png"); }
+
+.ui-icon_reservedCollections { background-image: url("../images/icons/worlds/svg/collections.svg"); }
+
+.ui-icon_reservedDevices { background-image: url("../images/icons/worlds/Devices.png"); }
+
+.ui-icon_reservedDownload { background-image: url("../images/icons/worlds/svg/downloads.svg"); }
+
+.ui-icon_reservedElectricity { background-image: url("../images/icons/worlds/Electricity.png"); }
+
+.ui-icon_reservedEntertainment { background-image: url("../images/icons/worlds/Entertainment.png"); }
+
+.ui-icon_reservedEwallet { background-image: url("../images/icons/worlds/ewallet.png"); }
+
+.ui-icon_reservedeWalletPro { background-image: url("../images/icons/worlds/eWalletPro.png"); }
+
+.ui-icon_reservedExports { background-image: url("../images/icons/worlds/Export.png"); }
+
+.ui-icon_reservedEziCollections { background-image: url("../images/icons/worlds/eZiCollections.png"); }
+
+.ui-icon_reservedForex { background-image: url("../images/icons/worlds/svg/forex.svg"); }
+
+.ui-icon_reservedGlobalPayments { background-image: url("../images/icons/worlds/GlobalPayments.png"); }
+
+.ui-icon_reservedGlobalReceipts { background-image: url("../images/icons/worlds/GlobalReceipts.png"); }
+
+.ui-icon_reservedGlobalTransfers { background-image: url("../images/icons/worlds/GlobalTransfers.png"); }
+
+.ui-icon_reservedHelp { background-image: url("../images/icons/worlds/svg/help.svg"); }
+
+.ui-icon_reservedHistory { background-image: url("../images/icons/worlds/LoginHistory.png"); }
+
+.ui-icon_reservedInformation { background-image: url("../images/icons/worlds/Information.png"); }
+
+.ui-icon_reservedInstantSolutions { background-image: url("../images/icons/worlds/InstantSolutions.png"); }
+
+.ui-icon_reservedInsurance { background-image: url("../images/icons/worlds/svg/insurance.svg"); }
+
+.ui-icon_reservedInsight360 { background-image: url("../images/icons/worlds/Insight360.png"); }
+
+.ui-icon_reservedInvestmentAccounts { background-image: url("../images/icons/worlds/InvestmentsAccount.png"); }
+
+.ui-icon_reservedInvestments { background-image: url("../images/icons/worlds/Investments.png"); }
+
+.ui-icon_reservedLimits { background-image: url("../images/icons/worlds/DigitalBankingLimits.png"); }
+
+.ui-icon_reservedLiquidityManagement { background-image: url("../images/icons/worlds/svg/liquidityManagement.svg"); }
+
+.ui-icon_logoutBtn, .ui-icon_reservedLogoff { background-image: url("../images/icons/worlds/svg/logoff.svg"); }
+
+.ui-icon_reservedLotto { background-image: url("../images/icons/worlds/Lotto.png"); }
+
+.ui-icon_reservedMerchantInsights { background-image: url("../images/icons/worlds/MerchantInsights.png"); }
+
+.ui-icon_Messages, .ui-icon_reservedMessages { background-image: url("../images/icons/worlds/svg/messages.svg"); }
+
+.ui-icon_reservedMyBankAccounts { background-image: url("../images/icons/worlds/Accounts.png"); }
+
+.ui-icon_reservedMyCards { background-image: url("../images/icons/worlds/Cards.png"); }
+
+.ui-icon_reservedMyClaims { background-image: url("../images/icons/worlds/Claims.png"); }
+
+.ui-icon_reservedMyMoney { background-image: url("../images/icons/worlds/svg/mymoney.svg"); }
+
+.ui-icon_reservedMyNetWorth { background-image: url("../images/icons/worlds/NetBalanceSheet.png"); }
+
+.ui-icon_reservedMyPolicies { background-image: url("../images/icons/worlds/Policy.png"); }
+
+.ui-icon_reservedMyPortfolio { background-image: url("../images/icons/worlds/Portfolio.png"); }
+
+.ui-icon_reservedMyProfile { background-image: url("../images/icons/worlds/Profile.png"); }
+
+.ui-icon_reservedNav { background-image: url("../images/icons/worlds/svg/nav.svg"); }
+
+.ui-icon_reservedNews { background-image: url("../images/icons/worlds/News.png"); }
+
+.ui-icon_reservedNotifications { background-image: url("../images/icons/worlds/Notifications.png"); }
+
+.ui-icon_reservedOrderForex { background-image: url("../images/icons/worlds/OrderForex.png"); }
+
+.ui-icon_reservedOTP { background-image: url("../images/icons/worlds/OTP.png"); }
+
+.ui-icon_reservedOverview { background-image: url("../images/icons/worlds/Viewall.png"); }
+
+.ui-icon_reservedPayments { background-image: url("../images/icons/worlds/svg/pay.svg"); }
+
+.ui-icon_reservedPaypal { background-image: url("../images/icons/worlds/PayPal.png"); }
+
+.ui-icon_reservedPermissions { background-image: url("../images/icons/worlds/Permissions.png"); }
+
+.ui-icon_reservedPersonalPreferences { background-image: url("../images/icons/worlds/PersonalDetails.png"); }
+
+.ui-icon_reservedPowerball { background-image: url("../images/icons/worlds/Powerball.png"); }
+
+.ui-icon_reservedPortfolio { background-image: url("../images/icons/worlds/Portfolio.png"); }
+
+.ui-icon_reservedProfiles { background-image: url("../images/icons/worlds/svg/profiles.svg"); }
+
+.ui-icon_Recipients, .ui-icon_reservedRecipients { background-image: url("../images/icons/worlds/svg/recipients.svg"); }
+
+.ui-icon_reservedReports { background-image: url("../images/icons/worlds/Reports.png"); }
+
+.ui-icon_reservedRewards { background-image: url("../images/icons/worlds/svg/rewards.svg"); }
+
+.ui-icon_reservedRMBLife { background-image: url("../images/icons/worlds/Rmblife.png"); }
+
+.ui-icon_reservedSecure { background-image: url("../images/icons/worlds/Security2.png"); }
+
+.ui-icon_reservedSendMoney { background-image: url("../images/icons/worlds/svg/sendmoney.svg"); }
+
+.ui-icon_reservedSettings { background-image: url("../images/icons/worlds/svg/settings.svg"); }
+
+.ui-icon_reservedSettlementLimits { background-image: url("../images/icons/worlds/Settlement.png"); }
+
+.ui-icon_reservedSharesAndGold, .ui-icon_reservedSharesGold { background-image: url("../images/icons/worlds/svg/sharesAndGold.svg"); }
+
+.ui-icon_reservedSweepingPlan { background-image: url("../images/icons/worlds/Plane.png"); }
+
+.ui-icon_reservedTermsConditions { background-image: url("../images/icons/worlds/svg/termsAndConditions.svg"); }
+
+.ui-icon_reservedToMozambique { background-image: url("../images/icons/worlds/SendMoz.png"); }
+
+.ui-icon_reservedToZimbabwe { background-image: url("../images/icons/worlds/SendZim.png"); }
+
+.ui-icon_reservedTrade { background-image: url("../images/icons/worlds/Trade.png"); }
+
+.ui-icon_reservedTransfers { background-image: url("../images/icons/worlds/svg/transfer.svg"); }
+
+.ui-icon_reservedTrendMicro { background-image: url("../images/icons/worlds/TrendMicro.png"); }
+
+.ui-icon_reservedTrustAccount { background-image: url("../images/icons/worlds/TrustAccount.png"); }
+
+.ui-icon_reservedUploads { background-image: url("../images/icons/worlds/Uploads.png"); }
+
+.ui-icon_reservedVault { background-image: url("../images/icons/worlds/Vault.png"); }
+
+.ui-icon_reservedVerify { background-image: url("../images/icons/worlds/AccountVerification.png"); }
+
+.ui-icon_reservedWills { background-image: url("../images/icons/worlds/Will.png"); }
+
+.ui-icon_adoptabrightcentre { background-image: url("../images/icons/worlds/svg/adoptabrightcentre.svg"); }
+
+.ui-icon_annualresults { background-image: url("../images/icons/worlds/svg/annualresults.svg"); }
+
+.ui-icon_BusinessMan { background-image: url("../images/icons/worlds/svg/BusinessMan.svg"); }
+
+.ui-icon_fnbcitizen { background-image: url("../images/icons/worlds/svg/fnbcitizen.svg"); }
+
+.ui-icon_fnbtv { background-image: url("../images/icons/worlds/svg/fnbtv.svg"); }
+
+.ui-icon_ManSplit { background-image: url("../images/icons/worlds/svg/ManSplit.svg"); }
+
+.ui-icon_mefnb { background-image: url("../images/icons/worlds/svg/mefnb.svg"); }
+
+.ui-icon_sync { background-image: url("../images/icons/worlds/svg/sync.svg"); }

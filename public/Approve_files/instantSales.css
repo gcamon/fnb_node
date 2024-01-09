@@ -1,0 +1,752 @@
+#eziCoreContainer.instantSales [data-role="eziInner"] {
+	background: #fff;
+}
+
+#eziCoreContainer.instantSales .gridGroupInner {
+     display: table!important;
+}
+
+#eziCoreContainer.instantSales #eziPannelButtons{
+     width: 98%!important;
+}
+
+#eziCoreContainer.instantSales .instantSalesEzi02{
+	display: none!important;
+}
+
+#eziCoreContainer.instantSales .isTabMenu{
+    height: 48px;
+    position: relative;
+    width: 100%;
+    top: 10%;
+    clear: both;
+    background-color: #FFF;
+    border-bottom: 1px solid #dadada;
+}
+
+
+
+
+#eziCoreContainer.instantSales .isTabMenu h2 {
+    cursor: pointer;
+    color: #a7a9ac;
+    border-bottom: 3px solid white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: initial;
+}
+
+#eziCoreContainer.instantSales .instantSalesTopMenu {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    float: left!important;
+    cursor: pointer;
+}
+
+#eziCoreContainer.instantSales .isSubMenuItem{
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+#eziCoreContainer.instantSales .selectedTopMenuItem{
+	background-color: #FFF;
+    border-bottom: 3px solid #01aaad!important;
+    cursor: default;
+}
+
+#eziCoreContainer.instantSales .moreButtonContainer{
+	clear:both;
+}
+
+#eziCoreContainer.instantSales .instantSalesTopMenu h2, #eziCoreContainer.instantSales h3 {
+    font-size: 13px;
+    line-height: 22px;
+    width: 100%;
+    padding: 18px 8px 0px 7px;
+
+}
+
+#eziCoreContainer.instantSales .isProductShopContent {
+    margin: 0 auto!important;
+}
+
+#eziCoreContainer.instantSales .accGroupItemContentWrapper h2{
+     border-top: none;
+     border-bottom: 1px solid black;
+     margin-bottom: 4px;
+}
+
+
+#eziCoreContainer.instantSales .buttonRow .showroomTitle  {
+    float: left;
+    padding-top: 12px;
+    line-height: 24px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+
+
+
+
+#eziCoreContainer.instantSales #eziHeaderDiv h2 {
+    font-size: 27px;
+    padding: 3px 2px 3px 0px;
+    line-height: 24px;
+    font-weight: bold;
+    border-top: none;
+}
+
+#eziCoreContainer.instantSales #eziHeaderDiv p {
+	font-size: 14px;
+    margin: 0px;
+    padding: 0px 8px 3px 5px
+}
+
+#eziCoreContainer.instantSales #eziPannelButtonsWrapper{
+	clear:both;
+}
+
+#eziCoreContainer.instantSales {
+margin: 0% 2%;
+}
+
+#eziCoreContainer.instantSales .buttonRow {
+	display: block;
+	width: 100%;
+	clear: both;
+	float: left;
+	padding: 0px 8px 8px 8px;
+}
+
+#eziCoreContainer.instantSales .sofAddButton {
+	display: block;
+	width: 100%;
+	clear: both;
+	float: left;
+	padding: 0px 0px 20px 0px;
+}
+
+#eziCoreContainer.instantSales .sofAddButton{	
+    min-height: 30px!important;
+    width: 100%!important;
+    background-size: 28px 28px!important;
+}
+
+#eziCoreContainer.instantSales .sofAddButton:hover{	
+    background-size: 24px 24px!important;
+    background-position: 3px 3px!important;
+}
+
+#eziCoreContainer.instantSales .sofAddButton .dataButtonLabel {
+    background-color: white!important;
+    color: black;
+    line-height: 24px;
+    padding: 4px 8px 3px 8px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+    margin: 1px 1px 0px 28px;
+}
+
+#eziCoreContainer.instantSales #sourceOFFundsItem .removeBtnClass p{
+   	text-align: right;
+}
+
+#eziCoreContainer.instantSales #sourceOFFundsItem .col2 {
+    width: 50%;
+}
+
+#eziCoreContainer.instantSales #sofSelectedList{
+	    margin-bottom: 5px;
+}
+
+#eziCoreContainer.instantSales #sourceOfFundsDiv .mainHeaderTableRow,
+#eziCoreContainer.instantSales #sourceOfFundsDiv .mainTableRow, 
+#eziCoreContainer.instantSales #sofList .addTableRow  {
+    border-bottom: none;
+}
+
+#eziCoreContainer.instantSales .tableHeaderRow{
+	display: block;
+    width: 100%;
+    clear: both;
+    float: left;
+    color: black;
+    font-family: inherit;    
+    text-align: left;
+    font-weight: bold;
+    padding-top:7px;
+    background: #EFEFEF;
+    border-bottom: 2px solid black !important;
+}
+#eziCoreContainer.instantSales .buttonRow span {
+	float: left;
+	padding-top: 6px;
+	line-height: 24px;
+	font-size: 13px;
+}
+
+#eziCoreContainer.instantSales [data-role="dataButton"]{
+    clear: both;
+    cursor: pointer;
+    min-height: 45px;
+    width: 45px;
+    background: url('/Sales/03images/sales/02icons/reserved_icon_Plus_colour_orange.png');
+    background-size: 45px 45px;
+    border-bottom: none!important;
+    background-repeat: no-repeat;
+    -webkit-transition: all.2s;
+    -moz-transition: all.2s;
+    -o-transition: all.2s;
+    transition: all.2s;
+    background-color: white;
+}
+
+#eziCoreContainer.instantSales [data-role="dataButton"]:hover {
+    background-position: 12px 8px;
+    background-size: 50% 50%;
+    -webkit-transition: all.2s;
+    -moz-transition: all.2s;
+    -o-transition: all.2s;
+    transition: all.2s;
+}
+
+#eziCoreContainer.instantSales .buttonRow .dataButtonLabel{
+    background-color: white!important;
+    padding: 0px 0px 0px 0px;
+    display: none;
+}
+
+
+#eziCoreContainer.instantSales .buttonRow a {
+	float: right;
+}
+
+#eziCoreContainer.instantSales [data-role="formElementLabelInner"] {
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 6px 0px 0px 0px;
+}
+
+#eziCoreContainer.instantSales .stepsContainer {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+#eziCoreContainer.instantSales .stepsInner {
+    width: auto;
+    clear: both;
+}
+
+#eziCoreContainer.instantSales .stepBox {
+	float: left;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#eziCoreContainer.instantSales .stepsContainer .stepBox {
+	background: #D8D8D8;
+	color: #fff;
+	padding: 2px 5px;
+	margin: 0 5px 5px 5px;
+}
+
+#eziCoreContainer.instantSales .stepsContainer .stepBox.highlighted {
+	background: #009999;
+	color: #fff;
+}
+
+#eziCoreContainer.instantSales .selectedCard {
+	clear: both;
+	margin: 10px 0;
+}
+
+
+#eziCoreContainer.instantSales .selectedCard img {
+    width: 9%;
+    height: 13%
+}
+
+#eziCoreContainer.instantSales .selectedCard .width50 {
+	width: 50%;
+	float: left;
+}
+
+#eziCoreContainer.instantSales .selectedCardContainer a {
+	float: right;
+	font-weight: normal;
+	padding: 0px 8px 0px 0px
+}
+
+#eziCoreContainer.instantSales .selectedCard {
+	font-weight: bold;
+	padding: 0px 0px 0px 8px
+}
+
+#eziCoreContainer.instantSales .iconLinksWidget {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 8px;
+}
+
+#eziCoreContainer.instantSales .iconContainer {
+    height: 10px;
+    line-height: 10px;
+    display: block;
+    margin: 0px 0px 10px 6px;
+    padding: 0px 0px 0px 14px;
+    cursor: pointer;
+    position: relative;
+    font-size: 13px;
+}
+#eziCoreContainer.instantSales .iconContainer a {
+	text-decoration: none;
+}
+#eziCoreContainer.instantSales .iconContainer.Cellphone {
+    background: url("/Sales/03images/sales/01global/tick_black.png") no-repeat;
+}
+#eziCoreContainer.instantSales .iconContainer.Ebucks {
+	    background: url("/Sales/03images/sales/01global/tick_black.png") no-repeat;
+}
+#eziCoreContainer.instantSales .iconContainer.Screen {
+	    background: url("/Sales/03images/sales/01global/tick_black.png") no-repeat;
+}
+#eziCoreContainer.instantSales .iconContainer .iconContent{
+		position:absolute;
+		width:100%;
+		top:0px;
+		left:0px;
+		background:white;
+		display:none;	
+}
+
+#eziCoreContainer.instantSales .customiseContainerInner{
+	width:50%;
+}
+
+#eziCoreContainer.instantSales .isQualifyColumnContainer{
+	width:50%;
+}
+
+#eziCoreContainer.instantSales .isCustomiseColumnContainer{
+    margin-top: 8%;
+}
+
+
+#eziCoreContainer.instantSales .isCustomiseProductLineHolder{
+    background: #dadada;
+    height: 192px;
+    width: 100%;
+    margin: 5% 0 0 0;
+}
+
+#eziCoreContainer.instantSales .selectedCardContainer{
+    margin: 15px 20px 0px 16px;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine1{
+    float: left;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 1%;
+    width: 15%;
+    min-height: 80%;;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine1 img{
+    width: 100%;
+    height: 50%;
+    box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.25);
+}
+
+#eziCoreContainer.instantSales .isproductGridLine1 [data-role="dataButton"] {
+	margin: 0px 0px 0px 40px!important;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine2{
+    width: 24%;
+    float: left;
+    top: 6%;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    padding: 0px 3px 0 5px;
+    margin: 0px 0px 0px 3px;
+    min-height: 80%;
+    position: relative;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine2 h2{
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+    padding: 0px 8px 0px 0px;
+    margin: 11px 0px 8px 0px;
+    font-weight: bold;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine2 [data-role="dataButton"] {
+	    margin: 0px 0px 0px 7px!important;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine2 p{
+    font-size: 13px;
+    line-height: 16px;
+    padding: 11px 8px 4px 7px;
+    margin: 0px 0px 8px 0px;x;
+}
+
+#eziCoreContainer.instantSales #overdraftDisplayStyle{
+	padding: 25px 0 0 0;
+}
+
+
+#eziCoreContainer.instantSales .isproductGridLine3{
+    min-height: 80%;
+    width: 29%;
+    padding: 1px 5px 12px 6px;
+    float: left;
+    position: relative;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 1%;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine3 p{
+    font-size: 13px;
+    line-height: 16px;
+    padding: 11px 8px 4px 7px;
+    margin: 0px 0px 8px 0px;x;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine3 a{
+	padding-left: 2%;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine4{
+    min-height: 80%;
+    width: 25%;
+    top: 10%;
+    padding: 2px 2px 8px 0px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#eziCoreContainer.instantSales .isproductGridLine5{float: left; margin: 62px 10px 0 10px;}
+#eziCoreContainer.instantSales .isproductGridLine6{float: left; margin: 62px 10px 0 10px;}
+
+#eziCoreContainer.instantSales .isproductGridLine7{
+	float: left;
+	margin: 31px 10px 0 30px;
+}
+
+#eziCoreContainer.instantSales .issalesDowngradeFormButton{
+    width: 75%;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    background: #ff9900;
+    border: 1px solid #ff9900;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 10% 0 0 10%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    text-align: center	
+}
+
+
+#eziCoreContainer.instantSales #ssaYouAlsoGetTitle{}
+#eziCoreContainer.instantSales #ssaYouAlsoGetWrapper {
+  font-size: 1.4em;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#eziCoreContainer.instantSales .ssaYouAlsoGetItem{vertical-align:middle;}
+#eziCoreContainer.instantSales .ssaYouAlsoGetItemInner{
+  background: url("/Sales/03images/sales/01global/tick_black.png") no-repeat left center;
+  padding: 0px 2px 0px 15px;
+  cursor: pointer;
+}
+
+#eziCoreContainer.instantSales #youAlsoGetEbucks {
+	background:url("/Sales/03images/sales/01global/tick_black.png") no-repeat left center;
+}
+
+#eziCoreContainer.instantSales #isCustomiseColumnContainer [data-type="button"]{
+    background-color: #FFF;
+    color: #000;
+    vertical-align: middle;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+#eziCoreContainer.instantSales #viewAdjustAffordability {
+    display: inline-block;
+    padding: 0px 0px 0px 13px;
+    border-bottom: none!important;
+    background: url('/Sales/03images/sales/01global/arrow_right_black.png') left 6px no-repeat;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    font-size: 13px;
+    margin-left: 1%;
+}
+
+#eziCoreContainer.instantSales h2#finishHeader{
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 1px solid #fbfbfb;
+    margin-bottom: 1%;
+    padding-bottom: 1%; 
+}
+
+#eziCoreContainer.instantSales #viewAdjustAffordability:hover {
+	background: url('/Sales/03images/sales/01global/arrow_right_black.png') 6px no-repeat;
+	
+}
+
+#eziCoreContainer.instantSales .moreButtonContainer [data-type="button"]{
+    background: url('')!important;
+    border: 0px solid #ff9900!important;
+    color: #FFF!important;
+    background: #ff9900!important;
+    border: 1px solid #ff9900!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    border-radius: 6px!important;
+    display: inline-block!important;
+    
+    color: #FFF; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    float: right;
+    transition: all .2s;
+    position: absolute;
+    margin: -5px 0px 0px 5px;
+}
+
+#eziCoreContainer.instantSales .selectedCard  [data-type="button"]{
+    width: 100%;
+    color: #FFF!important;
+    background: #ff9900!important;
+    border: 1px solid #ff9900!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    border-radius: 6px!important;
+    display: inline-block!important;
+    color: #FFF -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+#eziCoreContainer.instantSales .isCustomCardTopBlockDividerBackFontUpSize{
+    font-size: 27px;
+    margin: 0 0 -3px -2px;
+    padding: 3px 0 0 0;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#eziCoreContainer.instantSales .isCustomCardTopBlockDividerBackFontUpSize p{
+    margin: 5px auto;
+}
+
+#eziCoreContainer.instantSales #isErrorMessage p {
+	font-size: 14px;
+    margin: 0px;
+    padding: 0px 8px 3px 5px
+}
+
+#eziCoreContainer.instantSales #isThankYouContainer{
+	text-align: center;
+}
+
+
+#eziCoreContainer.instantSales #finishImage{
+	margin: 20px 0 10px 20px;
+}
+
+#eziCoreContainer.instantSales #eziFinishTopSection{
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    background: #009999;
+    color: #FFF;
+    padding-bottom: 1%;
+}
+
+#eziCoreContainer.instantSales #eziFinishMessage{
+    border-bottom: 1px solid #000;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+
+#eziCoreContainer.instantSales .isBlockContentClass{
+	display: none;
+}
+#eziCoreContainer.instantSales .isBlockDisplayClass{
+	display: block;
+}
+
+#eziCoreContainer.instantSales #isLimitOptions{
+	max-height: 30%;
+    margin-top: 2%;
+}
+
+#eziCoreContainer.instantSales .isClearBoth{
+	clear: both;
+}
+
+#eziCoreContainer.instantSales .customCardTopBlockHighLightColor{
+	background-color:#FFF;
+}
+#eziCoreContainer.instantSales .customCardContentBlockDividerBack{
+	border-left-color: #FFF;
+	border-left-style: solid;
+	border-left-width: 7px;
+	padding: 0px 7px 7px 7px;
+	font-size: 1.4em;
+	text-align: right;
+}
+
+#eziCoreContainer.instantSales #blockA{
+  cursor: pointer;
+  float: left; 
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30%;
+  text-align: center;
+  width: 50%;
+  border-right: 1px solid black;
+  padding-top: 1%;
+}
+
+#eziCoreContainer.instantSales #blockB{
+  cursor: pointer;
+  float: left; 
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30%;
+  text-align: center;
+  width: 50%;
+  padding-top: 1%;
+  border-right: 1px solid black;
+}
+
+#eziCoreContainer.instantSales #blockC{
+  cursor: pointer;
+  float: left;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30%;
+  text-align: center;
+  width: 50%;
+  padding-top: 1%;
+}
+
+#eziCoreContainer.instantSales .isCustomCardTopBlockDividerBack{
+	padding-bottom: 1%;
+}
+
+#eziCoreContainer.instantSales .isBlockBImage{
+  background-image: url(/Sales/03images/sales/02icons/icon_Accounts_colour_teal.png);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: all.2s;
+  -moz-transition: all.2s;
+  -o-transition: all.2s;
+  transition: all.2s;
+  width: 48px;
+  height: 48px;  
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 3px auto;
+  padding: 0x 0px 0px 0px;
+}
+
+#eziCoreContainer.instantSales .isBlockCImage{
+  background-image: url(/Sales/03images/sales/02icons/icon_cellPay_colour_turq.png);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: all.2s;
+  -moz-transition: all.2s;
+  -o-transition: all.2s;
+  transition: all.2s;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 3px auto;
+  padding: 0x 0px 0px 0px;
+}
+
+#eziCoreContainer.instantSales .isTextAlignReset{
+	text-align: left;
+}
+
+#eziCoreContainer.instantSales .eziInnerTwo{
+	bottom:0px;
+	height:95%!important;
+	padding-bottom:85px;
+}
+

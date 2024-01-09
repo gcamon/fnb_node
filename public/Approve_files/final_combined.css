@@ -1,0 +1,76 @@
+/*HELPER STYES
+	Developer: Mike Stott, Donovan Phillips
+*/
+
+[data-transparent="true"] {
+	opacity: 0;
+}
+/*LAYER INDEXES
+	Developer: Mike Stott
+*/
+.index10 {
+	z-index: 10;
+}
+.index20 {
+	z-index: 20;
+}
+.index30 {
+	z-index: 30;
+}
+.index40 {
+	z-index: 40;
+}
+.index50 {
+	z-index: 50;
+}
+.index60 {
+	z-index: 60;
+}
+.index70 {
+	z-index: 70;
+}
+.index80 {
+	z-index: 80;
+}
+.index90 {
+	z-index: 90;
+}
+.index100 {
+	z-index: 100;
+}
+/*left offsets for positioning*/
+[data-leftOffset="1"] {
+	margin-left: 10%
+}
+
+[data-leftOffset="2"] {
+	margin-left: 20%
+}
+
+[data-leftOffset="3"] {
+	margin-left: 30%
+}
+
+[data-leftOffset="4"] {
+	margin-left: 40%
+}
+
+[data-leftOffset="5"] {
+	margin-left: 50%
+}
+
+[data-leftOffset="6"] {
+	margin-left: 0%
+}
+
+[data-leftOffset="7"] {
+	margin-left: 25%
+}
+
+[data-leftOffset="8"] {
+	margin-left: 50%
+}
+
+[data-leftOffset="9"] {
+	margin-left: 75%
+}

@@ -1,0 +1,272 @@
+/* Developer: Donovan */
+
+.dashBoardBorderBottom{
+	/*border-bottom: 1px solid #000;*/
+}
+
+.dashBoardBorderBottomGrey{
+     /*  border-bottom: 1px solid #cccccc;*/
+}
+
+.simUsageHyperlinkAlignRight{
+    width:100%;
+    text-align: right;
+    display: block;
+    padding-right: 8px;
+}
+
+[data-role="dashBoard"] {
+	background: #fff;
+	width: 100%;
+	display: table;
+}
+
+[data-role="widgetHeading"] {
+/*	background: #f2f2f2*/
+}
+
+[data-role="dashBoardLeftColumn"] {
+	width: 50%;
+	display: table-cell;
+}
+
+.mobileDasboard [data-role="dashBoardLeftColumn"] {
+	width: 100%!important;
+}
+
+[data-role="dashBoardRightColumn"] {
+	width: 50%;
+	/*border-left: solid 1px #000;*/
+	display: table-cell;
+}
+
+
+[data-role="dashBoardLeftColumn"] [data-role="widgetWrapper"] {
+margin-right: 8px;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetWrapper"] {
+margin-left: 8px;
+}
+
+
+[data-role="widgetRow"] {
+	padding-left: 0;
+	padding-top: 4px;
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+[data-role="sliderHeading"]{
+	/*font-size: 13px;
+	line-height: 23px;*/
+	
+	font-size: 19px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+
+[data-role="widgetLabel"] {
+	font-size: 13px;
+	line-height: 23px;
+	float: left;
+}
+
+[data-role="dashBoardLeftColumn"] [data-role="widgetRowItem1"] {
+	float:left;
+	width: 40%;
+}
+
+[data-role="dashBoardLeftColumn"] [data-columns="1"] [data-role="widgetRowItem1"]{
+	float:left;
+	width: 100%;
+	display: block;
+} 
+
+
+[data-role="dashBoardLeftColumn"] [data-role="widgetRowItem2"] {
+	float:left;
+	width: 40%;
+}
+
+[data-role="dashBoardLeftColumn"] [data-role="widgetRowItem3"] {
+	float:left;
+	width: 20%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRowItem1"] {
+	float:left;
+	width: 40%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRowItem2"] {
+	float:left;
+	width: 20%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRowItem3"] {
+	float:left;
+	width: 40%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="4"] [data-role="widgetRowItem3"] {
+	float:left;
+	width: 20%;
+	padding-right: 2px;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="4"] [data-role="widgetRowItem4"] {
+	float:left;
+	width: 20%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="2"] [data-role="widgetRowItem1"] {
+	float:left;
+	width: 60%;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="2"] [data-role="widgetRowItem2"] {
+	float:left;
+	width: 40%;
+}
+[data-role="widgetWrapper"] {
+	padding-bottom: 4px;
+}
+
+[data-role="widgetWrapper"] {
+	padding-bottom: 4px;
+}
+
+
+[data-role="widgetButton"] 
+{
+	/*background-color: #bfe6e5;
+	height: 23px;
+	width: 100%;
+	line-height: 23px;*/
+	
+background-color: white;
+ height: 23px;
+ width: 100%;
+ line-height: 13px;
+ padding: 4px 10px;
+ color: #ff9900;
+ border: 1px solid #ff9900;
+ 
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ 
+ display: inline-block;
+ margin: 1px 0 0 0;
+ 
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+[data-role="widgetButton"]:hover
+{
+border: 1px solid #ff9900;
+background: #ff9900;
+color: white;
+}
+
+.simUsageHyperlinkAlignRight{
+   text-align: right;
+   width: 100%;
+   display: block;
+   padding-right: 8px;
+}
+
+.dropdown-wrapper{
+	min-height: 50px;
+}
+
+[data-role="widgetRow"] input {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	float: left;
+	background-color: #FFF;
+	padding: 2px 8px;
+	width: 100%;
+	line-height: 24px;
+	line-height: 18px\9;
+	border: 1px solid #6da5a4;
+	height: 24px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 13px;
+}
+
+/* MVNO : Donovan */
+
+[data-role="dashBoardRightColumn"] #MVNO_MA [data-role="widgetRowItem1"] {
+	float: left;
+	width: 40%;
+}
+
+[data-role="dashBoardRightColumn"] #MVNO_MA [data-role="widgetRowItem2"] {
+	float: left;
+	width: 40%;
+}
+
+[data-role="dashBoardRightColumn"] #MVNO_MA [data-role="widgetRowItem3"] {
+	float: left;
+	width: 20%;
+}
+
+
+#MVNO_MA13widgetRowItemitemisedBill{
+	width: 60%!Important;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="2"] [data-role="widgetRowItem1"] .formElLabel {
+width: 65%;
+padding-left: 0;
+}
+
+[data-role="dashBoardRightColumn"] [data-role="widgetRow"][data-columns="2"] [data-role="widgetRowItem1"] .formElContainer {
+width: 45%;
+padding: 0;
+}
+.dashboardHeading2{
+       margin-top: 15px;
+       font-weight: bold;
+       font-size: 14px;
+       padding:  2px 0 2px 0;
+}
+
+#MVNO_CM1widgetRowItemcallForwarding{
+	width: 100%!Important;
+}
+
+#MVNO_MA10widgetRowItemitemisedBill{
+	width: 60%!Important;
+}
+
+#MVNO_MA7widgetRowItemitemisedBill{
+	width: 60%!Important;
+}
+
+#MVNO_CM1widgetRowItemempty{
+	display:none;
+}
+
+#widgetRowMVNO_CM1{
+	width:60%;
+}
+
+#MVNO_CM1widgetRowItemcallForwarding .radioButton{
+	padding:0;
+}
+
+#MVNO_CM1widgetRowItemcallForwarding .radioButtonLabel {
+padding: 4px 0px 5px 3px;
+}
+
+#MVNO_MA15widgetRowItemitemisedBill{
+	width: 60%!Important;
+}

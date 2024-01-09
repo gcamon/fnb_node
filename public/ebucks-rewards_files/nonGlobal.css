@@ -1,0 +1,1066 @@
+@charset "UTF-8";
+
+/* .profilesZBI class is used in 78 pages */
+.profilesZBI .dlTitle,
+.profilesZBI .dlData{
+	line-height: 21px; 
+	margin: 0;
+}
+
+.profilesZBI .landingNav{
+	height: 50px;
+	/*background: #f2f2f2;*/
+}
+
+.profilesZBI .landingNav p{
+	line-height: 35px;
+}
+
+
+.profilesZBI .dlGroup{
+	margin: 0;
+}
+
+.profilesZBI .dlData.pending,
+.profilesZBI .tableCell.pending,
+.profilesZBI span.pending{
+	color: orange;
+	
+}
+
+.profilesZBI .tableCell.pending.checked .tableCellItem{
+	background: url("/banking/03images/fnb/uncheckedToChecked.jpg") no-repeat left center;
+}
+
+.profilesZBI .tableCell.pending.unchecked .tableCellItem{
+	background: url("/banking/03images/fnb/checkedToUnchecked.jpg") no-repeat left center;
+}
+
+.profilesZBI .tableCell.active.checked .tableCellItem{
+	background: url("/banking/03images/fnb/finish/tickColorIcon.png") no-repeat left center;
+}
+
+.profilesZBI .tableCell.active.unchecked .tableCellItem{
+	background: url("/banking/03images/fnb/finish/crossColorIcon.png") no-repeat left center;
+}
+
+.tableCell.rowAttachment .tableCellItem{
+	background: url("/banking/03images/fnb/finish/paperclip.png") no-repeat center;
+}
+
+.tableCell.rowAttachment.hide-bg .tableCellItem{
+	background: none;
+}
+
+.profilesZBI .borderTopWhite{
+	border-top: none;
+}
+
+.profilesZBI.dashboard .button{
+	background-color: #73C7C7;
+	color: #FFF;
+	min-height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	width: 24%;
+	padding: 0;
+	margin: 0 1% 1% 0;
+	text-decoration: none;
+	float: left;
+	overflow: hidden;
+}
+
+.profilesZBI.dashboard .header .button{
+	/* border: 2px solid #fff; */
+	width: 49%;
+	margin: 5px 2px 0 0;
+	line-height: 30px;
+}
+
+.profilesZBI.dashboard .miniNav{
+	background: #fff;
+	padding: 1% 0 1% 1%;
+	top: 340px;
+	position: absolute;
+	width: 60%;
+}
+#hierarchy h1{	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight: bold;padding:8px;font-size:14px}
+
+#hierarchy #mainTable_{margin:0px}
+
+
+#profileSettings p.padLeft20.padRight20 {padding-left:8px}
+
+#profileSettings p.padTop20.padBottom20.padLeft20 {padding-left:8px}
+
+
+.profilesZBI #topPageHeader
+{
+	font-size: 27px;
+  font-weight: bold;
+  background: none;
+  border-bottom: none;
+  font-family: Helvetica,FoundationRoman,Sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  margin: 0 0 -3px -2px;
+  padding: 3px 0 5px 0;
+  line-height: 24px;
+  position: relative;
+  top: 100%;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.profilesZBI #extendedPageHeader.withExtraContent h1{
+	font-size: 16px;
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.profilesZBI .table .dropdown-content-wrapper{
+	min-width: 170px !important;
+}
+
+.profilesZBI #extendedPageHeader.withExtraContent{
+    /*padding: 4px 15px;*/
+}
+
+.profilesZBI .tableHeaderInnerRow .groupColCell .headingGroupInner{
+	margin-right: 15px;
+	font-size: 13px;
+	font-family: Helvetica,FoundationRoman,Sans-serif, arial, sans-serif;
+	white-space: nowrap;
+	  border-bottom: 1px solid black;
+	  text-align: center;
+}
+
+.profilesZBI .tableHeaderInnerRow .groupColCell:first-child .headingGroupInner{
+	border: none;
+	margin: 0;
+}
+
+.profilesZBI .authTable{
+	margin-top: 10px;
+	background: #009999;
+}
+
+.profilesZBI .authTable .hinner{
+	color: #fff;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.profilesZBI .authTable .tableCell{
+	font-size: 14px;
+}
+
+/*UI Elements*/
+.countableField.swap span {
+	float: right;
+}
+
+.countableField .innerWrap {
+	padding: 10px;
+	margin-bottom: 4px;
+}
+
+div.countableField .innerWrap span{
+	font-size: 13px;
+}
+
+a div.countableField .innerWrap span{
+	/* font-size: 1em; */
+}
+
+.countableField .innerWrap.marginBottom0 {
+	margin-bottom: 0px;
+	padding-top: 6px;
+}
+
+.buttonGroup {
+	margin-top: 10px;
+	float: right;
+}
+
+.buttonGroup .button {
+	float: left;
+}
+
+.buttonGroup .button div {
+	text-align: center;
+	padding: 10px 20px;
+	background-color: #e7e7e7;
+	margin-right: 6px;
+}
+
+/*Profiles Styles*/
+.profilesCustomHead p {
+	font-size: 16px;
+	font-weight: normal;
+	left: 0;
+	position: relative;
+	top: 8px;
+	float: left;
+}
+
+.profilesCustomHead {
+	margin-bottom: 10px;
+}
+
+.orangeArrowBtt {
+	background: url("../../03images/base/dropdown/right-arrow.png")
+		no-repeat scroll center center #FF9900;
+	cursor: pointer;
+	height: 25px;
+	width: 20px;
+}
+
+h2.profileHeader {
+	float: left;
+	position: relative;
+	padding-right: 40px;
+}
+
+h2.profileHeader span {
+	font-size: 16px;
+}
+
+h2.profileHeader .orangeArrowBtt {
+	float: left;
+	position: absolute;
+	top: 11px;
+	right: 10px;
+}
+
+.proilesZBI .gridGroup .white {
+	margin-bottom: 100px;
+}
+
+.addBtt {
+	width: 100%;
+	height: 30px;
+	display: block;
+	background: url("../../03images/base/icons/doSomethingPlus.png")
+		no-repeat scroll 0px 0 transparent;
+	padding-left: 35px;
+	line-height: 30px;
+}
+
+.addBtt a {
+	text-decoration: none;
+}
+
+.statusWidget {
+	display: block;
+}
+
+.statusWidgetLabel {
+	float: left;
+}
+
+.statusWidgetValue {
+	float: left;
+}
+
+.checkRow .formLabel {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.checkRow .checkboxGraphic {
+	margin: 5px 10px;
+}
+
+.formLabelComplex {
+padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 35px;
+  font-size: 13px;
+}
+
+.ghostSpacer {
+	background: none;
+}
+
+/* Misc pre-cleanup style hacks added by devs */
+.tcText.tcTextpadding{padding:18px 0 0 45px;}
+.checkbox-wrapper.disclaimerLeft{float:left;}
+
+/* OTP EZI */
+#formElement_otpResendSms{
+	width: 95%;
+}
+#formElement_otpResendEmail{
+	width: 95%;
+}
+#otp_form h4{
+	padding-left: 0
+}
+#otp_form .floatLeft{
+font-size: 14px;
+line-height: 1.3;
+}
+
+#eziWrapper #eziHeader_pageType{
+font-size: 14px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight: bold;
+margin: 8px 0 0px 8px;
+padding-bottom: 4px;
+border-bottom: 8px solid black;
+}
+#eziWrapper #eziHeader_accName {
+font-size: 13px;
+margin: 4px 0 0 8px;
+}
+#eziWrapper #eziHeader_accNumber{
+margin: 4px 0 0px 8px;
+font-size: 13px;
+}
+/* PHONEBOOK SEARCH */
+.phonebookSearch .doSomething{
+	float: left;
+	cursor:pointer;
+}
+.phonebookSearch .ui-iconWrapper{
+	float: left;
+}
+.phonebookSearch .content{
+	display:block;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0 0 0 5px;
+}
+.phonebookSearch a {
+	font-size: 14px;
+}
+
+.phonebookSearch .formTable {
+padding: 8px 15px 8px 15px;
+background: white;
+border-bottom: 1px solid #E7E7E7;
+font-size: 14px;
+}
+
+.phonebookSearch .doSomething {
+	padding: 0 0 0 10px;
+}
+
+#branchSearchCode dt{
+	padding: 8px 0 0 15px;
+}
+
+/* FOREX */
+#applicationForGlobalPayment .swiftinstitutionSelected{width: 80%;}
+#applicationForGlobalPayment .swiftinstitutionSelectedButton{padding: 7px 0 0 0;}
+#captureSearchAccountCountry_parent{width: 80%;}
+#formElement_bicCodeSearchCancelButton{padding: 18px 0 0 0;}
+#CaptureSearchAccountBank_parent{width: 80%;}
+#CaptureSearchAccountDivision_parent{width: 80%;}
+#applicationForGlobalPaymentReasons .bodyParagraph{font-size:14px;}
+
+#AddGlobalRecipientCapture .swiftInstitution{width: 80%;}
+#AddGlobalRecipientCapture #formElement_bicCodeSearchButton{padding: 7px 0 0 0;}
+/* EZI TRANSFER */
+#SIMPLE_TRANSFER_FORM_EZITRANSFER .grid50{	
+	width:100%;
+	border-right:none;
+	display:block;
+}
+#SIMPLE_TRANSFER_FORM_EZITRANSFER .dropdown-label-inner{
+	font-size: 13px;
+	font-family: Helvetica,FoundationRoman,Sans-serif,Arial,sans-serif;
+	padding: 0 0 5px 6px; 
+}
+#SIMPLE_TRANSFER_FORM_EZITRANSFER .dropdown-selection-white{
+min-height: 44px;
+}
+
+/* TABLE H */
+.tableh
+{
+padding: 10px 10px 4px 0;
+font-size: 14px;
+border-bottom: 2px solid black;
+margin: 16px 0 0 0;
+}
+
+.tableh .hinner 
+{
+font-weight: bold;
+}
+
+/* PAYMENTS SEARCH */
+
+.actionMenuUrlWrapper .eziPage .grid100{
+	width: 80%;
+	float: right;
+	padding-right: 50px;
+	padding-top: 40px;
+}
+.actionMenuUrlWrapper .eziPage .formElementLabel {
+text-align: right;
+}
+.actionMenuUrlWrapper .eziPage .calendarLabel .calendarLabelText {
+text-align: right;
+}
+.actionMenuUrlWrapper #eziPannelButtons {
+background-color: #FF9900;
+width: 90%;
+height: 70px;
+position: relative;
+border-top: 6px solid #FFF;
+border-left: 6px solid #FFF;
+padding: 0 25px 0 0;
+float: right;
+}
+.actionMenuUrlWrapper #eziPannelButtonsWrapper {
+bottom: 68px;
+position: fixed;
+z-index: 5;
+}
+/* ZBI ADD RECIPIENTS */
+#RecipientFoldersAddLanding .formTable .radioButtonContainer .radioButton {
+padding: 0px 5px;
+}
+#RecipientFoldersAddLanding .radioButtonContainer .grid60{
+	width:100%;
+	padding-right: 0;
+	padding-left: 0;
+}
+#RecipientFoldersAddLanding #SearchBranchCode{
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+#RecipientFoldersAddLanding .limits .grid60{
+	width:auto;
+}
+#RecipientFoldersAddLanding .limits .grid40{
+	width:50%;
+}
+#RecipientFoldersAddLanding .limits .formElementContainer {
+padding-left: 0;
+}
+/* TranssfersEdit */
+#transfer_capture .vertMiddle .formElementLabel{
+padding: 15px 10px 0px 15px;
+}
+
+/* EZI Search History */
+#AirtimeBundleHistoryForm .radioButtonsGroup{
+	width:100%
+}
+#AirtimeBundleHistoryForm .radioButtonContainer .formElementContainer{
+	padding-right: 0;
+	padding-left: 0;
+}
+#AirtimeBundleHistoryForm .radioButtonContainer{
+	border-right: none;
+}
+#AirtimeBundleHistoryForm .datepickerWrapper {
+margin: 0 0 0 15px;
+}
+/* fix for non 9+ pages found - THIS IS A HACK TO FIX 9+ PAGES WITH TABLES NOT STYLED
+NB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+TO BE REMOVED*/
+/*fix for datePickerTable */
+.datePickerScrollerWrapper table{margin:0px 0px 0 0px;}
+
+table{margin:10px 20px 0 20px;}
+table.noticeBox{border:2px solid #DEDEDE; background-color:#EDEDED; text-align:left;}
+table.featureTableHeaderBox{border:1px solid #DEDEDE; background-color:#FFF;}
+table.featureTableHeader{background-color:#FFF;}
+td{font-size:100%; color:#000; margin:5px 0 5px 0;}
+td.subNav{font-size:100%; padding-left:4px; padding-bottom:2px; background-color:#FBC9A6;}
+td.subNavSelected{font-size:100%;  padding-left:4px; padding-bottom:2px; background-color:#FBC9A6;}
+td.navItemSelected{font-size:100%;  padding-left:4px; padding-bottom:2px; background-color:#F47920;}
+td.upper_line{border-top:solid 1px #000;}
+table.subNavTable{background-color:#FFF; border-width:0px;}
+th{ color:#FFF; height:21px; text-indent:2px; vertical-align:middle; text-align:left;}
+th.sortable th{border-right:5px solid #FF0000; padding-right:1px; text-decoration:none; color:red; vertical-align:middle; margin-right:10px;}
+.heading{padding-right:1px; text-decoration:none; color:#FFF; vertical-align:middle; margin-right:10px;}
+
+/** header for PDF style **/
+th.header,
+tr.header{background:#009999;  color:#FFF; height:21px; text-indent:2px; vertical-align:middle; text-align:left;}
+tr.evenRow{background-color:#ECECEC; height:23px;}
+tr.oddRow{background-color:#F4F4F4; height:23px;}
+tr.oddRow:hover,
+tr.evenRow:hover{}
+table tr.evenRow td,
+table tr.oddRow td,
+table tr.highlighter td{color:#000; border-right:1px solid #FFF; border-left:1px solid #FFF; border-bottom:2px solid #FFF; padding:0 5px;}
+
+tr.highlighter{background-color:#F6F7B0; height:23px;}
+tr.subRow{background-color:#CCC; height:23px;}
+table tr.evenRow td,
+table tr.oddRow td {color:#000; border-color:#FFF; border-style:solid; border-width:0 1px 2px 1px; padding:0 5px;}
+
+table tr.evenRow td table td,
+table tr.oddRow td table td	{border-width:0; color:#000; padding:0 5px;}
+table tr.oddRow td a, table tr.evenRow td a {text-decoration:underline; color:#007788;}
+
+table th.sortable:hover{}
+table th.sortable a{color:#FFF; text-decoration:none; padding:0 5px; text-indent:2px;}
+.sortable span.up{background:url('/images0/sort_asc.gif') no-repeat top right; display:block; height:20px; width:92%; vertical-align:middle; padding:1px 9px 0 0;}
+table tr td.totalleft {border-width:1px; border-style:solid; border-color:#36B6B5 #FFF; text-align:left; color:#000; padding:0 5px 0 5px;}
+
+
+#popupWrapper #main {
+padding-bottom: 0;
+}
+
+
+/** Developer Pieter Holmes 
+	MUA Applet center screen display  
+**/
+.appletCenter{
+	left: 47%;
+    position: absolute;
+    top: 30%;
+}
+
+/* Account Settings
+Donovan */
+#accountSettingsMaintainNicknameWrapper {background:#fff;width: 50%;border-right: 1px solid #000;}
+#accountSettingsMaintainNicknameWrapper .grid67 {width:50%}
+
+#accountSettingsMaintainNicknameWrapper .grid50 {width: 70%;clear:both;display:block}
+
+#AccountMaintainSimpleView #accountSettingsMaintainNicknameWrapper .grid40{
+	/* padding: 7px 10px 5px 15px; */
+	/* width:100%; */
+}
+
+#AccountMaintainSimpleView #accountSettingsMaintainNicknameWrapper .grid60{
+	/* width:100%; */
+}
+
+#AccountMaintainSimpleView #accountSettingsWidgetWrapper .widgetButtons{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+#AccountMaintainSimpleView #accountSettingsWidgetWrapper .formButton{
+	width: 50%;
+
+}
+
+#AccountMaintainSimpleView #accountSettingsWidgetWrapper h5{
+	padding-top: 5px;
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#AccountMaintainSimpleView #alertWrapperOne .formButton{
+	float: right;
+	margin-right: 5px;
+}
+
+#AccountMaintainSimpleView  #alertWrapperTwo .formButton {
+	float: right;
+	margin-right: 5px;
+}
+
+#AccountMaintainSimpleView .grid0{
+	display:none;
+}
+#AccountMaintainSimpleView .dlItemWrapper {
+border-top: none;
+}
+#AccountMaintainSimpleView #alertWrapperOne{
+    border: none!important;
+
+}
+#AccountMaintainSimpleView  #alertWrapperTwo{
+    border: none;
+
+}
+
+#AccountMaintainSimpleView  #formElement_updateBtn{
+	float: right;
+	margin-right: 5px;
+}
+
+#AccountMaintainSimpleView  #formElement_updateBtn input{
+	color: #000;
+}
+
+#accountSettingsWidgetWrapper{background:#fff;width: 50%;}
+
+/* REPORTS */
+#currentMonthWrapper{
+	width: 100%;
+	height: 250px;
+}
+.barColumnWrapper{
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	background: #f5f3f4;
+}
+.barColumn{
+	margin: 0 4px 0 4px;
+}
+.barColumnLegend{
+	height:10%;
+	text-align:center;
+	background: #dddddd;
+	font-family: Helvetica,FoundationRoman,Sans-serif,Arial,sans-serif;
+	font-size:12px;
+	line-height: 20px;
+}
+.barLegend{
+	float: right;
+	height: 10%;
+	text-align: center;
+	font-family: Helvetica,FoundationRoman,Sans-serif,Arial,sans-serif;
+	font-size: 14px;
+	background: #fff;
+	line-height:18px;
+}
+.barYAxisWrapper{
+	float:left;
+}
+.yAxisLabelContainer{
+	position: relative;
+}
+.yAxisLabel{
+	position: absolute;
+	bottom: -6px;
+	right: 0;
+	padding: 0 5px 0 0;
+	font-family: Helvetica,FoundationRoman,Sans-serif,Arial,sans-serif;
+	font-size:11px;
+}
+
+.barColumn0{
+	background: #ff9900;
+}
+.barColumn1{
+	background: #009899;
+}
+
+/* DONOVAN
+NEW PASSWORD */
+#preparePasswordChange .bulletedList{
+	padding-left: 40px;
+}
+/* DONOVAN
+PRODUCTFINDER */
+#productFinderWrapper #main{
+padding-bottom: 0;
+}
+DONOVAN
+#MAINTAIN_PAYMENT_ITEMS_MP{
+	padding-bottom: 60px;
+}
+/* DONOVAN
+DEVICE OFFERS */
+.selectorDeviceHolderWrapper{
+	opacity: 1;
+	visibility:visible;
+}
+
+/* Add Recipient */
+#addRecipientRow{
+	position:static;
+}
+/* COZA CONTENT */
+#ProductFinderpopupWrapper {
+	background-color: #009999;
+	color: #FFF;
+	position: absolute;
+	left: 40px;
+	top: 300px;
+	right: 0;
+	z-index: 300;
+}
+#ProductFinderpopupWrapper #extendedPageHeader {
+	padding: 0 0 10px 0;
+}
+#ProductFinderpopupWrapper #extendedPageHeader h1 {
+	background: none;
+}
+#ProductFinderpopupWrapper #eziPannelButtonsWrapper {
+	height: 210px;
+}
+#ProductFinderpopupWrapper #eziPannelButtonsWrapper {
+	bottom: 10px;
+	position: relative;
+	width: auto;
+}
+#ProductFinderpopupWrapper #eziPannelButtons {
+	background: none transparent;
+	border: 0 none;
+	top: 20px;
+}
+
+#ui-webContent #bankingFrame #productApplyNow.hidden{
+display: none!important;
+}
+#ui-webContent #content li {
+	font-size: 12px!important;
+}
+#ui-webContent .ui-finger-menu .dropArrow {
+	width: 100%!important;
+}
+#ui-webContent .ui-finger-menu .ui-finger-menu-header-deskTop {
+	margin-bottom: 0!important;
+	margin-top:0!important;
+	padding: 0px 11px 9px!important;
+	width: 100%!important;
+}
+#ui-webContent .menuitemgroupholder {
+	display: block!important;
+}
+#ui-webContent {
+	background: transparent!important;
+}
+#ui-webContent #ui-contentWrap {
+	padding: 0 0 0 0!important;
+}
+#ui-webContent .ui-popupOverlaySubTab {
+	background: none!important;
+	margin-left: 0!important;
+	display: block!important;
+	height: auto!important;
+	
+	margin-top: 5px!important;
+}
+#ui-webContent .subTabMenu {
+	display: none!important;
+}
+
+#ui-webContent .ui-popupBarSubTab {
+	position: static!important;
+	display: block!important;
+	height: 46px!important;
+	border-right: none!important;
+	border-top:  none!important;
+	border-bottom: none!important;
+	background-color: #73C7C7!important;
+}
+#ui-webContent .subTabAlign2 {
+	margin-left: 0!important;
+}
+#ui-webContent .ui-popupCloseBtn {
+	display: none!important;
+}
+#ui-webContent .ui-popupOverlaySubTab .borderRight {
+	margin-left: 0!important;
+}
+#ui-webContent #productGrid {
+	margin-top: 50px!important;
+}
+#ui-webContent .ui-popupBarSubTab .table {
+	height: 46px!important;
+}
+#ui-webContent .ui-popupBarSubTab .ui-subTabLabel {
+	border-right: none!important;
+	vertical-align: middle!important;
+}
+#ui-webContent .ui-popupBarSubTab .ui-subTabLabel > div {
+	float: left;
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	background: #8DCDCD;
+	padding: 0px 8px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+#ui-webContent .ui-popupOverlaySubTab .borderRight {
+	border-right: none!important;
+	width: 65px!important;
+}
+#ui-webContent .ui-subTabLabel.vertical.ui-rotate90min.selected .ui-flipVertical {
+	color: black!important;
+	background: #BBEBEB!important;
+}
+#ui-webContent .ui-popupBarSubTab .ui-subTabLabel > div {
+	margin-top: 5px!important;
+}
+#ui-webContent .ui-popupBarSubTab .ui-subTabLabel {
+	width: auto!important;
+}
+#ui-webContent .ui-popupBarSubTab .ui-product-grid-popup-overlay-box {
+	background: #73C7C7!important;
+}
+#productSelected{
+	padding-top:50px!important;
+}
+
+
+
+
+
+/*profiles dashboard*/
+.profilesZBI.dashboard .miniNav 
+{
+display: block;
+}
+
+.profilesZBI.dashboard .grid100 .grid60
+{
+width: 33%;
+}
+
+.profilesZBI.dashboard .grid100 .grid33
+{
+width: 60%;
+}
+
+.profilesZBI.dashboard .grid100 .grid50
+{
+width: 100%;
+float: inherit;
+}
+
+.profilesZBI.dashboard .grid100 .grid50 a, .profilesZBI.dashboard .grid100 .grid33 a, .profilesZBI.dashboard .grid100 .grid60 a
+{
+padding: 3px 10px;
+color: black;
+border: 1px solid black;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+display: inline-block;
+margin: 1px 0 0 0;
+width: 70%;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+transition: all .2s;
+}
+
+.profilesZBI.dashboard .grid100 .grid50 .countableField
+{
+width: 70%;
+}
+
+.profilesZBI.dashboard .grid100 .grid33 .countableField
+{
+width: 40%;
+}
+
+.profilesZBI.dashboard .grid100 .grid60 .countableField
+{
+width: 70%;
+}
+
+.profilesZBI.dashboard .grid100 .grid50 a .countableField, .profilesZBI.dashboard .grid100 .grid33 a .countableField, .profilesZBI.dashboard .grid100 .grid60 a .countableField
+{
+width: 100%;
+}
+
+.profilesZBI.dashboard .grid100 .grid33 a
+{
+padding: 4px 10px;
+color: black;
+border: 1px solid black;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+display: inline-block;
+margin: 1px 0 0 0;
+width: 40%;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+transition: all .2s;
+}
+
+.profilesZBI.dashboard .grid100 .grid50 a:hover, .profilesZBI.dashboard .grid100 .grid50 a:hover, .profilesZBI.dashboard .grid100 .grid50 a:hover, .profilesZBI.dashboard .grid100 .grid33 a:hover
+{
+border: 1px solid #ff9900;
+color: #ff9900;
+}
+
+.countableField .innerWrap 
+{
+padding: 0;
+margin-bottom: 0;
+}
+
+.grid100 .grid50:first-child .gridCol 
+{
+padding: 0;
+}
+
+.profilesZBI.dashboard .borderTopWhite
+{
+float: left;
+position: absolute;
+top: 0;
+right: 0;
+width: 33%;	
+}
+
+.profilesZBI.dashboard .borderTopWhite a, .profilesZBI.dashboard .borderTopWhite div
+{
+width: 75%;
+}
+
+
+
+.countableField .innerWrap.marginBottom0 
+{
+margin-bottom: 0px;
+padding-top: 6px;
+padding-left: 11px;
+padding-bottom: 6px;
+}
+
+
+.profilesZBI.dashboard .button 
+{
+  background-color: #73C7C7;
+  color: #FFF;
+  min-height: 30px;
+  text-align: center;
+  line-height: 18px;
+  display: block;
+  width: 24%;
+  padding: 0;
+  margin: 0 1% 1% 0;
+  text-decoration: none;
+  float: left;
+  overflow: hidden;
+  
+  padding: 0;
+  
+color: #ff9900;
+background: white;
+border: 1px solid #ff9900;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+display: inline-block;
+margin: 1px 0 0 0;
+
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box;   
+box-sizing: border-box;  
+
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+transition: all .2s;
+}
+
+
+
+.profilesZBI.dashboard .button:hover 
+{
+border: 1px solid #ff9900;
+background: #ff9900;
+color: white;
+}
+
+.profilesZBI.dashboard .header .button 
+{
+width: 41%;
+margin: 0 8px 0 0;
+}
+
+
+
+/*shares*/
+#shareAccountsTable .col5.up, #sharesTable .col8.up, #krugerTable .col8.up
+{
+background: url("/banking/03images/fnb/0new/arrow_up_turq.png") no-repeat 8px center!important;
+color: #01aaad!important;
+margin: 0!important;
+padding: 0!important;
+font-weight: normal!important;
+text-align: right!important;
+min-height: inherit!important;
+line-height:  inherit!important;
+}
+
+.shareup 
+{
+background: url("/banking/03images/fnb/0new/arrow_up_turq.png") no-repeat right center!important;
+color: #01aaad!important;
+margin: 0!important;
+padding: 0 17px 0 0!important;
+font-weight: normal!important;
+text-align: right!important;
+min-height: inherit!important;
+line-height:  inherit!important;
+}
+
+
+#shareAccountsTable .col5.down, #sharesTable .col8.down, #krugerTable .col8.down
+{
+background: url("/banking/03images/fnb/0new/arrow_down_orange.png") no-repeat 8px center!important;
+color: #ff9900!important;
+margin: 0!important;
+padding: 0!important;
+font-weight: normal!important;
+text-align: right!important;
+min-height: inherit!important;
+line-height:  inherit!important;
+}
+
+.sharedown
+{
+background: url("/banking/03images/fnb/0new/arrow_down_orange.png") no-repeat right center!important;
+color: #ff9900!important;
+margin: 0!important;
+padding: 0 17px 0 0!important;
+font-weight: normal!important;
+text-align: right!important;
+min-height: inherit!important;
+line-height:  inherit!important;
+}
+
+
+#shareAccountsTable .col5.unchanged, .shareunchanged , #sharesTable .col8.unchanged, #krugerTable .col8.unchanged
+{
+background: none!important;
+color: #BEBEBE!important;
+margin: 0!important;
+padding: 0!important;
+font-weight: normal!important;
+text-align: right!important;
+min-height: inherit!important;
+line-height:  inherit!important;
+}
+
+#detailedBalance .tableRowInner 
+{
+padding: 0!important;
+}
+
+#detailedBalance .tableHeaderRow 
+{
+background: none!important;
+}
+
+#detailedBalance .tableHeaderRow a 
+{
+color: black!important;
+}

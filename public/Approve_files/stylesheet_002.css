@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('roboto/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansRegular';
+    src: url('fnb_sans/fnb_sans-regular-webfont.eot');
+    src: url('fnb_sans/fnb_sans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-regular-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-regular-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-regular-webfont.svg#FNBSansRegularRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansBold';
+    src: url('fnb_sans/fnb_sans-bold-webfont.eot');
+    src: url('fnb_sans/fnb_sans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-bold-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-bold-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-bold-webfont.svg#FNBSansRegularBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansLight';
+    src: url('fnb_sans/fnb_sans-light-webfont.eot');
+    src: url('fnb_sans/fnb_sans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-light-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-light-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-light-webfont.svg#FNBSansLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansThin';
+    src: url('fnb_sans/FNB_Sans-Thin.otf');
+    src: url('fnb_sans/fnb_sans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-thin-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-thin-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-thin-webfont.svg#FNBSansThinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansThinItalic';
+    src: url('fnb_sans/fnb_sans-thinitalic-webfont.eot');
+    src: url('fnb_sans/fnb_sans-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-thinitalic-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-thinitalic-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-thinitalic-webfont.svg#FNBSansThinItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AtomFNBSansItalic';
+    src: url('fnb_sans/fnb_sans-italic-webfont.eot');
+    src: url('fnb_sans/fnb_sans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fnb_sans/fnb_sans-italic-webfont.woff') format('woff'),
+         url('fnb_sans/fnb_sans-italic-webfont.ttf') format('truetype'),
+         url('fnb_sans/fnb_sans-italic-webfont.svg#FNBSansRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

@@ -1,0 +1,279 @@
+@charset "utf-8";
+/*TOP MENU*/
+.minimalTopMenuAdjust .topMenu{height:24px}
+.topMenu{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	position:fixed;
+	max-width: 1280px;
+	width:100%;
+	z-index: 150;
+	background: #f2f2f2; 
+	height: 64px;
+	/* padding-left: 24px; */
+}
+ul.topNav{padding:0px;/* display: table */width: 100%;}
+.topNav{
+	height: 40px;
+	height: 100%;
+	position: relative;
+	padding:0px;
+	overflow:hidden;
+}
+.hideTopNav{height:0;}
+.topNav li {
+	height: 100%;
+	cursor: pointer;
+	display: table;
+	float: left;
+	vertical-align: middle;
+	/* border-collapse: collapse; */
+}
+.topNav li:hover{background:#fbfbfb}
+.topNavScrollable{
+	position: relative;
+	height: 36px;
+}
+
+.topNavContainer {
+	position: relative;
+	overflow: hidden;
+}
+.topNavWrapper{
+	/* margin: 0px 0px 0px 0px; */
+	padding: 0px 0px 0px 24px;
+	float: left;
+	width: 100%;
+}
+.topNavWrapperMobi{
+	margin: 0;
+}
+.topNav li a{
+	width: 100%;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #888;
+	/* display: inline-block; */
+	padding-left: 8px;
+	padding-right: 8px;
+	line-height: 13px;
+	display: table-cell;
+	vertical-align: middle;
+	/* height: 100%; */
+	/* min-height: 100%; */
+	-top: 10%;
+}
+.topNav li.selected a{
+	color: #000;
+}
+.topNav .gridCol {
+	background: url("../../03images/base/frame/topTabDivider.png") no-repeat scroll right 50% transparent;
+	overflow:hidden;
+	height: 40px;
+}
+.topNav  .gridCol.lastTab{
+	background: none;
+}
+.topNav  .gridCol.lastTab:hover{
+	background:#fbfbfb;
+}
+
+.topNavBottomBorderContainer{
+	position: relative;
+}
+.topNavMenuSlider{
+	background: none repeat scroll 0 0 #009999;
+    bottom: 6px;
+    
+	height: 2px;
+    width: 100%;
+	float:left;
+}
+.topNavBottomBorder{
+	background: #FFF;
+	height: 2px;
+	float:left;
+	width:100%;
+}
+.topNavMenuSliderIndicator{
+	background: none repeat scroll 0 0 #92CAC9;
+    float: left;
+    
+	height: 4px;
+    position: absolute;
+    
+	margin-top: -2px;
+	z-index: 150;
+}
+.topNav li#topMenuButtons {
+	float:left;
+	min-width:72.8px;
+	overflow: hidden;
+	display:table;
+}
+.topMenuButtons{
+	z-index: 110;
+	position:absolute;
+	background-color: #E7E7E7;
+	right:0;
+}
+.topNavWrapper a.leftScrollButton{
+	background: url("../../03images/base/frame/left-scroll-button.png") no-repeat center center;
+	cursor: pointer;
+	/* float: left; */
+	width:35px;
+	height: 44px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+}
+.topNavWrapper a.rightScrollButton{
+	background: url("../../03images/base/frame/right-scroll-button.png") no-repeat center 42%;
+cursor: pointer;
+
+	width: 42px;
+position: absolute;
+right: 0;
+top: 26px;
+height: 38px;
+}
+.rightScrollBottomBorder{
+	background: url("../../03images/base/frame/right-scroll-bottom-border.jpg") no-repeat bottom center;
+width: 42px;
+height: 100%;
+}
+
+
+
+
+/*TOP MENU END*/
+/*CONTENT*/
+.progressWrapperEzi{
+	left: 0px;
+	height: 50px;
+	background: #E7E7E7;
+    top: 53%;
+	width:100%;
+	z-index:116;
+	position: absolute;
+}
+.progressWrapperEzi .loadText{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	float: left;
+	margin: 4px 0 0 15px;
+}
+.progressWrapperEzi .percValue{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 5px;
+	top: 4px;
+}
+.progressWrapperMain{
+	left: 34px;
+	height: 50px;
+	background: #FFF;
+	position: fixed;
+    top: 53%;
+	width:100%;
+	z-index:116;
+}
+.progressWrapperMainInstance1{
+	left: 0px;
+}
+.progressWrapperMain .loadText{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	float: left;
+	margin: 2px 0 0 15px;
+}
+.progressWrapperMain .percValue{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 5px;
+	top: 2px;
+}
+.progressBackGround{
+	height: 40px;
+	width:100%;
+	background: #099;
+	margin-top: 5px;
+}
+.loadText{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	float: left;
+	margin: 2px 0 0 15px;
+}
+.percValue{
+	font-family: Helvetica,FoundationRoman,Sans-serif;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 5px;
+	top: 2px;
+}
+.progressBar{
+	height: 40px;
+	width:0;
+	background: #63afd1;
+	position: absolute;
+    top: 5px;
+	overflow:hidden;
+}
+/*CONTENT END*/
+* {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/***StandIn Message***/
+#standInHeaderButton.headerStandInIcon {
+	left: 10px;
+    position: absolute;
+    top: 5px;
+}
+
+ .headerBtn_input,.headerBtn_newLabel{
+       float: right;
+       margin: 0px 2px 0px 2px;
+}
+
+.headerBtn_newLabel{
+    padding: 5px 2px 0px 2px;
+    font-size: 12px;
+    color: #FFF;
+    font-family: Helvetica,FoundationRoman,Sans-serif;
+    font-size: 13px;
+}
+
+.branchAssistButton{
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	padding: 0px 4px 0px 6px;
+	float: right;
+	color: #FFF;
+}
+
+.branchAssistButton:hover{
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.branchAssistContainer {
+	float: left;
+	width: 340px;
+	position: relative;
+	left: 100px;
+	height: 22px;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}

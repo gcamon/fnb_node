@@ -1,0 +1,1924 @@
+/*FORM LAYOUT COMPONENT
+    
+    Developer:Mike Stott
+*/
+.formWrapper{
+    float:left;
+    width: 100%;
+}
+.formElWrapper {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #fff;
+    padding-bottom:3px;
+    font-size: 13px;
+}
+#eziPageContent .fnbFooterPagingWrapper .formElLabel,
+#eziPageContent .fnbFooterPagingWrapper [data-role="formElRightLabel"],
+#eziPageContent .fnbFooterPagingWrapper .fnbFooterPagingInput,
+#eziPageContent .fnbFooterPagingWrapper .fnbFooterPreviousButton,
+#eziPageContent .fnbFooterPagingWrapper .formElLabelInner,
+#eziPageContent .fnbFooterPagingWrapper .formElContainer {
+	width: auto;
+	display: inline-block;
+	float: none;
+	padding-top: 0;
+	vertical-align: middle;
+}
+.totalsValuePair {
+    
+}
+#bodyContainer .instantSales .formElWrapper {
+width: 100%;
+display: block;
+position: relative;
+background: #fff;
+padding-bottom: 3px;
+float: left;
+}
+
+.simpleFormElWrapper {
+    width: 100%;
+    display: table;
+    position: relative;
+    padding-left: 8px;
+}
+
+.formElLabel,.formElContainer,.formElContent {
+    display: block;
+}
+
+.formElLabel {
+    width: 100%;
+    padding: 0;
+    float: left;
+}
+
+.formElSubInnerLabel {
+  float: left;
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  color: #BEBEBE;
+  line-height: 16px;
+}
+
+/* Developer: Donovan
+Checkbox */
+.checkBox {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #81b4b4;
+    background: url("../../images/checkbox/checkbox_sprite.png?v=12345678") 0 200px
+        no-repeat #FFF;
+    cursor: pointer;
+}
+
+.checkBox.checked {
+    background-position: 3px 3px;
+    border-color: #009999;
+}
+
+.checkBox[data-disabled="true"] {
+    background: #e7e7e7;
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+}
+
+.checkBoxGroupItemWrapper{
+    float: left;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+.checkBoxGroupItemWrapper .checkBoxGroupItemLabel{
+    float: left;
+    line-height: 24px;
+    width: 70%;
+}
+
+.checkBoxGroupItemWrapper .checkBox{
+    float: left;
+}
+/* Checkbox end */
+
+/* Developer: Donovan
+Input */
+.input {
+    background-color: #FFF;
+    padding: 4px 10px;
+    line-height: 20px;
+    border: 1px solid #81b4b4;
+    border-radius: 0;
+    height: 24px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-size: 13px;
+}
+
+input:disabled {
+    background: #e7e7e7;
+    border: 1px solid #bcbcbc;
+    color: #bcbcbc;
+}
+
+.dropdownInput {
+    background-color: #FFF;
+    padding: 4px 10px;
+    line-height: 20px;
+    border: 1px solid #81b4b4;
+    border-radius: 0;
+    height: 24px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-size: 13px;
+}
+
+.input:focus {
+    border: 2px solid #ff9900;
+    outline: 0;
+}
+
+.dropdownItemSelectWrapper{
+    width:100%;
+    height:100%;
+}
+
+.dropdownInput:focus {
+    border: 2px solid #ff9900;
+    outline: 0;
+}
+
+div[data-event="click"] .dropdownSelectWrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+[data-type="threeTier"] .dropdownSelected {
+    height: 64px;
+}
+
+[data-role="hyperlink"]{
+    font-size:13px;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+[data-type="button"]{
+    font-size:13px;
+}
+
+[data-type="buttonDisabled"]{
+    font-size:13px;
+}
+
+#finishNote{
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+}
+
+/* Developer: Donovan
+Print and download buttons */
+
+.finishTop [data-type="button"][data-role="whiteAddButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/addIconWhite.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="whiteDownloadButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/downloadIconWhite.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="whitePrintButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/printIconWhite.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="whiteSearchButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/searchIconWhite.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="blackAddButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/addIcon.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="blackDownloadButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/downloadIcon.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="blackPrintButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/printIcon.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.finishTop [data-type="button"][data-role="blackSearchButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/searchIcon.png') no-repeat 4px 4px transparent;
+    width: auto;
+    padding-left: 30px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+[data-type="buttonDisabled"]{
+    background-color: #CCC;
+    color: #999;
+    cursor: default;
+    font-size:13px;
+    width: auto;
+    line-height: 28px;
+    text-align: center;
+}
+
+[data-type="button"][data-role="whiteAddButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/addIconWhite.png') no-repeat 4px center transparent;
+    width: auto;
+    line-height: 24px;
+    padding: 0 0 0 25px;
+    font-weight: normal;
+}
+
+[data-type="button"][data-role="whiteDownloadButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/downloadIconWhite.png') no-repeat 4px center transparent;
+    width: auto;
+    line-height: 24px;
+    padding: 0 0 0 25px;
+    font-weight: normal;
+}
+
+[data-type="button"][data-role="whitePrintButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/printIconWhite.png') no-repeat 4px center transparent;
+    width: auto;
+    line-height: 24px;
+    padding: 0 0 0 25px;
+    font-weight: normal;
+}
+
+[data-type="button"][data-role="whiteSearchButton"]{
+    font-size:13px;
+    color:#fff;
+    background: url('../../images/icons/searchIconWhite.png') no-repeat 4px center transparent;
+    width: auto;
+    line-height: 24px;
+    padding: 0 0 0 25px;
+    font-weight: normal;
+}
+
+[data-type="button"][data-role="blackAddButton"]{
+    font-size:13px;
+    color:#000;
+    background: url('../../images/icons/addIcon.png') no-repeat left center transparent;
+    width: auto;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 16px;
+    font-weight: normal;
+    position:relative;
+}
+
+[data-type="button"][data-role="blackDownloadButton"]{
+    font-size:13px;
+    color:#000;
+    background: url('../../images/icons/downloadIcon.png') no-repeat left center transparent;
+    width: auto;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 16px;
+    font-weight: normal;
+    position:relative;
+}
+
+[data-type="button"][data-role="blackPrintButton"]{
+    font-size:13px;
+    color:#000;
+    background: url('../../images/icons/printIcon.png') no-repeat left center transparent;
+    width: auto;
+    line-height: 26px;
+    padding-left: 20px;
+    font-weight: normal;
+    position:relative;
+}
+
+[data-type="button"][data-role="blackSearchButton"]{
+    font-size:18px;
+    color:#000;
+    background: url('../../images/icons/searchIcon.png') no-repeat left center transparent;
+    width: auto;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 16px;
+    font-size: 13px;
+    font-weight: normal;
+    position:relative;
+}
+
+/* Developer: Donovan
+Masked Input */
+[data-placeholderIs="true"] {
+    color: #DBDBDB;
+}
+/* Input end */
+/*EziPanels FORM LAYOUT COMPONENT
+    
+    Developer: Mandla Sibeko
+*/
+#eziPageContent #eziHeaderDiv {
+    border-bottom: 3px solid #000;
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+#eziInnerContainer{
+    float: left;
+width: 100%;
+}
+
+
+#eziPageContent #eziHeaderDiv.subHeader {
+    border-bottom: none;
+    border-top: 1px solid #000;
+}
+
+#eziPageContent .formElContainer.inputPostalCode {
+    width: 100px;
+}
+
+#eziPageContent .totalsValuePair .formElLabel,#eziPageContent .totalsValuePair .formElContainer
+    {
+    border-top: 1px solid #000;
+    width: 50%;
+    display: table-cell;
+}
+
+#eziPageContent .totalsValuePair.formElContainer {
+    text-align: right;
+}
+
+
+/* fix for android devices */
+#eziPannelButtons{
+	height:44px;
+}
+
+.eziInnerTwo{
+	bottom:0px;
+	height:100%;
+	padding-bottom:85px;
+}
+
+#eziPannelButtonsWrapper {
+	height:44px;
+}
+
+
+.mvnoEziConfirmLabel{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+    margin: 6px 0 2px 0;
+}
+
+.formElLabelInner {
+  /*  font-size: 13px;
+    line-height: 16px;
+    padding: 4px 0px 0px 0px;
+    float: left;*/
+    
+    float: left;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 0px 0px 0px;
+}
+
+.labelValuePairLeftLabel .formElLabelInner{
+    font-weight:bold;
+}
+.formElOptionalLabelInner {
+    float: left;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 0px 0px 2px;
+    color: #fd9827;
+}
+
+.formElContainer {
+    width: 100%;
+    padding: 4px 8px 0px 8px;
+    position: relative;
+    display: block;
+    float: left;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.input {
+    width: 100%;
+    position: relative;
+}
+
+.dropdownInput {
+    width: 100%;
+    position: relative;
+}
+
+.formElContent {
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    display: block;
+    padding-right: 2px;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+
+.formElContentInner {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 0px 8px 6px 0px;
+    position: relative;
+    min-height: 35px;
+    border-top: 3px solid #fff;
+}
+
+.formElContentInner .formElContainer {
+    padding: 0px 0px 2px 8px;
+    border-bottom: none;
+    
+}
+
+.formElContentInner .formElLabelInner {
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 0px 4px 0px;
+}
+
+.formElContentInner .formElWrapper {background:none;}
+
+.formElContentInner .formNote {
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    padding: 4px 8px 0px 8px;
+    position: relative;
+}
+
+.formNote {
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    padding: 3px 8px 10px 0;
+    position: relative;
+}
+
+.instantSales .formNote{
+    font-size: 13px;
+line-height: 16px;
+font-family: Helvetica, FoundationRoman, Sans-serif;
+padding: 3px 8px 10px 10px;
+position: relative;
+float: left;
+}
+
+
+.formInlineNote {
+    font-size: 13px;
+    background: #767676;
+    color: #fff;
+    padding: 6px 8px 6px 8px;
+    margin-top: 2px;
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.formInlineNote:before {
+    content: "";
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    left: 8px;
+    top: -4px;
+    background: url('../../images/noteArrow.png');
+}
+
+.formInlineError {
+    font-size: 13px;
+    background: #ff9900;
+    color: #fff;
+    padding: 6px 8px 6px 8px;
+    margin-top: 2px;
+    position: relative;
+    float: left;
+    width: 100%;
+    clear: both;
+    display: none;
+}
+
+.inputError .formInlineError {
+    display: block;
+}
+.rigthToolTipwrapper{
+    padding-top:8px;
+}
+
+.formInlineError:before {
+    content: "";
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    left: 8px;
+    top: -4px;
+    background: url('../../images/errorArrow.png');
+}
+
+.toolTipIcon {
+   /* width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin-left: 4px;
+    position: relative;
+    cursor: pointer;
+    background: url('../../images/helpText.png') no-repeat 4px 4px #bfe6e5;*/
+    
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin-left: 4px;
+    cursor: pointer;
+    background: url('../../images/helpText.png') no-repeat top left #fff;
+    position: relative;
+    
+  -webkit-box-shadow: 0px 0px 200px rgba(137, 137, 137, 0.8);
+  -moz-box-shadow: 0px 0px 200px rgba(137, 137, 137, 0.8);
+  box-shadow: 0px 0px 140px rgba(137, 137, 137, 0.8);
+    
+}
+
+.toolTipIcon .toolTipMessage{
+    position: absolute;
+    width: 140px;
+    color: #000;
+    background: white;
+    min-height: 30px;
+    line-height: 26px;
+    text-align: left;
+    visibility: hidden;
+    /* border-radius: 6px; */
+    border: 2px solid white;
+    padding: 5px;
+    min-height: 30px;
+    
+  -webkit-box-shadow: 0px 0px 200px rgba(137, 137, 137, 0.8);
+  -moz-box-shadow: 0px 0px 200px rgba(137, 137, 137, 0.8);
+  box-shadow: 0px 0px 140px rgba(137, 137, 137, 0.8);
+    
+    
+}
+
+#isCustomiseShares .toolTipMessage{
+    width: 275px;
+}
+
+.toolTipIcon .toolTipMessage:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.toolTipIcon:hover .toolTipMessage{
+    visibility: visible;
+    /* opacity: 0.8; */
+    bottom: 30px;
+    left: 50%;
+    margin-left: -12px;
+    z-index: 999;
+    font-size: 13px;
+    line-height: 15px;
+}
+/* TooltipList */
+.fnbTitleButtonsWrapper .toolTipMessage {
+    position: absolute;
+    border: 1px solid #FF9900;
+    z-index: 30;
+    padding: 5px;
+    background: #fff;
+    width: 200px;
+}
+
+.fnbTitleButtonsWrapper .tableHeaderTooltipListButtonsWrapper{
+    float: left;
+    background: url('../../images/greyStripe.png') repeat #fff;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.fnbTitle .fnbTitleButtonsP{
+    font-weight:bold;
+    line-height: 18px;
+}
+
+.fnbTitleButtonsWrapper .toolTipMessage [data-type="button"]{
+    background: transparent;
+    vertical-align: middle;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    height: auto;
+    padding: 0 0 0 5px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 100%;
+}
+.fnbTitleButtonsWrapper .toolTipMessage:after, .toolTipMessage:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.fnbTitleButtonsWrapper .toolTipMessage:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #fff;
+    border-width: 6px;
+    margin-top: -5px;
+}
+.fnbTitleButtonsWrapper .toolTipMessage:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #FF9900;
+    border-width: 8px;
+    margin-top: -7px;
+}
+
+.fnbTitleButtonsWrapper .formElLabel{
+    vertical-align: middle;
+}
+
+.fnbTitleButtonsWrapper .formElContainer{
+    width: 75%;
+    padding: 5px 8px 0px 8px;
+}
+
+.fnbTitleButtonsWrapper .formElWrapper{
+    background: transparent;
+}
+#SearchtoolTipListMessage [data-role="linkButton"]{
+    text-align: right;
+    padding: 0 8px 5px 8px;
+}
+/* DON TESTING DROPDOWN */
+.dropdown {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    font-weight: 200;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+}
+
+.dropdown .dropdownSelected [data-disabled="true"] {
+    background: #e7e7e7;
+    border: 1px solid #bcbcbc;
+    color: #bcbcbc;
+}
+
+.dropdownSelectWrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.dropdownSelected {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px 0px 5px 8px;
+    border: 1px solid #81b4b4;
+    background-color: #FFF;
+}
+
+.dropdownCarat {
+    position: absolute;
+    top: 3px;
+    z-index: 2;
+    background: url("../../images/right-arrow.png?v=12345678") no-repeat center center
+        #FF9900;
+    width: 14px;
+    height: 18px;
+    left: -8px;
+}
+.dropdownCarat.open {
+    background: url("../../images/dropdown-down-arrow.png?v=12345678") no-repeat center center #FF9900;
+}
+.dropdownContent {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: -2px;
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+}
+
+.dropdownContent.open {
+    border: 1px solid #81b4b4;
+    -moz-box-shadow: 3px 3px 4px #c2c2c2;
+    -webkit-box-shadow: 3px 3px 4px #c2c2c2;
+    box-shadow: 3px 3px 4px #c2c2c2;
+    -ms-filter:
+        "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c2c2c2')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
+        Color='#c2c2c2' );
+    z-index: 999;
+}
+
+.dropdownContent.dropdownReverse {
+    bottom: 23px;
+    top: auto;
+}
+
+.dropdownItem {
+    font-size: 12px;
+    line-height: 1;
+    color: #000;
+    padding: 5px 10px 5px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdownItem.threeTier {
+    min-height: 33px;
+}
+
+.dropdownItem.twoTier {
+    min-height: 33px;
+}
+
+.dropdownItem [data-selected="true"] {
+    background: #eef1f1;
+}
+
+.dropdownItem.threeTier {
+    padding: 4px 0px;
+}
+
+.dropdownItem.singleTier {
+    padding: 4px 0px;
+}
+
+.dropdownItemLabel {
+    float: left;
+    line-height: 1;
+    width: 100%;
+}
+
+.dropdownItemWrapper {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0px 8px 0px 8px;
+}
+
+.dropdownItemSelectWrapper {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+ul[data-scrollable="scrollable"] {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    overflow-y: scroll;
+}
+/*  Developer Donovan
+Radio Buttons */
+
+.radioGroupWrapper 
+{
+    width: 100%;
+    background: #01aaad;
+    padding: 1px;
+    float: left;
+    
+
+	width: 100%;
+    background: #01aaad;
+    padding: 1px;
+    float: left;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+    padding: 2px 2px 0 2px;
+    color: white;
+}
+
+.radioGroupWrapper[data-disabled="true"] {
+    background: #e7e7e7;
+    color: #bcbcbc;
+}
+
+.radioButton {
+    float: left;
+    cursor: pointer;
+}
+
+.radioButton:hover {
+   /* background: #fff;*/
+}
+
+.radioGroupWrapper[data-disabled="true"] .radioButton:hover {
+    background: none;
+}
+
+.radioButtonLabel {
+    padding: 4px 0px 5px 8px;
+    float: left;
+}
+
+.radioButton[data-state="checked"] {
+   /* background: #80b3b2;
+    border: 1px solid #fff;
+    -moz-box-shadow: 3px 3px 4px #c2c2c2;
+    -webkit-box-shadow: 3px 3px 4px #c2c2c2;
+    box-shadow: 3px 3px 4px #c2c2c2;
+    -ms-filter:
+        "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c2c2c2')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
+        Color='#c2c2c2' );*/
+     
+     background: white;  
+      
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+        
+    display: inline-block;
+    height: 20px;
+    color: #01aaad;
+}
+
+.radioButton[data-state="checked"] .radioButtonLabel {
+    padding: 3px 0px 3px 8px;
+}
+
+.radioButton.width10 {
+    width: 10%
+}
+
+.radioButton.width20 {
+    width: 20%
+}
+
+.radioButton.width25 {
+    width: 25%
+}
+
+.radioButton.width30 {
+    width: 30%
+}
+
+.radioButton.width40 {
+    width: 40%
+}
+
+.radioButton.width50 {
+    width: 50%
+}
+
+.radioButton.width60 {
+    width: 60%
+}
+
+.radioButton.width70 {
+    width: 70%
+}
+
+.radioButton.width80 {
+    width: 80%
+}
+
+.radioButton.width90 {
+    width: 90%
+}
+
+.radioButton.width100 {
+    width: 100%
+}
+
+.inputSimple {
+    background-color: #FFF;
+    padding: 4px 10px;
+    line-height: 20px;
+    border: none;
+    border-radius: 0;
+    height: 24px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-size: 13px;
+}
+
+.dataButtonLabel {
+    background-color: #FF9900;
+    color: white;
+    line-height: 24px;
+    padding: 4px 8px 3px 8px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    border: 1px solid #81b4b4;
+    resize: none;
+    width: 100%;
+    margin: 0px;
+    padding: 2px 8px 3px 8px;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+textarea[rows="2"] {
+    height: 40px;
+}
+
+textarea[rows="3"] {
+    height: 56px;
+}
+
+textarea[rows="4"] {
+    height: 72px;
+}
+
+textarea[rows="5"] {
+    height: 88px;
+}
+
+textarea[rows="6"] {
+    height: 102px;
+}
+
+textarea[rows="7"] {
+    height: 110px;
+}
+
+textarea[rows="8"] {
+    height: 118px;
+}
+
+textarea[rows="9"] {
+    height: 126px;
+}
+
+textarea[rows="10"] {
+    height: 134px;
+}
+
+.container_textArea {
+    padding: 8px 8px 3px 8px;
+}
+
+[data-role="calendarDropdown"] select {
+    background: url('../../images/black-down-arrow.png') no-repeat 90% #fff;
+    width: 80px;
+    font-size: 14px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 24px;
+    -webkit-appearance: none;
+    text-align: center;
+    margin-top: 8px;
+    float: right;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/*On page button*/
+.submitButton[data-type="button"] {
+    background-color: #FF9900;
+    color: white;
+    vertical-align: middle;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    cursor: pointer;
+    border: 0;
+    line-height: 20px;
+    padding: 5px 10px;
+}
+.addTableButton[data-type="button"] {
+    background-color:#fff;
+    line-height: 20px;
+    height : 20px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    padding-left: 25px;
+    background: url('../../images/icons/addIcon.png') no-repeat left center;
+}
+
+.removeTableButton[data-type="button"] {
+    background-color:#fff;
+    line-height: 20px;
+    height : 20px;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    padding-left: 25px;
+    background: url('../../images/icons/removeIcon.png') no-repeat left center;
+}
+
+.tableButton[data-type="button"], .tableButton[data-type="buttonDisabled"] {
+    background-color: #D2E5E4;
+    border-right: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    width: 95px;
+    height: 2.15em;
+    line-height: 2.15em;
+    cursor: pointer;
+    display: block;
+    float: left;
+    text-decoration: none;
+    pointer-events: auto;
+}
+
+@media only screen and (min-width : 904px) {
+
+    .formElLabel {
+        width: 100%;
+        padding: 0px 8px 0px 8px;
+        float: left;
+    }
+    .formElWrapper {
+        display: table;
+        padding: 3px solid white;
+        font-size: 13px;
+    }
+    .simpleformElWrapper {
+        width: 30%;
+        display: table;
+        position: relative;
+        padding-left: 8px;
+    }
+    .calendarDropdown select {
+        background: url('../../images/black-down-arrow.png') no-repeat 90% #fff;
+        width: 80px;
+        font-size: 14px;
+        line-height: 1;
+        border: 0;
+        border-radius: 0;
+        height: 24px;
+        -webkit-appearance: none;
+        text-align: center;
+        margin-top: 8px;
+        float: right;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+    .formElLabel,.formElContainer,.formElContent {
+        display: table-cell;
+        vertical-align: top
+    }
+    .formElLabel {
+        width: 25%;
+        padding: 0px 8px 0px 0;
+        float: none;
+    }
+    /*EziPanels FORM LAYOUT COMPONENT
+    
+    Developer: Mandla Sibeko
+*/
+    #eziPageContent .formElLabel {
+        width: 100%;
+        display: inline-block;
+    }
+    #eziPageContent .formElContainer {
+        width: 100%;
+        display: block;
+    }
+    
+    .formElLabelInner {
+       /* float: left;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 12px 0px 0px 0px;*/
+        
+        float: left;
+	    font-size: 13px;
+	    line-height: 16px;
+	    padding: 4px 0px 0px 0px;
+    }
+    .formElOptionalLabelInner {
+        float: left;
+        font-size: 13px;
+        line-height: 16px;
+        color: #fd9827;
+    }
+    .formElContainer {
+        width: 25%;
+        padding: 8px 8px 5px 8px;
+        position: relative;
+        float: none;
+    }
+    /*fix padding for note */
+	.validateUsernamePassword .formElContentInner{
+			padding:0px!important;
+	}
+    
+    .input {
+        width: 100%;
+        position: relative;
+    }
+    .dropdownInput {
+        width: 100%;
+        position: relative;
+    }
+    .input.width30 {
+        width: 30%;
+        float: left;
+    }
+    .input.width70 {
+        width: 68%;
+        float: right;
+    }
+    .formElContent {
+        width: 50%;
+        vertical-align: top;
+        position: relative;
+        float: none;
+    }
+    .formElContentInner {
+        background: #f2f2f2;
+        width: 100%;
+        padding: 8px 6px 0px 8px;
+        position: relative;
+    }
+    .formElContentInner:before {
+        content: "";
+        width: 4px;
+        height: 8px;
+        position: absolute;
+        left: -8px;
+        top: 16px;
+        background: #f2f2f2;
+    }
+    .formElContentInner .formElWrapper {
+        width: 100%;
+        display: table;
+        position: relative;
+        border-bottom: none;
+    }
+    .formElContentInner .formElContainer {
+        padding: 0px 0px 5px 8px;
+    }
+    .formElContentInner .formElLabel,.formElContentInner .formElContainer
+        {
+        width: 50%;
+    }
+    .formElContentInner .formElLabel {
+        width: 50%;
+        padding: 0px 8px 0px 0px;
+    }
+    .formElContentInner .formElLabelInner {
+        padding: 4px 0px 4px 0px;
+    }
+    .formElContentInner .toolTipIcon {
+        position: relative;
+        top: 0px;
+    }
+    .formElContentInner:before {
+        content: "";
+        width: 4px;
+        height: 8px;
+        position: absolute;
+        left: -4px;
+        top: 16px;
+        background: url('../../images/formContentArrow.png');
+    }
+    .formElContentInner .formNote {
+        font-size: 13px;
+        line-height: 16px;
+        font-family: Helvetica, FoundationRoman, Sans-serif;
+        padding: 3px 8px 10px 0px;
+        position: relative;
+    }
+    .formInlineNote {
+        font-size: 13px;
+        line-height: 16px;
+        color: #fff;
+        background: #767676;
+        padding: 1px 8px 6px 8px;
+        margin-top: 2px;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .formElContentInner .formInlineNote {
+        padding: 1px 10px 5px 11px;
+    }
+    .formInlineNote:before {
+        content: "";
+        width: 8px;
+        height: 4px;
+        position: absolute;
+        left: 8px;
+        top: -4px;
+        background: url('../../images/noteArrow.png');
+    }
+    .formElContentInner .formInlineError {
+        padding: 4px 10px 6px 11px;
+    }
+    .formInlineError {
+        font-size: 13px;
+        line-height: 16px;
+        background: #ff9900;
+        color: #fff;
+        padding: 4px 10px 6px 11px;
+        margin-top: 2px;
+        position: relative;
+        float: left;
+        width: 100%;
+        clear: both;
+        display: none;
+    }
+    .inputError .formInlineError {
+        display: block;
+    }
+    .formInlineError:before {
+        content: "";
+        width: 8px;
+        height: 4px;
+        position: absolute;
+        left: 8px;
+        top: -4px;
+        background: url('../../images/errorArrow.png');
+    }
+    .characterCount {
+        padding: 2px 0px 0px 0px;
+        margin: 0px;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        width: 100%;
+        display: block;
+    }
+    /* fireFox Fix css mvno Ezi */
+   #eziInnerContainer .formElContainer {
+        width: 100%;
+        padding: 8px 8px 5px 8px;
+        position: relative;
+        float: none;
+    }
+}
+/*FORM LAYOUT END*/
+/* Developer:Donovan
+Button */
+button {
+    background-color: #FF9900;
+    color: white;
+    vertical-align: middle;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    cursor: pointer;
+    border: 0
+}
+
+#loginButton[data-state="disabled"] {
+    background: #e7e7e7;
+    color: #bcbcbc;
+}
+
+#mobileLogin #loginButton[data-state="disabled"] {
+    background: #e7e7e7;
+    color: #bcbcbc;
+}
+
+[data-type="button"]{
+    background-color: #bfe6e5;
+    color: #000;
+    vertical-align: middle;
+    font-family: Helvetica, FoundationRoman, Sans-serif;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px 0 5px;
+    /* width: 100%; */
+}
+
+[data-type="buttonDisabled"] 
+{
+background-color: #E7E7E7;
+color: #898989;
+vertical-align: middle;
+font-family: Helvetica, FoundationRoman, Sans-serif;
+border: 0;
+float: left;
+text-align: center;
+text-decoration: none;
+height: 24px;
+cursor: auto;
+pointer-events: none;
+}
+
+#tableActionButton
+{
+font-size:13px;
+text-decoration:underline;
+cursor:pointer;
+padding:3px;
+text-decoration: none;
+background: url("../../../../../03images/base/dropdown/arrow_right_black.png?v=12345678") transparent no-repeat left center;
+padding-left: 13px;
+
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+-o-transition: all .2s;
+transition: all .2
+}
+
+#tableActionButton:hover
+{
+background: url("../../../../../03images/base/dropdown/arrow_right_black.png?v=12345678") transparent no-repeat 4px center;
+}
+
+[data-type="button"].hyperlink{
+	font-size:13px;
+	text-decoration:underline;
+	cursor:pointer;
+	background:none;
+}
+
+
+.buttonLabel {
+    line-height: 23px;
+}
+
+h1 {
+    font-size: 27px;
+    line-height: 32px;
+    width: 100%;
+    padding: 7px 8px 1px 7px;
+}
+
+h2 {
+    font-size: 13px;
+    line-height: 22px;
+    width: 100%;
+    padding: 0px 8px 0px 7px;
+    margin: 0px 0px 8px 0px;
+}
+
+h3 {
+    font-size: 13px;
+    line-height: 21px;
+    width: 100%;
+    padding: 0px 8px 0px 7px;
+    margin: 0px 0px 8px 0px;
+    font-family: Helvetica,FoundationRoman,Sans-serif;
+    font-weight:600;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 21px;
+    width: 100%;
+    padding: 0px 8px 0px 7px;
+    margin: 0px 0px 8px 0px;
+}
+
+h5 {
+    font-size: 27px;
+}
+
+h6 {
+    font-size: 27px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 8px 4px 7px;
+    margin: 0px 0px 8px 0px;
+}
+b {
+    font-family: Helvetica,FoundationRoman,Sans-serif;
+}
+a {
+    color: inherit;
+}
+h1.bankerH-icon{
+     background: url("../../images/Icons-01.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+ }
+
+h1.wealthTwoH-icon{
+     background: url("../../images/Icons-02.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+      margin-top: 2px;
+}
+
+h1.wealthOneH-icon{
+     background: url("../../images/Icons-wealth.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+      margin-top: 2px;
+}
+
+h1.contactH-icon{
+     background: url("../../images/Icons-contact-us.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+      margin-top: 2px;
+}
+
+h1.assistH-icon{
+     background: url("../../images/Icons-online-assistance.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+      margin-top: 2px;
+}
+
+h1.otherH-icon{
+     background: url("../../images/Icons-Other-Enquiries.png?v=12345678") no-repeat left center;
+     padding: 6px 0px 3px 48px;
+     background-color: #fff;
+     font-size: 12px;
+     min-height:32px;
+     line-height:18px;
+     font-weight: bold;
+      margin-top: 2px;
+}
+
+.formElTooltipContainer{
+    display:block;
+    float:right;
+    width: auto;
+    padding: 0px 8px 0px 8px;
+}
+.radioOptionsWrapper{
+    display:block;
+    float:left;
+    width:60%;
+    border:thin solid red;
+}
+
+.radioOption{
+    display:block;
+    float:left;
+    width: 49%;
+    border:thin solid blue;
+    background-color: #f2f2f2;
+    padding: 2px;
+    margin: 2px;
+    text-align:center;
+}
+
+/*  Accordion Css Starts  */
+
+.accordianContainer {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 25px;
+    padding:8px;
+}
+
+.accGroupItemHeader.SalesAccRow{
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: thin solid black;
+    position: relative;
+    width : 100%;
+    height: 35px;
+    line-height:35px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    padding-right: 24px;
+    over-flow:hidden;
+    cursor: pointer;
+}
+
+.SalesAcc.accArrow{
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 33px;
+    right: 0;
+    top: 0;
+}
+
+.SalesAcc.accArrow-down{
+     background: url("../../images/arrows/Arrow_down.png?v=12345678") no-repeat left center;
+}
+
+.SalesAcc.accArrow-up{
+    background: url("../../images/arrows/Arrow_up.png?v=12345678") no-repeat left center;
+}
+
+.accGroupItemContentWrapper.SalesAcc{
+    display: block;
+    float: left;
+    max-height:0px;
+    width:100%;
+    -webkit-transition: max-height 1s ease;
+    -moz-transition:  max-height 1s ease;
+    -o-transition:  max-height 1s ease;
+    transition: max-height 1s ease;
+    overflow: hidden;
+    padding:4px 2px 4px 2px;
+}
+
+.accGroupItemContentWrapper.SalesAcc.accShow{
+    display: block;
+    float: left;
+    max-height: 1000px;
+}
+
+.accGroupItemWrapper {
+    margin-bottom: 8px;
+}
+
+.accGroupItemContent{
+    padding:4px;
+    backgroud-color: #fff;
+}
+
+@media all and (min-width: 1001px) {
+ .accGroupItemHeader.SalesAccRow {
+     padding-left: 23px;
+  }
+  .SalesAcc.accArrow{
+    left:0;
+  }
+}
+
+@media all and (max-width:450px) {
+  .accGroupItemHeader.SalesAccRow {
+     line-height: normal;
+     height : auto;
+  }
+  .SalesAcc.accArrow{
+    width: 17px;
+    height: 14px;
+    right: 0;
+    top: 0;
+  }
+}
+
+/* catalog Accordion Style */
+
+.catAccHeadingWrapper.catalogAccRow{
+	float: left;
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 40px;
+	overflow: hidden;
+	border-top: black solid 1px;
+	border-left: black 1px solid;
+	border-right: 1px solid black;
+	border-bottom: thin solid #000;
+	cursor: pointer;
+}
+
+.catAccHeadingWrapper.catalogAccRow h3{
+	float: left;
+	display:block;
+	width : 100%;
+	font-size:18px;
+	margin: 1px;
+	padding: 3px 0px 1px 6px;
+	border: none;
+} 
+					    
+
+.accGroupItemHeader.catalogAcc{
+	display: block;
+	width: 100%;
+	padding-right: 205px;
+}
+
+.arrowSpan.catalogAcc{
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 25px;
+	height: 98%;
+	border-left: thin solid black;
+	border-right: thin solid black;
+	top: 0;
+}  
+
+.catAccDescWrapper{
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 100%;
+	min-height: 50px;
+	padding-left: 45px;
+	padding-top: 12px;
+	display: block;  position: absolute;  
+	right: 0;  
+	width: 200px;  
+	height: 105%;  
+	min-height: 105%;  
+}
+
+.catalogAcc.accArrow-down{
+	background: url("../../images/arrows/right-Arrow-white.png?v=12345678") no-repeat center center #ff9901;
+}
+
+.catalogAcc.accArrow-up{
+	background: url("../../images/arrows/down-Arrow-white.png?v=12345678") no-repeat center center;
+	background-color: #ff9901;;
+}
+
+.accGroupItemContentWrapper.catalogAcc{
+	display: block;
+	float: left;
+	max-height:0px;
+	width:100%;
+	position: relative;
+	-webkit-transition: max-height 1s ease;
+	-moz-transition:  max-height 1s ease;
+	-o-transition:  max-height 1s ease;
+	transition: max-height 1s ease;
+	overflow: hidden;
+	padding: 0px 2px 0px 2px;
+	top: -1px;
+	border-left: thin solid black;
+	border-bottom: thin solid black;
+	border-right: thin solid black;
+}
+
+.accGroupItemContentWrapper.catalogAcc.accShow{
+	display: block;
+	float: left;
+	max-height: 1000px;
+}
+
+.accGroupItemWrapper {
+	margin-bottom: 8px;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.accGroupItemContent{
+    backgroud-color: #fff;
+}
+
+@media all and (min-width: 1001px) {
+ .accGroupItemHeader.catalogAccRow {
+     padding-left: 23px;
+  }
+}
+
+@media all and (max-width:695px) {
+  .catAccDescWrapper{
+  	overflow:hidden;
+  	width: 35px;
+  	padding-left: 0;
+  	border: none;
+   }
+
+  .accGroupItemHeader.catalogAcc{
+  	width:100%;
+  	backgroud-color: green;
+  	height: auto;
+  	display:block;
+  	position: relative;
+  	padding-right:40px;
+  }
+  
+  .arrowSpan.catalogAcc{
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 35px;
+	height: 105%;
+	border-left: thin solid black;
+	border-right: none;
+  }
+  
+}
+
+/*  Validate Tooltip Css */
+
+/*fix padding for note */
+.validateUsernamePassword .formElContentInner{
+		padding:0px!important;
+}
+  .showPasswordDiv{
+    display:block;
+    width:100%;
+    line-height: 25px;
+    float:left;
+    padding: 3px 0px;
+}
+  
+  .showPasswordLabel{
+    float:left;
+    display:block;
+    margin-left: 6px;
+   }
+
+   .showPasswordDiv .checkbox{
+      float:left; 
+   }
+	
+[data-role="formNote"]{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.validateStatusWrapper{
+	 display: block;
+	 width:35px;
+	 height:28px;
+	 
+}
+
+.validateWrapper{
+    display: block;    width: 100%;    
+    position: absolute;
+    z-index: 1;
+    background-color: #f2f2f2;
+    margin: 0;
+    box-shadow: 2px 3px 3px #888888;
+    padding-bottom:12px;
+}
+
+.validateSubHeader{
+    display: block;    width: 100%;    
+    font-size: 18px;
+    padding: 7px 8px 1px 7px;
+}
+
+.validateWrapper b{
+    font-weight:bold;
+}
+
+.validationRow{
+	display: block;    
+	width: 100%;
+	padding: 7px 8px 1px 7px; 
+	position:relative;
+}
+/* placeholder for validate img*/
+.validateImg{
+	display: block;
+  	height: 20px;
+  	width: 22px;
+  	position: absolute;
+}
+
+.valNone{     
+	 background: url("../../images/validatePassword/valNone-icon.png?v=12345678") no-repeat center;
+}
+
+.valSuccess{ 
+	 background: url("../../images/validatePassword/check-icon.png?v=12345678")no-repeat center;
+}
+
+.valFailed{
+	 background: url("../../images/validatePassword/cross-icon.png?v=12345678")no-repeat center;
+}
+
+.validateRule{
+    display: block;    
+    width: 100%;    
+    font-size: 14px;   
+    margin-left: 25px;
+    line-height:17px;
+}
+.validateInfo{
+    padding: 3px;
+    color: #979797;
+    margin-left: 25px;
+    line-height:17px;
+}
+
+/* password requirements css */
+ #passwordProgressWrapper{
+	display: block;
+	width: 85%;
+	height: 8px;
+	background-color: #fff;
+	margin: 3px auto;
+	position: relative;
+ }
+ 
+ #passwordProgress{
+ 	display: block;
+	height: 8px;
+	background-color: #029897;
+	margin: 0px;
+	left: 0px;
+	position: absolute;
+ 
+ }
+ 
+
+
+
