@@ -1,0 +1,180 @@
+.crop-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	z-index: 1000;
+}
+
+.crop-overlay .crop-container {
+    min-height: 100vh;
+}
+
+.crop-overlay .crop-container .image-area {
+	position: absolute;
+	top: 0;
+	height: calc(100vh - 100px);
+	width: 100vw;
+	text-align: center;
+}
+
+.crop-overlay .crop-container .image-area .image-wrap {
+	display: inline-block;
+	position: relative;
+  	top: 16px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.crop-overlay .crop-container .image-area .image-wrap img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.crop-overlay .button-area {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+.crop-overlay .button-area .cell {
+	display: inline-block;
+	position: relative;
+  	top: 0;
+  	padding: 0 8px;
+}
+
+.crop-overlay .button-area .zoom-wrapper {
+	width: 160px;
+}
+
+.crop-overlay .button-area .button {
+	display: inline-block;
+	height: 40px;
+}
+
+.crop-overlay .button-area .button.rotate {
+	width: 40px;
+	background: url('/banking/static/all/imagecropper/rotate.png') no-repeat 50% 50%;
+}
+
+.crop-overlay .button-area .button.ok {
+	width: 40px;
+	background: url('/banking/static/all/imagecropper/check.png') no-repeat 50% 50%;
+}
+
+
+.crop-overlay input[type=range] {
+  -webkit-appearance: none; 
+  width: 100%; 
+  height: 40px;
+  background: #000;
+}
+
+.crop-overlay input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.crop-overlay input[type=range]:focus {
+  outline: none;
+}
+
+.crop-overlay input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+.crop-overlay input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+.crop-overlay input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+.crop-overlay input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.crop-overlay input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+.crop-overlay input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+
+.crop-overlay input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+.crop-overlay input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+.crop-overlay input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+.crop-overlay input[type=range]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+.crop-overlay input[type=range]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+.crop-overlay input[type=range]:focus::-ms-fill-upper {
+  background: #367ebd;
+}

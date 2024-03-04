@@ -1,0 +1,133 @@
+/********************** FNB FONTS ***********************/
+
+@font-face {
+    font-family: 'FNBRoboto-LightItalic';
+    src: url('./Roboto-LightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRoboto-Light';
+    src: url('./Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRoboto-Italic';
+    src: url('./Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRobotoCondensed-Bold';
+    src: url('./RobotoCondensed-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-BoldItalic';
+    src: url('/banking/static/all/fonts/roboto/RobotoCondensed-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRobotoBoldItalic';
+    src: url('/banking/static/all/fonts/roboto/Roboto-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRobotoBold';
+    src: url('/banking/static/all/fonts/roboto/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBRobotoRegular';
+    src: url('./Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansBold';
+    src: url('/banking/static/all/fonts/fnb_sans-bold-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-bold-webfont.woff') format('woff'), url('/banking/static/all/fonts/fnb_sans-bold-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-bold-webfont.svg#FNBSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansItalic';
+    src: url('/banking/static/all/fonts/fnb_sans-italic-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-italic-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-italic-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-italic-webfont.svg#FNBSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansRegular';
+    src: url('/banking/static/all/fonts/fnb_sans-regular-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-regular-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-regular-webfont.svg#FNBSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansLight';
+    src: url('/banking/static/all/fonts/fnb_sans-light-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-light-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-light-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-light-webfont.svg#FNBSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansThin';
+    src: url('/banking/static/all/fonts/fnb_sans-thin-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-thin-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-thin-webfont.woff') format('woff'), url('/banking/static/all/fonts/fnb_sans-thin-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-thin-webfont.svg#FNBSansThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FNBSansThinItalic';
+    src: url('/banking/static/all/fonts/fnb_sans-thinitalic-webfont.eot');
+    src: url('/banking/static/all/fonts/fnb_sans-thinitalic-webfont.eot?#iefix') format('embedded-opentype'), url('/banking/static/all/fonts/fnb_sans-thinitalic-webfont.ttf') format('truetype'), url('/banking/static/all/fonts/fnb_sans-thinitalic-webfont.svg#FNBSansThinItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#links_a {
+    color: #666666;
+    font-weight: bold;
+    font-family: FNBSansRegular;
+    text-decoration: none;
+}
+
+#header_h2 {
+    margin: 0px;
+    padding: 15px 6px 6px 0px;
+    border-bottom: 2px solid #B4E0E0;
+    color: #009999;
+    font-weight: bold;
+    font-family: FNBSansRegular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#header_h2_nb {
+    margin: 0px 0px 10px 0px;
+    padding: 15px 6px 6px 0px;
+    color: #009999;
+    font-weight: bold;
+    text-align: left;
+    font-family: FNBSansRegular;
+    font-size: 14px;
+}

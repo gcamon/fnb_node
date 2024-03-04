@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "../../FNB"
-		},
-		{
 			"path": ".."
 		},
 		{
 			"path": "../../crystalsteps"
+		},
+		{
+			"path": "../../../../Downloads/Telegram Desktop/FNB NEW/B"
 		}
 	],
 	"settings": {}
